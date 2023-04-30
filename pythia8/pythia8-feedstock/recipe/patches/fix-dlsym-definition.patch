@@ -1,0 +1,25 @@
+From 38cd9c8ed55a56ba0d511779a07d2b899f876d7f Mon Sep 17 00:00:00 2001
+From: Christopher Burr <chrisburr73@googlemail.com>
+Date: Fri, 5 Jun 2020 12:31:39 +0000
+Subject: [PATCH] Fix definition of dlsym in PythiaStdlib.h
+
+---
+ include/Pythia8/PythiaStdlib.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/include/Pythia8/PythiaStdlib.h b/include/Pythia8/PythiaStdlib.h
+index b23a38f..7e19129 100644
+--- a/include/Pythia8/PythiaStdlib.h
++++ b/include/Pythia8/PythiaStdlib.h
+@@ -32,7 +32,7 @@
+ #undef dlsym
+ 
+ // Redefine dlsym to suppress compiler warnings.
+-extern "C" void *(*dlsym(void *handle, const char *symbol))();
++extern "C" void *dlsym(void *handle, const char *symbol);
+ 
+ // Stdlib header file for input and output.
+ #include <iostream>
+-- 
+2.27.0
+
