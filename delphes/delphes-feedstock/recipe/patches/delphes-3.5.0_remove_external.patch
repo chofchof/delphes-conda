@@ -1,0 +1,287 @@
+diff --git a/examples/DenseTracks.C b/examples/DenseTracks.C
+index 8133bdc..5e98094 100644
+--- a/examples/DenseTracks.C
++++ b/examples/DenseTracks.C
+@@ -8,8 +8,8 @@ root -l examples/Example3.C'("delphes_output.root")'
+ #ifdef __CLING__
+ R__LOAD_LIBRARY(libDelphes)
+ #include "classes/DelphesClasses.h"
+-#include "external/ExRootAnalysis/ExRootTreeReader.h"
+-#include "external/ExRootAnalysis/ExRootResult.h"
++#include "ExRootAnalysis/ExRootTreeReader.h"
++#include "ExRootAnalysis/ExRootResult.h"
+ #else
+ class ExRootTreeReader;
+ class ExRootResult;
+diff --git a/examples/Example1.C b/examples/Example1.C
+index ac45245..b3892ed 100644
+--- a/examples/Example1.C
++++ b/examples/Example1.C
+@@ -9,7 +9,7 @@ root -l examples/Example1.C'("delphes_output.root")'
+ #ifdef __CLING__
+ R__LOAD_LIBRARY(libDelphes)
+ #include "classes/DelphesClasses.h"
+-#include "external/ExRootAnalysis/ExRootTreeReader.h"
++#include "ExRootAnalysis/ExRootTreeReader.h"
+ #endif
+ 
+ //------------------------------------------------------------------------------
+diff --git a/examples/Example1.py b/examples/Example1.py
+index 94427c8..b314fff 100644
+--- a/examples/Example1.py
++++ b/examples/Example1.py
+@@ -17,7 +17,7 @@ ROOT.gSystem.Load("libDelphes")
+ 
+ try:
+   ROOT.gInterpreter.Declare('#include "classes/DelphesClasses.h"')
+-  ROOT.gInterpreter.Declare('#include "external/ExRootAnalysis/ExRootTreeReader.h"')
++  ROOT.gInterpreter.Declare('#include "ExRootAnalysis/ExRootTreeReader.h"')
+ except:
+   pass
+ 
+diff --git a/examples/Example2.C b/examples/Example2.C
+index 903af9c..165cb12 100644
+--- a/examples/Example2.C
++++ b/examples/Example2.C
+@@ -11,8 +11,8 @@ root -l examples/Example2.C'("delphes_output.root")'
+ #ifdef __CLING__
+ R__LOAD_LIBRARY(libDelphes)
+ #include "classes/DelphesClasses.h"
+-#include "external/ExRootAnalysis/ExRootTreeReader.h"
+-#include "external/ExRootAnalysis/ExRootResult.h"
++#include "ExRootAnalysis/ExRootTreeReader.h"
++#include "ExRootAnalysis/ExRootResult.h"
+ #endif
+ 
+ //------------------------------------------------------------------------------
+diff --git a/examples/Example3.C b/examples/Example3.C
+index 9b0b891..d3f7538 100644
+--- a/examples/Example3.C
++++ b/examples/Example3.C
+@@ -8,8 +8,8 @@ root -l examples/Example3.C'("delphes_output.root")'
+ #ifdef __CLING__
+ R__LOAD_LIBRARY(libDelphes)
+ #include "classes/DelphesClasses.h"
+-#include "external/ExRootAnalysis/ExRootTreeReader.h"
+-#include "external/ExRootAnalysis/ExRootResult.h"
++#include "ExRootAnalysis/ExRootTreeReader.h"
++#include "ExRootAnalysis/ExRootResult.h"
+ #else
+ class ExRootTreeReader;
+ class ExRootResult;
+diff --git a/examples/Example4.C b/examples/Example4.C
+index c179557..940f1bb 100644
+--- a/examples/Example4.C
++++ b/examples/Example4.C
+@@ -30,8 +30,8 @@ jet pt distribution ...
+ #ifdef __CLING__
+ R__LOAD_LIBRARY(libDelphes)
+ #include "classes/DelphesClasses.h"
+-#include "external/ExRootAnalysis/ExRootTreeReader.h"
+-#include "external/ExRootAnalysis/ExRootResult.h"
++#include "ExRootAnalysis/ExRootTreeReader.h"
++#include "ExRootAnalysis/ExRootResult.h"
+ #else
+ class ExRootTreeReader;
+ class ExRootResult;
+diff --git a/examples/Example5.C b/examples/Example5.C
+index 599d998..c689f6a 100644
+--- a/examples/Example5.C
++++ b/examples/Example5.C
+@@ -6,8 +6,8 @@ root -l examples/Example5.C'("delphes_output.root")'
+ #ifdef __CLING__
+ R__LOAD_LIBRARY(libDelphes)
+ #include "classes/DelphesClasses.h"
+-#include "external/ExRootAnalysis/ExRootTreeReader.h"
+-#include "external/ExRootAnalysis/ExRootResult.h"
++#include "ExRootAnalysis/ExRootTreeReader.h"
++#include "ExRootAnalysis/ExRootResult.h"
+ #else
+ class ExRootTreeReader;
+ class ExRootResult;
+diff --git a/examples/Example5.py b/examples/Example5.py
+index e50b527..c090f69 100644
+--- a/examples/Example5.py
++++ b/examples/Example5.py
+@@ -16,7 +16,7 @@ ROOT.gSystem.Load("libDelphes")
+ 
+ try:
+   ROOT.gInterpreter.Declare('#include "classes/DelphesClasses.h"')
+-  ROOT.gInterpreter.Declare('#include "external/ExRootAnalysis/ExRootTreeReader.h"')
++  ROOT.gInterpreter.Declare('#include "ExRootAnalysis/ExRootTreeReader.h"')
+ except:
+   pass
+ 
+diff --git a/examples/Example6.C b/examples/Example6.C
+index 12b79b8..bfa3bff 100644
+--- a/examples/Example6.C
++++ b/examples/Example6.C
+@@ -8,9 +8,9 @@ root -l examples/Example6.C'("delphes_output.root")'
+ #ifdef __CLING__
+ R__LOAD_LIBRARY(libDelphes)
+ #include "classes/DelphesClasses.h"
+-#include "external/ExRootAnalysis/ExRootTreeReader.h"
++#include "ExRootAnalysis/ExRootTreeReader.h"
+ #include "modules/TrackCovariance.h"
+-#include "external/TrackCovariance/TrkUtil.h"
++#include "TrackCovariance/TrkUtil.h"
+ #endif
+ 
+ 
+diff --git a/examples/Example7.C b/examples/Example7.C
+index 6063f47..e4477c5 100644
+--- a/examples/Example7.C
++++ b/examples/Example7.C
+@@ -8,7 +8,7 @@ root -l examples/Example7.C'("delphes_output.root")'
+ #ifdef __CLING__
+ R__LOAD_LIBRARY(libDelphes)
+ #include "classes/DelphesClasses.h"
+-#include "external/ExRootAnalysis/ExRootTreeReader.h"
++#include "ExRootAnalysis/ExRootTreeReader.h"
+ #endif
+ 
+ //------------------------------------------------------------------------------
+diff --git a/examples/Example7.py b/examples/Example7.py
+index 486ed9c..3ab3684 100644
+--- a/examples/Example7.py
++++ b/examples/Example7.py
+@@ -17,7 +17,7 @@ ROOT.gSystem.Load("libDelphes")
+ 
+ try:
+   ROOT.gInterpreter.Declare('#include "classes/DelphesClasses.h"')
+-  ROOT.gInterpreter.Declare('#include "external/ExRootAnalysis/ExRootTreeReader.h"')
++  ROOT.gInterpreter.Declare('#include "ExRootAnalysis/ExRootTreeReader.h"')
+ except:
+   pass
+ 
+diff --git a/examples/ExampleClCount.C b/examples/ExampleClCount.C
+index 06b2794..c88d5c3 100644
+--- a/examples/ExampleClCount.C
++++ b/examples/ExampleClCount.C
+@@ -10,7 +10,7 @@
+ #include <TCanvas.h>
+ #include <TStyle.h>
+ #include <TLegend.h>
+-#include "external/TrackCovariance/TrkUtil.h"
++#include "TrackCovariance/TrkUtil.h"
+ 
+ 
+ void ExampleClCount(Int_t Nev = 1000, Double_t ang = 90., Int_t Opt=0)
+diff --git a/examples/ExamplePVtxFind.C b/examples/ExamplePVtxFind.C
+index ad6c600..c98fdc5 100644
+--- a/examples/ExamplePVtxFind.C
++++ b/examples/ExamplePVtxFind.C
+@@ -7,10 +7,10 @@ assumed to be generated with Pythia8/ee_zh_smr-shf.cmn
+ R__LOAD_LIBRARY(libDelphes)
+ 
+ #include "classes/DelphesClasses.h"
+-#include "external/ExRootAnalysis/ExRootTreeReader.h"
++#include "ExRootAnalysis/ExRootTreeReader.h"
+ #include "modules/TrackCovariance.h"
+-#include "external/TrackCovariance/TrkUtil.h"
+-#include "external/TrackCovariance/VertexFit.h"
++#include "TrackCovariance/TrkUtil.h"
++#include "TrackCovariance/VertexFit.h"
+ 
+ #endif
+ 
+diff --git a/examples/ExamplePVtxFit.C b/examples/ExamplePVtxFit.C
+index 96f634e..5ec1d58 100644
+--- a/examples/ExamplePVtxFit.C
++++ b/examples/ExamplePVtxFit.C
+@@ -7,10 +7,10 @@ assumed to be generated in (0,0,0)
+ R__LOAD_LIBRARY(libDelphes)
+ 
+ #include "classes/DelphesClasses.h"
+-#include "external/ExRootAnalysis/ExRootTreeReader.h"
++#include "ExRootAnalysis/ExRootTreeReader.h"
+ #include "modules/TrackCovariance.h"
+-#include "external/TrackCovariance/TrkUtil.h"
+-#include "external/TrackCovariance/VertexFit.h"
++#include "TrackCovariance/TrkUtil.h"
++#include "TrackCovariance/VertexFit.h"
+ 
+ #endif
+ 
+diff --git a/examples/ExamplePVtxFitEC.C b/examples/ExamplePVtxFitEC.C
+index 6933e75..abea96a 100644
+--- a/examples/ExamplePVtxFitEC.C
++++ b/examples/ExamplePVtxFitEC.C
+@@ -7,10 +7,10 @@ assumed to be generated in (0,0,0)
+ R__LOAD_LIBRARY(libDelphes)
+ 
+ #include "classes/DelphesClasses.h"
+-#include "external/ExRootAnalysis/ExRootTreeReader.h"
++#include "ExRootAnalysis/ExRootTreeReader.h"
+ #include "modules/TrackCovariance.h"
+-#include "external/TrackCovariance/TrkUtil.h"
+-#include "external/TrackCovariance/VertexFit.h"
++#include "TrackCovariance/TrkUtil.h"
++#include "TrackCovariance/VertexFit.h"
+ 
+ #endif
+ 
+diff --git a/examples/ExternalFastJet/ExternalFastJetBasic.cpp b/examples/ExternalFastJet/ExternalFastJetBasic.cpp
+index 09a87f5..c73137d 100644
+--- a/examples/ExternalFastJet/ExternalFastJetBasic.cpp
++++ b/examples/ExternalFastJet/ExternalFastJetBasic.cpp
+@@ -42,7 +42,7 @@ FASTJET_LIB=`$FASTJET_DIR/bin/fastjet-config --libs`
+ ROOT_INC=`$ROOT_DIR/bin/root-config --incdir`
+ ROOT_LIB=`$ROOT_DIR/bin/root-config --libs`
+ 
+-CXXFLAGS="$FASTJET_INC -I$ROOT_INC -I$DELPHES_DIR -I$DELPHES_DIR/external"
++CXXFLAGS="$FASTJET_INC -I$ROOT_INC -I$DELPHES_DIR"
+ LDFLAGS="$FASTJET_LIB $ROOT_LIB -lEG $DELPHES_LIB"
+ 
+ g++ $CXXFLAGS examples/ExternalFastJet/ExternalFastJetBasic.cpp $LDFLAGS -o ExternalFastJetBasic
+diff --git a/examples/ExternalFastJet/ExternalFastJetHepMC.cpp b/examples/ExternalFastJet/ExternalFastJetHepMC.cpp
+index e96ce13..27658b7 100644
+--- a/examples/ExternalFastJet/ExternalFastJetHepMC.cpp
++++ b/examples/ExternalFastJet/ExternalFastJetHepMC.cpp
+@@ -41,7 +41,7 @@ FASTJET_LIB=`$FASTJET_DIR/bin/fastjet-config --libs`
+ ROOT_INC=`$ROOT_DIR/bin/root-config --incdir`
+ ROOT_LIB=`$ROOT_DIR/bin/root-config --libs`
+ 
+-CXXFLAGS="$FASTJET_INC -I$ROOT_INC -I$DELPHES_DIR -I$DELPHES_DIR/external"
++CXXFLAGS="$FASTJET_INC -I$ROOT_INC -I$DELPHES_DIR"
+ LDFLAGS="$FASTJET_LIB $ROOT_LIB -lEG $DELPHES_LIB"
+ 
+ g++ $CXXFLAGS examples/ExternalFastJet/ExternalFastJetHepMC.cpp $LDFLAGS -o ExternalFastJetHepMC
+diff --git a/examples/ExternalFastJet/Makefile b/examples/ExternalFastJet/Makefile
+index 5ff9541..b770920 100644
+--- a/examples/ExternalFastJet/Makefile
++++ b/examples/ExternalFastJet/Makefile
+@@ -16,7 +16,7 @@ DELPHES_DIR = ../..
+ 
+ CXXFLAGS += $(shell $(FASTJET_DIR)/bin/fastjet-config --cxxflags)
+ CXXFLAGS += $(shell $(ROOT_DIR)/bin/root-config --cflags)
+-CXXFLAGS += -I$(DELPHES_DIR) -I$(DELPHES_DIR)/external
++CXXFLAGS += -I$(DELPHES_DIR)
+ 
+ LDFLAGS += $(shell $(FASTJET_DIR)/bin/fastjet-config --libs)
+ LDFLAGS += $(shell $(ROOT_DIR)/bin/root-config --libs) -lEG
+diff --git a/examples/LoadPVtxFit.C b/examples/LoadPVtxFit.C
+index 60fe157..72edd1b 100644
+--- a/examples/LoadPVtxFit.C
++++ b/examples/LoadPVtxFit.C
+@@ -4,6 +4,6 @@ void LoadPVtxFit()
+ {
+ gROOT->Reset();
+ gROOT->ProcessLine(".L libDelphes.so");
+-gROOT->ProcessLine(".L external/TrackCovariance/VertexFit.cc+");
++gROOT->ProcessLine(".L TrackCovariance/VertexFit.cc+");
+ gROOT->ProcessLine(".L examples/ExamplePVtxFit.C+");
+ }
+diff --git a/examples/vertexAnalyzer.C b/examples/vertexAnalyzer.C
+index 01d6e63..97b5c52 100644
+--- a/examples/vertexAnalyzer.C
++++ b/examples/vertexAnalyzer.C
+@@ -9,7 +9,7 @@ root -l examples/vertexAnalyzer.C'("delphes_output.root")'
+ #ifdef __CLING__
+ R__LOAD_LIBRARY(libDelphes)
+ #include "classes/DelphesClasses.h"
+-#include "external/ExRootAnalysis/ExRootTreeReader.h"
++#include "ExRootAnalysis/ExRootTreeReader.h"
+ #endif
+ 
+ //------------------------------------------------------------------------------

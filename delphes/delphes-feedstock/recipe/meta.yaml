@@ -1,0 +1,48 @@
+{% set name = "delphes" %}
+{% set version = "3.5.0" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  url: http://cp3.irmp.ucl.ac.be/downloads/Delphes-{{ version }}.tar.gz
+  sha256: 37685b945ef43aab09217d70b0ac7f9c5d3c2c27cf3b3f8d64c4e6eb5c5fd9aa
+  patches:
+    - patches/delphes-3.5.0_remove_external.patch
+
+build:
+  number: 0
+  skip: true  # [win]
+
+requirements:
+  build:
+    - make
+  host:
+    - root==6.26.10
+    - pythia8
+  run:
+    - python
+
+#test:
+#  imports:
+#    - delphes
+
+about:
+  home: https://cp3.irmp.ucl.ac.be/projects/delphes
+  license: GPL
+  summary: A framework for fast simulation of a generic collider experiment
+  description: |
+    Delphes is a C++ framework, performing a fast multipurpose detector response
+    simulation. The simulation includes a tracking system, embedded into a magnetic
+    field, calorimeters and a muon system. The framework is interfaced to standard
+    file formats (e.g. Les Houches Event File or HepMC) and outputs observables
+    such as isolated leptons, missing transverse energy and collection of jets
+    which can be used for dedicated analyses. The simulation of the detector
+    response takes into account the effect of magnetic field, the granularity of
+    the calorimeters and sub-detector resolutions. Visualisation of the final state
+    particles is also built-in using the corresponding ROOT library.
+
+extra:
+  recipe-maintainers:
+    - chofchof
