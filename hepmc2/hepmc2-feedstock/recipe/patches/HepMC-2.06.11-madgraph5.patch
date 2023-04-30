@@ -1,0 +1,33 @@
+diff --git a/src/WeightContainer.cc b/src/WeightContainer.cc
+index b25c52d..dbbd359 100644
+--- a/src/WeightContainer.cc
++++ b/src/WeightContainer.cc
+@@ -48,6 +48,14 @@ void WeightContainer::push_back( const double& value)
+     m_names[name.str()] = count;
+ }
+ 
++// NEW PUSH-BACK FUNCTION TO ALLOW WEIGHT NAMES.
++void WeightContainer::push_back( const double& value, std::string name)
++{
++    size_type count = m_weights.size();
++    m_weights.push_back(value);
++    m_names.insert(std::make_pair(name,count));
++}
++
+ void WeightContainer::pop_back()
+ {
+     // this needs to remove the last entry in the vector
+diff --git a/HepMC/WeightContainer.h b/HepMC/WeightContainer.h
+index 8991994..e609c24 100644
+--- a/HepMC/WeightContainer.h
++++ b/HepMC/WeightContainer.h
+@@ -69,6 +69,9 @@ namespace HepMC {
+ 	/// clear the weight container
+ 	void          clear();
+ 
++        // NEW PUSH-BACK FUNCTION TO ALLOW WEIGHT NAMES.
++        void          push_back( const double&, std::string );
++
+     /// the list of weight values
+     std::vector<double>& weights() { return m_weights; }
+     /// the list of weight values (const)

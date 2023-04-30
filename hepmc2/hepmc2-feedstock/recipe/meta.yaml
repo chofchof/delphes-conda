@@ -1,0 +1,61 @@
+{% set name = "hepmc2" %}
+{% set version = "2.06.11" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://hepmc.web.cern.ch/hepmc/releases/hepmc{{ version }}.tgz
+  sha256: a328304b4d5077244aa583a64536fd04f6d4e2161f909eebc33b71048d481a0b
+  folder: source
+  patches:
+    - patches/HepMC-2.06.11-madgraph5.patch 
+build:
+  number: 1
+  skip: True  # [win]
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+    - cmake
+
+
+test:
+  source_files:
+    - source/examples
+  requires:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  commands:
+    # Workaround for lack of CONDA_BUILD_SYSROOT variable in staged recipes
+    - cd source/examples
+    # example_UsingIterators
+    - ${CXX} example_UsingIterators.cc -o example_UsingIterators -I${CONDA_PREFIX}/include -L${CONDA_PREFIX}/lib -lHepMC
+    # example_EventSelection
+    - ${CXX} example_EventSelection.cc -o example_EventSelection -I${CONDA_PREFIX}/include -L${CONDA_PREFIX}/lib -lHepMC
+    # example_BuildEventFromScratch
+    - ${CXX} example_BuildEventFromScratch.cc -o example_BuildEventFromScratch -I${CONDA_PREFIX}/include -L${CONDA_PREFIX}/lib -lHepMC
+
+about:
+  home: http://hepmc.web.cern.ch/hepmc/
+  license: LGPL-2.1
+  license_family: LGPL
+  license_file: source/INSTALL
+  summary: 'HepMC - a C++ Event Record for Monte Carlo Generators'
+
+  description: |
+           The HepMC package is an object oriented, C++ event record
+           for High Energy Physics Monte Carlo generators and simulation.
+           The original code was written by M. Dobbs and J.B. Hansen
+            (Comput. Phys. Commun. 134 (2001) 41). Since the first 
+           implementation, the package has undergone several modifications
+           and in particular, the latest HepMC3 series is a completely new
+           re-write using currently available C++11 techniques. 
+
+extra:
+  recipe-maintainers:
+    - gartung
+    - chrisburr
+    - henryiii
