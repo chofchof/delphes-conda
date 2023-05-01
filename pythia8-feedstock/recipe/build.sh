@@ -26,12 +26,10 @@ cp "${RECIPE_DIR}/JetMatching.h" "${PWD}/include/Pythia8Plugins/JetMatching.h"
     --with-gzip=${PREFIX} \
     --with-lhapdf6 \
     --with-lhapdf6-plugin=LHAPDF6.h \
+    --cxx-common='-ldl -fPIC -lstdc++ -std=c++11 -pthread -O2 -DHEPMC2HACK'
     ${EXTRAS}
 
 make install -j${CPU_COUNT}
 
 # Make links so conda can find the bindings
 ln -s "${PREFIX}/lib/pythia8.so" "${SP_DIR}/"
-
-# Update ${BUILD_PREFIX} -> ${PREFIX}
-sed -i 's/\/conda-bld\/pythia8_[0-9]*\/_build_env//g' "${PREFIX}/share/Pythia8/examples/Makefile.inc"
