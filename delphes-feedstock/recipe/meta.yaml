@@ -17,12 +17,12 @@ build:
 
 requirements:
   build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
     - make
-  host:
     - root==6.26.10
+  host:
     - pythia8
-  run:
-    - python
 
 #test:
 #  imports:

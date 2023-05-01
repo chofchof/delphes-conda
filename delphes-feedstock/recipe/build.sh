@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-PYTHIA8=${PREFIX}
-make HAS_PYTHIA8=true
+make HAS_PYTHIA8=true PYTHIA8=${PREFIX}
 
 # Install libraries
 cp -fp libDelphes.so libDelphesNoFastJet.so "${PREFIX}/lib"
