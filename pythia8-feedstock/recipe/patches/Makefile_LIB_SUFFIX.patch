@@ -1,0 +1,44 @@
+diff --git a/Makefile b/Makefile
+index 262e08c..46ca33d 100644
+--- a/Makefile
++++ b/Makefile
+@@ -45,16 +45,16 @@ TARGETS=$(LOCAL_LIB)/libpythia8.a $(LOCAL_LIB)/libpythia8$(LIB_SUFFIX)
+ 
+ # LHAPDF.
+ ifeq ($(LHAPDF5_USE),true)
+-  TARGETS+=$(LOCAL_LIB)/libpythia8lhapdf5.so
++  TARGETS+=$(LOCAL_LIB)/libpythia8lhapdf5$(LIB_SUFFIX)
+ endif
+ ifeq ($(LHAPDF6_USE),true)
+-  TARGETS+=$(LOCAL_LIB)/libpythia8lhapdf6.so
++  TARGETS+=$(LOCAL_LIB)/libpythia8lhapdf6$(LIB_SUFFIX)
+ endif
+ 
+ # POWHEG (needs directory that contains just POWHEG binaries and scripts).
+ ifeq ($(POWHEG_USE),true)
+   ifneq ($(POWHEG_BIN),./)
+-    TARGETS+=$(patsubst $(POWHEG_BIN)%,$(LOCAL_LIB)/libpythia8powheg%.so,\
++    TARGETS+=$(patsubst $(POWHEG_BIN)%,$(LOCAL_LIB)/libpythia8powheg%$(LIB_SUFFIX),\
+              $(wildcard $(POWHEG_BIN)*))
+   endif
+ endif
+@@ -107,7 +107,7 @@ $(LOCAL_LIB)/libpythia8$(LIB_SUFFIX): $(OBJECTS)
+ # LHAPDF (turn off all warnings for readability).
+ $(LOCAL_TMP)/LHAPDF%Plugin.o: $(LOCAL_INCLUDE)/Pythia8Plugins/LHAPDF%.h
+ 	$(CXX) -x c++ $< -o $@ -c -MD -w $(CXX_COMMON) $(LHAPDF$*_INCLUDE)
+-$(LOCAL_LIB)/libpythia8lhapdf%.so: $(LOCAL_TMP)/LHAPDF%Plugin.o\
++$(LOCAL_LIB)/libpythia8lhapdf%$(LIB_SUFFIX): $(LOCAL_TMP)/LHAPDF%Plugin.o\
+ 	$(LOCAL_LIB)/libpythia8$(LIB_SUFFIX)
+ 	$(CXX) $< -o $@ $(CXX_COMMON) $(CXX_SHARED) $(CXX_SONAME)$(notdir $@)\
+ 	 $(LHAPDF$*_LIB) -lLHAPDF -Llib -lpythia8
+@@ -115,8 +115,8 @@ $(LOCAL_LIB)/libpythia8lhapdf%.so: $(LOCAL_TMP)/LHAPDF%Plugin.o\
+ # POWHEG (exclude any executable ending with sh).
+ $(LOCAL_TMP)/LHAPowheg.o: $(LOCAL_INCLUDE)/Pythia8Plugins/LHAPowheg.h
+ 	$(CXX) -x c++ $< -o $@ -c -MD -w $(CXX_COMMON)
+-$(LOCAL_LIB)/libpythia8powheg%sh.so: $(POWHEG_BIN)%sh;
+-$(LOCAL_LIB)/libpythia8powheg%.so: $(POWHEG_BIN)% $(LOCAL_TMP)/LHAPowheg.o\
++$(LOCAL_LIB)/libpythia8powheg%sh$(LIB_SUFFIX): $(POWHEG_BIN)%sh;
++$(LOCAL_LIB)/libpythia8powheg%$(LIB_SUFFIX): $(POWHEG_BIN)% $(LOCAL_TMP)/LHAPowheg.o\
+ 	$(LOCAL_LIB)/libpythia8$(LIB_SUFFIX)
+ 	ln -s $< $(notdir $<); $(CXX) $(notdir $<) $(LOCAL_TMP)/LHAPowheg.o\
+ 	 -o $@ $(CXX_COMMON) $(CXX_SHARED) -Llib -lpythia8\

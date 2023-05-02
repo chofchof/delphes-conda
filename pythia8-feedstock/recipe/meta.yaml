@@ -9,6 +9,8 @@ package:
 source:
   url: https://pythia.org/download/pythia83/pythia{{ file_version }}.tgz
   sha256: e5b14d44aa5943332e32dd5dda9a18fdd1a0085c7198e28d840e04167fa6013d
+  patches:
+    - patches/Makefile_LIB_SUFFIX.patch
 
 build:
   number: 1
