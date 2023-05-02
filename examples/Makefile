@@ -10,7 +10,7 @@ Example3: delphes_output.root
 	python $@.py $<
 
 delphes_output.root: test.hepmc3.gz
-	gunzip -c $< | DelphesSTDHEP ${CONDA_PREFIX}/share/delphes/cards/delphes_card_CMS.tcl $@
+	gunzip -c $< | DelphesHepMC3 ${CONDA_PREFIX}/share/delphes/cards/delphes_card_CMS.tcl $@
 
 test.hepmc3.gz:
 	curl -O http://cp3.irmp.ucl.ac.be/~demin/$@
