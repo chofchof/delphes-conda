@@ -39,30 +39,29 @@ $ conda activate delphes
 
 ## C. Delphes, Pythia8, HepMC2 Packages
 
-Download the following three conda packages from https://github.com/chofchof/delphes-conda/tree/main/conda-bld/linux-64.
+Download the following three conda packages from https://github.com/chofchof/delphes-conda.
 
 If ROOT is installed from conda-forge, `pythia8` package is also installed by dependency. Since this `pythia8` does not work with MadGraph5, we need to prepare patched versions of `pythia8` and `hepmc2`. However, `delphes` does not require those patched versions.
 
-- **[delphes-3.5.0-h3fd9d12_0.tar.bz2](https://github.com/chofchof/delphes-conda/raw/main/conda-bld/linux-64/delphes-3.5.0-h3fd9d12_0.tar.bz2)**
+- **delphes-3.5.0-h3fd9d12_0.tar.bz2**
   - No dependency on the Python version.
   - Remove `external/` in examples. See `delphes-feedstock/recipe/patches/delphes-3.5.0_remove_external.patch` for details.
   - Notice that fj-contrib packages are installed in `$CONDA_PREFIX/include/fastjet/contribs/` as the original delphes.
-- **[pythia8-8.307-py311h3fd9d12_1.tar.bz2](https://github.com/chofchof/delphes-conda/raw/main/conda-bld/linux-64/pythia8-8.307-py311h3fd9d12_1.tar.bz2)** (Python 3.11) or **[pythia8-8.307-py310h3fd9d12_1.tar.bz2](https://github.com/chofchof/delphes-conda/raw/main/conda-bld/linux-64/pythia8-8.307-py310h3fd9d12_1.tar.bz2)** (Python 3.10)
+- **pythia8-8.307-py311h3fd9d12_1.tar.bz2** (Python 3.11) or **pythia8-8.307-py310h3fd9d12_1.tar.bz2** (Python 3.10)
   - It has a dependency on the Python version, since it contains a Python wrapper which can be used by `import pythia8`.
   - A plugin `JetMatching.h` for MadGraph5 is included in `$CONDA_PREFIX/include/Pythia8Plugins/`.
   - Add `--cxx-common='-ldl -fPIC -lstdc++ -std=c++11 -pthread -O2 -DHEPMC2HACK'` to `configure` for MadGraph5.
-- **[hepmc2-2.06.11-h3fd9d12_1.tar.bz2](https://github.com/chofchof/delphes-conda/raw/main/conda-bld/linux-64/hepmc2-2.06.11-h3fd9d12_1.tar.bz2)**
+- **hepmc2-2.06.11-h3fd9d12_1.tar.bz2**
   - No dependency on the Python version.
   - Modify `src/WeightContainer.cc` and `HepMC/WeightContainer.h` for MadGraph5. See `hepmc2-feedstock/recipe/patches/HepMC-2.06.11-madgraph5.patch` for details.
 
 ```bash
-(delphes)$ conda install delphes-3.5.0-h3fd9d12_0.tar.bz2 pythia8-8.307-py311h3fd9d12_1.tar.bz2 hepmc2-2.06.11-h3fd9d12_1.tar.bz2
-(delphes)$ cat > $CONDA_PREFIX/conda-meta/pinned
-root==6.26.10
-delphes==3.5.0
-pythia8==8.307
-hepmc==2.06.11
-(CTRL-D)
+(delphes)$ git clone https://github.com/chofchof/delphes-conda.git
+(delphes)$ cd delphes-conda
+(delphes)$ conda config --env --add channels file://$PWD/conda-bld
+(delphes)$ conda install delphes pythia8 hepmc2
+(delphes)$ cat conda-meta/pinned >> $CONDA_PREFIX/conda-meta/pinned
+(delphes)$ conda update --all
 ```
 
 
@@ -88,6 +87,7 @@ MG5_aMC>quit
 ```
 
 - MadGraph5 (3.4.2) has a conflict with `lhapdf` if it is installed from conda-forge. Compile-time error occurs when `pdlabel` is set to `lhapdf` in `run_card.dat`. To solve this problem, `Template/LO/Source/.make_opts` must be modified to add `$(STDLIB)` as above.
+- If `install mg5amc_py8_interface` does not work, press (CTRL+C) and then try again.
 
 ### Test
 
@@ -113,8 +113,7 @@ INFO: Storing Pythia8 files of previous run
 INFO: Done
 ...(skip)...
 MG5_aMC> quit
-(delphes)$ cd ..
-(delphes)$ ls -al pp_zz/Events/run_01/
+(delphes)$ ls -al ../pp_zz/Events/run_01/
 total 800872
 drwxr-xr-x 2 chof chof      4096 Apr 10 13:34 .
 drwxr-xr-x 3 chof chof      4096 Apr 10 13:31 ..
@@ -146,6 +145,7 @@ Reference: https://cp3.irmp.ucl.ac.be/projects/delphes/wiki/WorkBook/QuickTour
 When running Delphes without parameters or when supplying an invalid command line, the following message will be shown:
 
 ```bash
+(delphes)$ cd examples
 (delphes)$ DelphesHepMC3
  Usage: DelphesHepMC3 config_file output_file [input_file(s)]
  config_file - configuration file in Tcl format,
@@ -265,7 +265,6 @@ The [examples](https://cp3.irmp.ucl.ac.be/projects/delphes/browser/examples) dir
 This macro can be run by python with `examples/Example2.py` as follows:
 
 ```bash
-(delphes)$ cd examples
 (delphes)$ python Example2.py delphes_output.root
 ** Chain contains 1000 events
 Info in <TCanvas::Print>: file jet_pt_0.png has been created
