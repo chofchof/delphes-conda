@@ -55,6 +55,21 @@ If ROOT is installed from conda-forge, `pythia8` package is also installed by de
   - No dependency on the Python version.
   - Modify `src/WeightContainer.cc` and `HepMC/WeightContainer.h` for MadGraph5. See `hepmc2-feedstock/recipe/patches/HepMC-2.06.11-madgraph5.patch` for details.
 
+### 1. Install packages via github channel
+
+We recommend to install conda packages via github channel, https://github.com/chofchof/delphes-conda/raw/main/conda-bld. 
+
+```bash
+(delphes)$ conda config --env --add channels https://github.com/chofchof/delphes-conda/raw/main/conda-bld
+(delphes)$ conda install delphes pythia8 hepmc2
+(delphes)$ curl -L https://github.com/chofchof/delphes-conda/raw/main/conda-meta/pinned >> $CONDA_PREFIX/conda-meta/pinned
+(delphes)$ conda update --all
+```
+
+### 2. Install packages locally
+
+It is also possible to download the git repository https://github.com/chofchof/delphes-conda.git, and then install conda packages locally.
+
 ```bash
 (delphes)$ git clone https://github.com/chofchof/delphes-conda.git
 (delphes)$ cd delphes-conda
@@ -64,7 +79,7 @@ If ROOT is installed from conda-forge, `pythia8` package is also installed by de
 (delphes)$ conda update --all
 ```
 
-
+  
 
 ## D. MadGraph5
 
