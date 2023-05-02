@@ -1,0 +1,423 @@
+{
+  "paths": [
+    {
+      "_path": "include/HepMC/CompareGenEvent.h",
+      "path_type": "hardlink",
+      "sha256": "a98a5c37fecebf9527bd523edb7c6233e172bf4cd7ec3f57d251f1a007aa8c74",
+      "size_in_bytes": 1042
+    },
+    {
+      "_path": "include/HepMC/Flow.h",
+      "path_type": "hardlink",
+      "sha256": "ceaf5da67d30b2a1051747521c3ec7562f99b2e275622a109a541cf622adfb64",
+      "size_in_bytes": 8060
+    },
+    {
+      "_path": "include/HepMC/GenCrossSection.h",
+      "path_type": "hardlink",
+      "sha256": "40c9cb06e6e49e2f5ac8f2b0a7a568f191ef1976878db28d5e0f6ad818697df3",
+      "size_in_bytes": 3444
+    },
+    {
+      "_path": "include/HepMC/GenEvent.h",
+      "path_type": "hardlink",
+      "sha256": "fb331cca4e632a74d668090331562cad031f128739dfa768256f1d52686b66a3",
+      "size_in_bytes": 36272
+    },
+    {
+      "_path": "include/HepMC/GenParticle.h",
+      "path_type": "hardlink",
+      "sha256": "5b61066c16660f75f0897b3d2b5af2bd80c6cb855c2c6e9c2aa795156ad1d1cf",
+      "size_in_bytes": 10165
+    },
+    {
+      "_path": "include/HepMC/GenRanges.h",
+      "path_type": "hardlink",
+      "sha256": "ecfced5823658cbf8806abcc1e59e25968817b9994bfc9ae43fbb4361481c719",
+      "size_in_bytes": 10947
+    },
+    {
+      "_path": "include/HepMC/GenVertex.h",
+      "path_type": "hardlink",
+      "sha256": "50d101c621020909ad8e3cd450e9d3ddcffec4a6026085e4a2f2c3da5ced4e13",
+      "size_in_bytes": 19890
+    },
+    {
+      "_path": "include/HepMC/HEPEVT_Wrapper.h",
+      "path_type": "hardlink",
+      "sha256": "de01098e597386cb95b297d8b1493d3dedc2a0d59294046e313a721c99d12dbc",
+      "size_in_bytes": 21264
+    },
+    {
+      "_path": "include/HepMC/HeavyIon.h",
+      "path_type": "hardlink",
+      "sha256": "b5cd50ae991fa0e153e7666c0645476a422d2f8bc2ea8ff09430d0a079ad284a",
+      "size_in_bytes": 12594
+    },
+    {
+      "_path": "include/HepMC/HepMCDefs.h",
+      "path_type": "hardlink",
+      "sha256": "8b4e74aad0b37a62523a9ce9967af6c2eb00f287c81d4a258ad08e895772a9cf",
+      "size_in_bytes": 1879
+    },
+    {
+      "_path": "include/HepMC/HerwigWrapper.h",
+      "path_type": "hardlink",
+      "sha256": "7ae844de64e55b9d5629263f0703ac0a501cad998f66d34d1a6db33dd09f8f9b",
+      "size_in_bytes": 5915
+    },
+    {
+      "_path": "include/HepMC/IO_AsciiParticles.h",
+      "path_type": "hardlink",
+      "sha256": "6d0781d9ec9b544c2ac38a7c04861a8879f47bd4504f491ac93cf8bd02d6cd73",
+      "size_in_bytes": 3934
+    },
+    {
+      "_path": "include/HepMC/IO_BaseClass.h",
+      "path_type": "hardlink",
+      "sha256": "2b54fcbba41b28bac685ff07672504013767a8c46ef0a8c4b2a8cdf53a208680",
+      "size_in_bytes": 3776
+    },
+    {
+      "_path": "include/HepMC/IO_Exception.h",
+      "path_type": "hardlink",
+      "sha256": "f658ec93256150ea094759d56d54cda56d3a2c439a496b756ddae834ff97227a",
+      "size_in_bytes": 1281
+    },
+    {
+      "_path": "include/HepMC/IO_GenEvent.h",
+      "path_type": "hardlink",
+      "sha256": "7c18cc697da77c9abc9fe06adfba3df3bd76b8b55e0db417c473190c1efb7684",
+      "size_in_bytes": 5109
+    },
+    {
+      "_path": "include/HepMC/IO_HEPEVT.h",
+      "path_type": "hardlink",
+      "sha256": "830296828570745ff4c7812c443a22af28189ce1bde255fba5a1e45af4d2ccc9",
+      "size_in_bytes": 5636
+    },
+    {
+      "_path": "include/HepMC/IO_HERWIG.h",
+      "path_type": "hardlink",
+      "sha256": "f3db55eb498a56b01b0817d7997bd20cdaf1971334186390f00ccf733e89e67f",
+      "size_in_bytes": 6697
+    },
+    {
+      "_path": "include/HepMC/IteratorRange.h",
+      "path_type": "hardlink",
+      "sha256": "fe13d8f850dfd285077aeee02531b6d0738e4099170218a05b57d6c8d19a0059",
+      "size_in_bytes": 792
+    },
+    {
+      "_path": "include/HepMC/PdfInfo.h",
+      "path_type": "hardlink",
+      "sha256": "3cc6a046d13c638ea65c3d10c842a1b560a558e22c185af89b94a8778f4d99b0",
+      "size_in_bytes": 6976
+    },
+    {
+      "_path": "include/HepMC/Polarization.h",
+      "path_type": "hardlink",
+      "sha256": "287bca78bbf7c1071e9789af3576e52f65ab64036775bfe1f2495468cc3a5490",
+      "size_in_bytes": 4082
+    },
+    {
+      "_path": "include/HepMC/PythiaWrapper.h",
+      "path_type": "hardlink",
+      "sha256": "84b484cf5215e2eb142361013f02b0ff77005c5c9217e73a7af0b7ec303ad1ca",
+      "size_in_bytes": 1541
+    },
+    {
+      "_path": "include/HepMC/PythiaWrapper6_4.h",
+      "path_type": "hardlink",
+      "sha256": "bcc6e3edf1ebd7bc263e1941472508ec3466368d79bfd2814fa47743eaa40f8c",
+      "size_in_bytes": 6200
+    },
+    {
+      "_path": "include/HepMC/PythiaWrapper6_4_WIN32.h",
+      "path_type": "hardlink",
+      "sha256": "4100b095cd10dcb22f5306910f2aa40c03947caf0e55002e4865f08196307310",
+      "size_in_bytes": 4149
+    },
+    {
+      "_path": "include/HepMC/SearchVector.h",
+      "path_type": "hardlink",
+      "sha256": "05f32a371345d359e05e02c391488acceda30d2a2c8c49e5a9edd3d46fcabded",
+      "size_in_bytes": 791
+    },
+    {
+      "_path": "include/HepMC/SimpleVector.h",
+      "path_type": "hardlink",
+      "sha256": "e1d9984281bf4eaa92217eee500440ed420972fc6026fcd093c9f648a08c9b8a",
+      "size_in_bytes": 6364
+    },
+    {
+      "_path": "include/HepMC/SimpleVector.icc",
+      "path_type": "hardlink",
+      "sha256": "c7e53d84f2092d334d01f17c3be2b98ab4069ae0e40507cdd048ca00630d2162",
+      "size_in_bytes": 4036
+    },
+    {
+      "_path": "include/HepMC/StreamHelpers.h",
+      "path_type": "hardlink",
+      "sha256": "e5da892760001597e67866ebbfb88be956918c528a378fa12a4c7d78edc27915",
+      "size_in_bytes": 2555
+    },
+    {
+      "_path": "include/HepMC/StreamInfo.h",
+      "path_type": "hardlink",
+      "sha256": "efbc423dffd8dde5d96fa1f6b8ca6d2ac7592c6dcc8dcf4dc55646bbf5b32e4a",
+      "size_in_bytes": 5125
+    },
+    {
+      "_path": "include/HepMC/TempParticleMap.h",
+      "path_type": "hardlink",
+      "sha256": "9fc78c39edef76018f5b78c0900daa952deed9331c8591b16e55f23571729f4a",
+      "size_in_bytes": 2061
+    },
+    {
+      "_path": "include/HepMC/Units.h",
+      "path_type": "hardlink",
+      "sha256": "36110a0249b64fea30788481230c26e9ccc1b0f2357b1bcd23e7ff0847e35cd0",
+      "size_in_bytes": 1310
+    },
+    {
+      "_path": "include/HepMC/Version.h",
+      "path_type": "hardlink",
+      "sha256": "e463a7dc0d8799c75200582acffa72e0a23d4c833b7a7b8d07f46ff4adae910e",
+      "size_in_bytes": 945
+    },
+    {
+      "_path": "include/HepMC/WeightContainer.h",
+      "path_type": "hardlink",
+      "sha256": "588b09e836220cdfd8610fad8355a6f4061b949bb4734526f1e60edac6554a1c",
+      "size_in_bytes": 7606
+    },
+    {
+      "_path": "include/HepMC/enable_if.h",
+      "path_type": "hardlink",
+      "sha256": "34e7d829c0a1c3b9337a16dc6eb12a53ad646926b289e56ff5a47a59055304c2",
+      "size_in_bytes": 1063
+    },
+    {
+      "_path": "include/HepMC/is_arithmetic.h",
+      "path_type": "hardlink",
+      "sha256": "14ce717d5a25487f6e58cea48365a004ca2e531795171f5482405fe50c2d07b5",
+      "size_in_bytes": 1986
+    },
+    {
+      "_path": "lib/libHepMC.a",
+      "path_type": "hardlink",
+      "sha256": "bae8b6deb3bdcdc02cce3d8d0e1e4a450cdf6cd3979fcce598af6280da17e4e4",
+      "size_in_bytes": 618966
+    },
+    {
+      "_path": "lib/libHepMC.so",
+      "path_type": "softlink",
+      "sha256": "099c3ac8da36a6dcfe2331c4345516212535e7544d1c56175da04f2b8d319185",
+      "size_in_bytes": 300256
+    },
+    {
+      "_path": "lib/libHepMC.so.4",
+      "path_type": "softlink",
+      "sha256": "099c3ac8da36a6dcfe2331c4345516212535e7544d1c56175da04f2b8d319185",
+      "size_in_bytes": 300256
+    },
+    {
+      "_path": "lib/libHepMC.so.4.0.0",
+      "path_type": "hardlink",
+      "sha256": "099c3ac8da36a6dcfe2331c4345516212535e7544d1c56175da04f2b8d319185",
+      "size_in_bytes": 300256
+    },
+    {
+      "_path": "lib/libHepMCfio.a",
+      "path_type": "hardlink",
+      "sha256": "70f84c7e37bb93878198991b20b73ddfd08bb57d99ba104cd7dc4f61f5a72b4c",
+      "size_in_bytes": 330032
+    },
+    {
+      "_path": "lib/libHepMCfio.so",
+      "path_type": "softlink",
+      "sha256": "0cdf4a750235598311cd32414f1c03a08032dfa65f2ef1613509b97426460fa0",
+      "size_in_bytes": 172800
+    },
+    {
+      "_path": "lib/libHepMCfio.so.4",
+      "path_type": "softlink",
+      "sha256": "0cdf4a750235598311cd32414f1c03a08032dfa65f2ef1613509b97426460fa0",
+      "size_in_bytes": 172800
+    },
+    {
+      "_path": "lib/libHepMCfio.so.4.0.0",
+      "path_type": "hardlink",
+      "sha256": "0cdf4a750235598311cd32414f1c03a08032dfa65f2ef1613509b97426460fa0",
+      "size_in_bytes": 172800
+    },
+    {
+      "_path": "share/HepMC/doc/HepMC2_reference_manual.pdf",
+      "path_type": "hardlink",
+      "sha256": "2d2c677320b3db46a02b6d4e963eeea1a14292b74acea112e1da126954e9f133",
+      "size_in_bytes": 925481
+    },
+    {
+      "_path": "share/HepMC/doc/HepMC2_user_manual.pdf",
+      "path_type": "hardlink",
+      "sha256": "e8bbb5f85ba3fc059655f84cc0d66409f01330b80705c5b7306caf8337ec29cb",
+      "size_in_bytes": 257170
+    },
+    {
+      "_path": "share/HepMC/examples/GNUmakefile",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/chof/mambaforge/envs/py311/conda-bld/hepmc2_1682909175976/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+      "sha256": "343d9b9bb3cdf3338da217659a595e769a3520ff811388eb11a048ab4df3006d",
+      "size_in_bytes": 6814
+    },
+    {
+      "_path": "share/HepMC/examples/VectorConversion.h",
+      "path_type": "hardlink",
+      "sha256": "4656074311836fbce756ba8784dd6c79990b5925ab5d32a0852d3bc8199b2f06",
+      "size_in_bytes": 1026
+    },
+    {
+      "_path": "share/HepMC/examples/example_BuildEventFromScratch.cc",
+      "path_type": "hardlink",
+      "sha256": "511d4cc71a0b41540b80b6fba3a071d2da894fd4e0207fe02694e03079824875",
+      "size_in_bytes": 4222
+    },
+    {
+      "_path": "share/HepMC/examples/example_EventSelection.cc",
+      "path_type": "hardlink",
+      "sha256": "1d9938a7855543a85402c1199e575f1d0c6c5a7d32fad439f196af73b441cb89",
+      "size_in_bytes": 2292
+    },
+    {
+      "_path": "share/HepMC/examples/example_UsingIterators.cc",
+      "path_type": "hardlink",
+      "sha256": "5066c74556c7a9e54eaa3a1ca791561d40c090e6946142d77d1ea804663ab239",
+      "size_in_bytes": 5959
+    },
+    {
+      "_path": "share/HepMC/examples/example_UsingIterators.txt",
+      "path_type": "hardlink",
+      "sha256": "04eec6cde5697b246c7a4e3da888a970048bd85f9777ab66c9e95829029aebb4",
+      "size_in_bytes": 64575
+    },
+    {
+      "_path": "share/HepMC/examples/example_VectorConversion.cc",
+      "path_type": "hardlink",
+      "sha256": "86d0fb87a0925f21559cb02442f6dbe1774f45ab1670a5475cf486f6bcca819b",
+      "size_in_bytes": 4964
+    },
+    {
+      "_path": "share/HepMC/examples/fio/GNUmakefile",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/chof/mambaforge/envs/py311/conda-bld/hepmc2_1682909175976/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+      "sha256": "97072043fc3bea40be5230f2188e6ff4f2d04bdcc83bda7de361e8b25ad92e6d",
+      "size_in_bytes": 7504
+    },
+    {
+      "_path": "share/HepMC/examples/fio/PythiaHelper.h",
+      "path_type": "hardlink",
+      "sha256": "876f405fc424bc9fb30c50d4529f72982b6b1f0990666b0bda83e78fce34a221",
+      "size_in_bytes": 361
+    },
+    {
+      "_path": "share/HepMC/examples/fio/example_MyHerwig.cc",
+      "path_type": "hardlink",
+      "sha256": "9c334565a1c8969a0bfe971ec56f46694446d09eaf232d56b036784bbec7173d",
+      "size_in_bytes": 3711
+    },
+    {
+      "_path": "share/HepMC/examples/fio/example_MyPythia.cc",
+      "path_type": "hardlink",
+      "sha256": "ea0fbcc8e8781d8a6ddd028e7dff6ddb9ae1cd9596938ea550ddcb58da608098",
+      "size_in_bytes": 13202
+    },
+    {
+      "_path": "share/HepMC/examples/fio/example_MyPythiaOnlyToHepMC.cc",
+      "path_type": "hardlink",
+      "sha256": "37620a0f44124b13406f352fe24e1e941d5d1dcfc98d2efe69a7fd78fc2228f8",
+      "size_in_bytes": 2470
+    },
+    {
+      "_path": "share/HepMC/examples/fio/example_PythiaStreamIO.cc",
+      "path_type": "hardlink",
+      "sha256": "f2837f3cad32e60b5d18a6f67d4e017950075e26736a4c286c68c335ec126ebb",
+      "size_in_bytes": 4949
+    },
+    {
+      "_path": "share/HepMC/examples/fio/initPythia.cc",
+      "path_type": "hardlink",
+      "sha256": "2ebe0df22040821124e73e5d4d19c2d38e6ce05a523989685b33d08a8b78302e",
+      "size_in_bytes": 1203
+    },
+    {
+      "_path": "share/HepMC/examples/fio/initpydata.f",
+      "path_type": "hardlink",
+      "sha256": "67c028e6a69dc4377d5a56bb35aeb476b64a3e4f933bcb6798dbf489833be379",
+      "size_in_bytes": 220
+    },
+    {
+      "_path": "share/HepMC/examples/fio/testHerwigCopies.cc",
+      "path_type": "hardlink",
+      "sha256": "81753fab7f00b28a0a17754c30bf2586146461a26dbb68245882e9b321d74f09",
+      "size_in_bytes": 3451
+    },
+    {
+      "_path": "share/HepMC/examples/fio/testPythiaCopies.cc",
+      "path_type": "hardlink",
+      "sha256": "9dbff16eea133b92129a28989fee9e92a81749b736640f81dd3f3efd2caa6efc",
+      "size_in_bytes": 2698
+    },
+    {
+      "_path": "share/HepMC/examples/pythia8/GNUmakefile",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/chof/mambaforge/envs/py311/conda-bld/hepmc2_1682909175976/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+      "sha256": "7a7b6b21e00d840b24b764c1addc8859a4b6d16c15fb8c3b53edeef97422c01d",
+      "size_in_bytes": 4061
+    },
+    {
+      "_path": "share/HepMC/examples/pythia8/README",
+      "path_type": "hardlink",
+      "sha256": "45c4ad02f7a226dfad73e88aebddce296289fd8cbd68d468a436b39e20895463",
+      "size_in_bytes": 383
+    },
+    {
+      "_path": "share/HepMC/examples/pythia8/config.csh",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/chof/mambaforge/envs/py311/conda-bld/hepmc2_1682909175976/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+      "sha256": "40035827b0472e3f847041711bd7215e12149e81f9852d6ead495bc49d1895f7",
+      "size_in_bytes": 684
+    },
+    {
+      "_path": "share/HepMC/examples/pythia8/config.sh",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/chof/mambaforge/envs/py311/conda-bld/hepmc2_1682909175976/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+      "sha256": "47d7bfa8ba9e849f83db3be9e13770dfa02fcd0b0512207d37d24b93d27151f4",
+      "size_in_bytes": 711
+    },
+    {
+      "_path": "share/HepMC/examples/pythia8/main31.cc",
+      "path_type": "hardlink",
+      "sha256": "9ad6ca34b1f23b8723ff4921102f38db2f10491c5068e033e83d1a1492cface9",
+      "size_in_bytes": 3289
+    },
+    {
+      "_path": "share/HepMC/examples/pythia8/main32.cc",
+      "path_type": "hardlink",
+      "sha256": "8a68a91febaa370a5964cd4d44aae19e2fced63e8a71a9715f92d270b763f284",
+      "size_in_bytes": 4973
+    },
+    {
+      "_path": "share/HepMC/examples/pythia8/main32.cmnd",
+      "path_type": "hardlink",
+      "sha256": "32c578c761c150f27ea29bc6cf95cd54660695416910d984f653fd5326a779ca",
+      "size_in_bytes": 1752
+    }
+  ],
+  "paths_version": 1
+}

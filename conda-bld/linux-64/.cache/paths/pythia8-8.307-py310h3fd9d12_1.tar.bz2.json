@@ -1,0 +1,4677 @@
+{
+  "paths": [
+    {
+      "_path": "bin/pythia8-config",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/chof/mambaforge/envs/py310/conda-bld/pythia8_1682949918734/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+      "sha256": "ed14c7256b534792642b555ecb29f9b55662bceefae7f3f955f93196e9e418b1",
+      "size_in_bytes": 6535
+    },
+    {
+      "_path": "include/Pythia8/Analysis.h",
+      "path_type": "hardlink",
+      "sha256": "bf73f5ef2c04c911e9b026f32d017c61ed9149d999aec8b574dd769e0e1d4a66",
+      "size_in_bytes": 17617
+    },
+    {
+      "_path": "include/Pythia8/Basics.h",
+      "path_type": "hardlink",
+      "sha256": "11abd630d1411cead18364e59983aab9ce0606da1637fc5f8cdfcd176ebed31f",
+      "size_in_bytes": 26589
+    },
+    {
+      "_path": "include/Pythia8/BeamParticle.h",
+      "path_type": "hardlink",
+      "sha256": "691caa5ac7b7b058d7251e527a67a005ead79db93220454983e86d24935143c9",
+      "size_in_bytes": 22823
+    },
+    {
+      "_path": "include/Pythia8/BeamRemnants.h",
+      "path_type": "hardlink",
+      "sha256": "4657324eff9765a40e7a9b8ec8391c38d4c26e9db6bf4bdbf13f6e72560a6ef9",
+      "size_in_bytes": 4514
+    },
+    {
+      "_path": "include/Pythia8/BeamShape.h",
+      "path_type": "hardlink",
+      "sha256": "202f8020948fc4fe18d6061ad734a6f171f4f18539416eb2d0368c475b1e8c1e",
+      "size_in_bytes": 2310
+    },
+    {
+      "_path": "include/Pythia8/BoseEinstein.h",
+      "path_type": "hardlink",
+      "sha256": "4f9a69530d51b326c30f236fe2468ca5ede22b501a6252018c471309efe806fc",
+      "size_in_bytes": 2857
+    },
+    {
+      "_path": "include/Pythia8/ColourReconnection.h",
+      "path_type": "hardlink",
+      "sha256": "511bf523ec5a57659d3cc67adf8eacd0ffbe149e1cefe7effeeedaeab7c3f055",
+      "size_in_bytes": 13922
+    },
+    {
+      "_path": "include/Pythia8/ColourTracing.h",
+      "path_type": "hardlink",
+      "sha256": "3e50bd9f3b2f5a2c1cf44117e47a24f07a459eed48d358a9feb8bb699c80e790",
+      "size_in_bytes": 1690
+    },
+    {
+      "_path": "include/Pythia8/DeuteronProduction.h",
+      "path_type": "hardlink",
+      "sha256": "977b4c13f9d1c1b44791a61123161b1f4b703dbdfdeb6a0a662228bb373e6e3a",
+      "size_in_bytes": 2851
+    },
+    {
+      "_path": "include/Pythia8/Dire.h",
+      "path_type": "hardlink",
+      "sha256": "3d4a6ba6ee0eec19f4e9b861813ac6c03cc1048b3b4f89a60daf231c7b19f70d",
+      "size_in_bytes": 5459
+    },
+    {
+      "_path": "include/Pythia8/DireBasics.h",
+      "path_type": "hardlink",
+      "sha256": "88f0baf229c1d7bbc8841c4c59abbf10f41366ba550e0cd943c994440497d5d0",
+      "size_in_bytes": 12497
+    },
+    {
+      "_path": "include/Pythia8/DireHistory.h",
+      "path_type": "hardlink",
+      "sha256": "e22f168b812af94b348dad727de50c21d83f30c1db775a9d4e4c33d39fa4af1a",
+      "size_in_bytes": 40470
+    },
+    {
+      "_path": "include/Pythia8/DireHooks.h",
+      "path_type": "hardlink",
+      "sha256": "34aa1c3dc144b4882033377e6fbd61ef74a13fef807b6b511c62926438709996",
+      "size_in_bytes": 3472
+    },
+    {
+      "_path": "include/Pythia8/DireMerging.h",
+      "path_type": "hardlink",
+      "sha256": "a7e6b56aa99c68fa7c4596e2f76d79a73f5f1c77a62cde4bbc5d31fded7caace",
+      "size_in_bytes": 8296
+    },
+    {
+      "_path": "include/Pythia8/DireMergingHooks.h",
+      "path_type": "hardlink",
+      "sha256": "374fad3f3fe11be7fccaca12cf1e22d1239d0ce752d1eeee3ba1a9c04dc2232e",
+      "size_in_bytes": 5879
+    },
+    {
+      "_path": "include/Pythia8/DireSpace.h",
+      "path_type": "hardlink",
+      "sha256": "721f83ecbd1f60fae8e735f7bad16ccf26f47ab5de3b58a72fdfd7d7bf7df8cf",
+      "size_in_bytes": 32205
+    },
+    {
+      "_path": "include/Pythia8/DireSplitInfo.h",
+      "path_type": "hardlink",
+      "sha256": "5429687c87405432ffba4d598008dfa5b846e987d0887992f04acd219d6caace",
+      "size_in_bytes": 18603
+    },
+    {
+      "_path": "include/Pythia8/DireSplittingLibrary.h",
+      "path_type": "hardlink",
+      "sha256": "d0dbe48634760cee45c935bb3f13a65303f3aa07993ebae204f2eb766ee7dc4d",
+      "size_in_bytes": 7101
+    },
+    {
+      "_path": "include/Pythia8/DireSplittings.h",
+      "path_type": "hardlink",
+      "sha256": "b63a5006e53bda8b1e9a2a19ebbe08b65e2e4066075048f7bd1ca3731fa5e450",
+      "size_in_bytes": 10648
+    },
+    {
+      "_path": "include/Pythia8/DireSplittingsEW.h",
+      "path_type": "hardlink",
+      "sha256": "6d4171004515055fe61d46140ca85de764da98c9ecf31ed83f08ac35c20e2010",
+      "size_in_bytes": 22865
+    },
+    {
+      "_path": "include/Pythia8/DireSplittingsQCD.h",
+      "path_type": "hardlink",
+      "sha256": "d353f8381bbd85490d92f2cc5abe809408becd406d6d87a05d1971d96cfaa1f2",
+      "size_in_bytes": 52522
+    },
+    {
+      "_path": "include/Pythia8/DireSplittingsQED.h",
+      "path_type": "hardlink",
+      "sha256": "ea7a06ce75f758e310f56b26d7e821e83d151d8e75fe7695a01fea60c1422591",
+      "size_in_bytes": 33619
+    },
+    {
+      "_path": "include/Pythia8/DireSplittingsU1new.h",
+      "path_type": "hardlink",
+      "sha256": "b45648fd037687b3c96a1e69e131d9e25b077deab5ca82635be8ece68fe06d5f",
+      "size_in_bytes": 29019
+    },
+    {
+      "_path": "include/Pythia8/DireTimes.h",
+      "path_type": "hardlink",
+      "sha256": "3adf1c922bd308e563034615a725556fa2898c138d3c415cb77ab3bea02395a6",
+      "size_in_bytes": 32032
+    },
+    {
+      "_path": "include/Pythia8/DireWeightContainer.h",
+      "path_type": "hardlink",
+      "sha256": "45c38f76cadf071ab71ae07bf933c995b14d8e2a3f571bb05ee3c69bbfb54bac",
+      "size_in_bytes": 7769
+    },
+    {
+      "_path": "include/Pythia8/Event.h",
+      "path_type": "hardlink",
+      "sha256": "1cdda48c86f3ac814a519dd7c4e3f507d3e1b1519b8c74f1ceb06e5a3ad80d71",
+      "size_in_bytes": 27725
+    },
+    {
+      "_path": "include/Pythia8/ExternalMEs.h",
+      "path_type": "hardlink",
+      "sha256": "7c8cc47ec559e86b7ce301f0958516bb485d648eaf12c8b04ccb883a91283618",
+      "size_in_bytes": 7669
+    },
+    {
+      "_path": "include/Pythia8/FJcore.h",
+      "path_type": "hardlink",
+      "sha256": "3e1c4b2eaa6814d4d3584e9ab32d3991ac6be169b28adfc187649fa0555146d2",
+      "size_in_bytes": 75762
+    },
+    {
+      "_path": "include/Pythia8/FragmentationFlavZpT.h",
+      "path_type": "hardlink",
+      "sha256": "56634ad8cd1a7aa5cf7b7f496504b1d43872732b1404af0ab22e9df941142ecf",
+      "size_in_bytes": 13226
+    },
+    {
+      "_path": "include/Pythia8/FragmentationSystems.h",
+      "path_type": "hardlink",
+      "sha256": "0e845c632ebb900429033b10944f0889d1c24eaac52876a46d5d62085910d18d",
+      "size_in_bytes": 8341
+    },
+    {
+      "_path": "include/Pythia8/GammaKinematics.h",
+      "path_type": "hardlink",
+      "sha256": "5ffbb6d61a1330b356c6b92f3aa623ce04ad68086b67c10ea6d41fffbf53eba6",
+      "size_in_bytes": 3286
+    },
+    {
+      "_path": "include/Pythia8/HIUserHooks.h",
+      "path_type": "hardlink",
+      "sha256": "72d5aff2b42a5d052b8ccdf55927468d8106235f882b8583267b780014280a16",
+      "size_in_bytes": 31276
+    },
+    {
+      "_path": "include/Pythia8/HadronLevel.h",
+      "path_type": "hardlink",
+      "sha256": "29cc8212aac6c7993b41aa235cef1105ba6c9c96585ed1fc7aae38df640fe827",
+      "size_in_bytes": 7150
+    },
+    {
+      "_path": "include/Pythia8/HadronWidths.h",
+      "path_type": "hardlink",
+      "sha256": "b81991ef107dae6a29a08187419ddd2f50219ddd80143f7e88298590e77f210f",
+      "size_in_bytes": 4722
+    },
+    {
+      "_path": "include/Pythia8/HardDiffraction.h",
+      "path_type": "hardlink",
+      "sha256": "5b5af9cefe92402afacfbb648f3ed86ba80c1999954e8c4137d9f4aafae5829e",
+      "size_in_bytes": 3221
+    },
+    {
+      "_path": "include/Pythia8/HeavyIons.h",
+      "path_type": "hardlink",
+      "sha256": "fd7c24ee342620abe5bcc5a641992fe87de8fec59e5ccff77d70fb6d074b932b",
+      "size_in_bytes": 13314
+    },
+    {
+      "_path": "include/Pythia8/HelicityBasics.h",
+      "path_type": "hardlink",
+      "sha256": "4e387978563f7f2521f1ddbfa158b4a57ff789b5628ed535416a5a48f0a49bb8",
+      "size_in_bytes": 8013
+    },
+    {
+      "_path": "include/Pythia8/HelicityMatrixElements.h",
+      "path_type": "hardlink",
+      "sha256": "a2ce4475c6ea29a4860774434c6da3d40f1857b51d558cdd9005242029106941",
+      "size_in_bytes": 17696
+    },
+    {
+      "_path": "include/Pythia8/HiddenValleyFragmentation.h",
+      "path_type": "hardlink",
+      "sha256": "66b7fbb0596fbe46db0432d5db277ff4d1973a5c2bb40550e9fcf0870b49ab45",
+      "size_in_bytes": 5051
+    },
+    {
+      "_path": "include/Pythia8/History.h",
+      "path_type": "hardlink",
+      "sha256": "2fe2a1630924c493a36ec189fcc6f9b4da535cdf91e12555daed5fd8e6e86828",
+      "size_in_bytes": 41030
+    },
+    {
+      "_path": "include/Pythia8/Info.h",
+      "path_type": "hardlink",
+      "sha256": "82a70a8d8c75f177642ad9ebbb1793014ec898703ba97f7dbb1aa5c205a75cad",
+      "size_in_bytes": 34277
+    },
+    {
+      "_path": "include/Pythia8/JunctionSplitting.h",
+      "path_type": "hardlink",
+      "sha256": "f811d25cc8950b0c9cac066134624241c92a6c0650dc1ca3ba3dcab108f526c4",
+      "size_in_bytes": 3128
+    },
+    {
+      "_path": "include/Pythia8/LHEF3.h",
+      "path_type": "hardlink",
+      "sha256": "620c386f4dd668f62fb82de865bb6443de0a5d446aec8f10923918e21734c1a1",
+      "size_in_bytes": 29993
+    },
+    {
+      "_path": "include/Pythia8/LesHouches.h",
+      "path_type": "hardlink",
+      "sha256": "65240211639981de5b370f853bd1adf5f8d6878bb651a8373ba44df820403cda",
+      "size_in_bytes": 22104
+    },
+    {
+      "_path": "include/Pythia8/LowEnergyProcess.h",
+      "path_type": "hardlink",
+      "sha256": "aadfe2638953e515eab3747d08e25764293353a43d6864c4fffa4744912c26e9",
+      "size_in_bytes": 4566
+    },
+    {
+      "_path": "include/Pythia8/MathTools.h",
+      "path_type": "hardlink",
+      "sha256": "e14fc21d6f51b1dea39b0a5be28d91cf59758b71fc2e76981fcdd5f368a856d7",
+      "size_in_bytes": 7165
+    },
+    {
+      "_path": "include/Pythia8/Merging.h",
+      "path_type": "hardlink",
+      "sha256": "3b93d5271cd97df2f54d4d770ef2ee7952cfaa89de158b1c6f3ba58087524bab",
+      "size_in_bytes": 2782
+    },
+    {
+      "_path": "include/Pythia8/MergingHooks.h",
+      "path_type": "hardlink",
+      "sha256": "bb7055f0ca051fe61ceb8cf2130b2e91c874990e27761d2f28fd80d11cc7568b",
+      "size_in_bytes": 36408
+    },
+    {
+      "_path": "include/Pythia8/MiniStringFragmentation.h",
+      "path_type": "hardlink",
+      "sha256": "13dca210ec5cf2e966c39e7f3bb43b4cd096439a7287f9ffd1e845c9d1097683",
+      "size_in_bytes": 2938
+    },
+    {
+      "_path": "include/Pythia8/MultipartonInteractions.h",
+      "path_type": "hardlink",
+      "sha256": "0b64fe2d75efb3386f6ce91c37f13a6d3bb922389eb6247cd821eeea816b4e85",
+      "size_in_bytes": 15570
+    },
+    {
+      "_path": "include/Pythia8/NucleonExcitations.h",
+      "path_type": "hardlink",
+      "sha256": "4ba0505b43e402fd0202b869d147da08ab4fceceba67a0954635e438982ada86",
+      "size_in_bytes": 3565
+    },
+    {
+      "_path": "include/Pythia8/ParticleData.h",
+      "path_type": "hardlink",
+      "sha256": "91527004d731b888c3acd035ef8cf80fe334cc1d50686583b72e575877daa464",
+      "size_in_bytes": 39571
+    },
+    {
+      "_path": "include/Pythia8/ParticleDecays.h",
+      "path_type": "hardlink",
+      "sha256": "15cf962f7739cda862050292f0e63bf210938620abd15caea63ec5b9538798bd",
+      "size_in_bytes": 5203
+    },
+    {
+      "_path": "include/Pythia8/PartonDistributions.h",
+      "path_type": "hardlink",
+      "sha256": "c5ef56b9fc86805857b3cef90c016aec1ab893286b2bd924896d82fdc1c37887",
+      "size_in_bytes": 39087
+    },
+    {
+      "_path": "include/Pythia8/PartonLevel.h",
+      "path_type": "hardlink",
+      "sha256": "4b05e551504c0a958b9c279065da95bde8f19929cf5988b58012d61217ee1b59",
+      "size_in_bytes": 9668
+    },
+    {
+      "_path": "include/Pythia8/PartonSystems.h",
+      "path_type": "hardlink",
+      "sha256": "d84b77b217c3c65f0bc176600beb2990fec763c3933592e48ee3fc217c2c3cfb",
+      "size_in_bytes": 3939
+    },
+    {
+      "_path": "include/Pythia8/PartonVertex.h",
+      "path_type": "hardlink",
+      "sha256": "3941582a9fc7238238446442b159487f2e83330a41840af8361005fad6020aef",
+      "size_in_bytes": 2005
+    },
+    {
+      "_path": "include/Pythia8/PhaseSpace.h",
+      "path_type": "hardlink",
+      "sha256": "2fd80f9b33d18884fc416bca3f4ef1939c7529c151ffbbdd51332d8b46178d8b",
+      "size_in_bytes": 23930
+    },
+    {
+      "_path": "include/Pythia8/PhysicsBase.h",
+      "path_type": "hardlink",
+      "sha256": "246effd889e8f2825f87fc512f644bcdff1ec20ab54cbed807e538eb221a5b76",
+      "size_in_bytes": 4488
+    },
+    {
+      "_path": "include/Pythia8/ProcessContainer.h",
+      "path_type": "hardlink",
+      "sha256": "407f5aaa8d67ccc8690faeb94678fab497095e2ff67d9bf72308c34a9e8c2191",
+      "size_in_bytes": 10123
+    },
+    {
+      "_path": "include/Pythia8/ProcessLevel.h",
+      "path_type": "hardlink",
+      "sha256": "dbce1b429b48559561f3673c67c461b62edd3f7db92fce7171e219b83af821ad",
+      "size_in_bytes": 4814
+    },
+    {
+      "_path": "include/Pythia8/Pythia.h",
+      "path_type": "hardlink",
+      "sha256": "f59f9fcfa29a9481c2ef281846f339ac3c06d0343333e78324adb21179098539",
+      "size_in_bytes": 21880
+    },
+    {
+      "_path": "include/Pythia8/PythiaComplex.h",
+      "path_type": "hardlink",
+      "sha256": "ad5dd96ba2f67397f29074701c8ae64fe1d9bbdd35d5ab186cff25e11aac66a6",
+      "size_in_bytes": 714
+    },
+    {
+      "_path": "include/Pythia8/PythiaParallel.h",
+      "path_type": "hardlink",
+      "sha256": "25db245a069487558adcf2ee3efa74736aac0a40f99b153eb2c9cd5a31a78e67",
+      "size_in_bytes": 3034
+    },
+    {
+      "_path": "include/Pythia8/PythiaStdlib.h",
+      "path_type": "hardlink",
+      "sha256": "aed880834914cf4ee3f3a9925970e79419c20af8c9c5c900d5b41035a69b16f5",
+      "size_in_bytes": 5777
+    },
+    {
+      "_path": "include/Pythia8/RHadrons.h",
+      "path_type": "hardlink",
+      "sha256": "75f4f19561e5c7d8c24629eefad7146446f95372f1d811335cf3b16cc33961bc",
+      "size_in_bytes": 4131
+    },
+    {
+      "_path": "include/Pythia8/ResonanceDecays.h",
+      "path_type": "hardlink",
+      "sha256": "92f1e8b3e72412ebb5d1ccb11e75411f121bb7d97111980b3a3872981556d6a2",
+      "size_in_bytes": 2015
+    },
+    {
+      "_path": "include/Pythia8/ResonanceWidths.h",
+      "path_type": "hardlink",
+      "sha256": "f9849cb64f625246bd97c3eda2010932dbdab53c9dbcc726c17d51b089a4dab6",
+      "size_in_bytes": 20512
+    },
+    {
+      "_path": "include/Pythia8/ResonanceWidthsDM.h",
+      "path_type": "hardlink",
+      "sha256": "67aaeda58ccf81ec7fbf3ee21d25fecbb18838ebff164866366d901f6acb879c",
+      "size_in_bytes": 5034
+    },
+    {
+      "_path": "include/Pythia8/Ropewalk.h",
+      "path_type": "hardlink",
+      "sha256": "c54783cb06bee6c8d9729f7062b41ce508338d71ab98de54fe8eb30acfc0bbe8",
+      "size_in_bytes": 14469
+    },
+    {
+      "_path": "include/Pythia8/SLHAinterface.h",
+      "path_type": "hardlink",
+      "sha256": "a474ad78cc0e81baf2ee870e127b628b80a7dfa3fda85ccff350fbf476df13dd",
+      "size_in_bytes": 2314
+    },
+    {
+      "_path": "include/Pythia8/Settings.h",
+      "path_type": "hardlink",
+      "sha256": "f838a13536040542d0bdd9f3c1ebe321b1890417f0cf981d15154c7bce4faa63",
+      "size_in_bytes": 13483
+    },
+    {
+      "_path": "include/Pythia8/SharedPointers.h",
+      "path_type": "hardlink",
+      "sha256": "1fb98b5ae11cde469ebc0a0c271d18b0061a455e0d8eb1d847c19714eb63bb01",
+      "size_in_bytes": 2140
+    },
+    {
+      "_path": "include/Pythia8/ShowerModel.h",
+      "path_type": "hardlink",
+      "sha256": "8596691ba89ffe629cdbf468f098afa26f4506ea7c8fad18d9ce8a60b13cd73b",
+      "size_in_bytes": 3815
+    },
+    {
+      "_path": "include/Pythia8/SigmaCompositeness.h",
+      "path_type": "hardlink",
+      "sha256": "052325cd56f7085761200bb25aabdc6250fc29557dc483a41d72bc958ac78701",
+      "size_in_bytes": 10975
+    },
+    {
+      "_path": "include/Pythia8/SigmaDM.h",
+      "path_type": "hardlink",
+      "sha256": "8b37002f7dc67fa3179cde916c096ded46bf808c84dedd88db7123d68c2ff546",
+      "size_in_bytes": 9248
+    },
+    {
+      "_path": "include/Pythia8/SigmaEW.h",
+      "path_type": "hardlink",
+      "sha256": "e2abaededd7cccd3e898fbfe745ed0ae4b00e29e7a5c4e5c579b91e4de053219",
+      "size_in_bytes": 34917
+    },
+    {
+      "_path": "include/Pythia8/SigmaExtraDim.h",
+      "path_type": "hardlink",
+      "sha256": "0982b46e3d3ddbccd4d3e556ec6438fc737d9fb5572d213f96f5095215cdd4fe",
+      "size_in_bytes": 31532
+    },
+    {
+      "_path": "include/Pythia8/SigmaGeneric.h",
+      "path_type": "hardlink",
+      "sha256": "1895ee5823fa34ac19297c690a1e9371d8cc54c267e8e371313a7aeff4ffaefa",
+      "size_in_bytes": 5888
+    },
+    {
+      "_path": "include/Pythia8/SigmaHiggs.h",
+      "path_type": "hardlink",
+      "sha256": "7ed71366bb4ba8804411000a8ca1e12b84982e92d2d00b717322c789a952fa55",
+      "size_in_bytes": 24875
+    },
+    {
+      "_path": "include/Pythia8/SigmaLeftRightSym.h",
+      "path_type": "hardlink",
+      "sha256": "2a874efe282c98f1c875ee07a8df813dc21c485d0bf426531f07b9ab35e74b44",
+      "size_in_bytes": 8321
+    },
+    {
+      "_path": "include/Pythia8/SigmaLeptoquark.h",
+      "path_type": "hardlink",
+      "sha256": "f788f41da211c4bf3a0e1b8c5e7ee5c42662a5348efd4b905365674f39fc8a46",
+      "size_in_bytes": 5139
+    },
+    {
+      "_path": "include/Pythia8/SigmaLowEnergy.h",
+      "path_type": "hardlink",
+      "sha256": "9fffb423eab2b42edddc5e89369af5aeadc48fffbe6edd881ce5c9d618c8bf82",
+      "size_in_bytes": 5612
+    },
+    {
+      "_path": "include/Pythia8/SigmaNewGaugeBosons.h",
+      "path_type": "hardlink",
+      "sha256": "d25bcb47df8342c2ca4fa63cfbb97df27a409cc1037781b7eadade200f07126c",
+      "size_in_bytes": 5855
+    },
+    {
+      "_path": "include/Pythia8/SigmaOnia.h",
+      "path_type": "hardlink",
+      "sha256": "2993ed190d5fa6ca647111b4e4271ec0aea28ef5096acffbf74b4f13811da56f",
+      "size_in_bytes": 13504
+    },
+    {
+      "_path": "include/Pythia8/SigmaProcess.h",
+      "path_type": "hardlink",
+      "sha256": "59fd309978b2e38c36a4ea5fba425de266e6276421eab774001c899ef4fbad5a",
+      "size_in_bytes": 23939
+    },
+    {
+      "_path": "include/Pythia8/SigmaQCD.h",
+      "path_type": "hardlink",
+      "sha256": "8666550e1c987b754e3e49fe2375b6b36cafac6011c4e45f3cb49fb2415c0421",
+      "size_in_bytes": 22994
+    },
+    {
+      "_path": "include/Pythia8/SigmaSUSY.h",
+      "path_type": "hardlink",
+      "sha256": "a07966300ea211afc1208c4b81542487f8a1ab592dcded2b089a654b522f125f",
+      "size_in_bytes": 23470
+    },
+    {
+      "_path": "include/Pythia8/SigmaTotal.h",
+      "path_type": "hardlink",
+      "sha256": "02837dbf21d6b8f5c1adc8a8f657c9ab958aed73077b004232d916fc8b757e53",
+      "size_in_bytes": 21577
+    },
+    {
+      "_path": "include/Pythia8/SimpleSpaceShower.h",
+      "path_type": "hardlink",
+      "sha256": "73eb22884dd57bc1a0951c130ebeb69216aa479715a695aee77ba9130b17610b",
+      "size_in_bytes": 11409
+    },
+    {
+      "_path": "include/Pythia8/SimpleTimeShower.h",
+      "path_type": "hardlink",
+      "sha256": "0a68f3920c626d94a28b0228a16c59594fe6db9d72aa377a2dd46f82feef21d6",
+      "size_in_bytes": 15169
+    },
+    {
+      "_path": "include/Pythia8/SimpleWeakShowerMEs.h",
+      "path_type": "hardlink",
+      "sha256": "f9d3b46481308a4ff0f6c1741d20c52e02809683fa34e8465a5d02bb1dde16eb",
+      "size_in_bytes": 2387
+    },
+    {
+      "_path": "include/Pythia8/SpaceShower.h",
+      "path_type": "hardlink",
+      "sha256": "4d03fae120eb77cb7ac04adc185efd363125655271268f82b2b1bd57da75e1f1",
+      "size_in_bytes": 6942
+    },
+    {
+      "_path": "include/Pythia8/StandardModel.h",
+      "path_type": "hardlink",
+      "sha256": "d7642481d607435b44686621ff028be1befd320dc3211334ccc9548192675858",
+      "size_in_bytes": 7227
+    },
+    {
+      "_path": "include/Pythia8/Streams.h",
+      "path_type": "hardlink",
+      "sha256": "fd54a78574646440c5379a1e1c2fbb6b75d447e35c8d43cf74869a8b5f851a70",
+      "size_in_bytes": 4207
+    },
+    {
+      "_path": "include/Pythia8/StringFragmentation.h",
+      "path_type": "hardlink",
+      "sha256": "4b458c34551cfe080e7aa27e2a0f55246306569cda7a67ff437a10906d1ef892",
+      "size_in_bytes": 8387
+    },
+    {
+      "_path": "include/Pythia8/StringInteractions.h",
+      "path_type": "hardlink",
+      "sha256": "4c454903c7748b82ca99963b85927edd63ce1ae625ba01539e5a62ae8249a397",
+      "size_in_bytes": 6816
+    },
+    {
+      "_path": "include/Pythia8/StringLength.h",
+      "path_type": "hardlink",
+      "sha256": "a35ff0ad0f89e32d7e6ac8e05b282379f04e04601a069b3038d0e612c4bdab62",
+      "size_in_bytes": 2522
+    },
+    {
+      "_path": "include/Pythia8/SusyCouplings.h",
+      "path_type": "hardlink",
+      "sha256": "3e75f3c9880694f9e31f89cefe50e2100118837156a229aedc8bf99a74542d93",
+      "size_in_bytes": 5480
+    },
+    {
+      "_path": "include/Pythia8/SusyLesHouches.h",
+      "path_type": "hardlink",
+      "sha256": "023c81ef530533963a000caab48777b01ab1cf4dbf00355d0e82c3e1dc0095b9",
+      "size_in_bytes": 29717
+    },
+    {
+      "_path": "include/Pythia8/SusyResonanceWidths.h",
+      "path_type": "hardlink",
+      "sha256": "451ded7377902bf4aab0be7f87dba41f5d95ec33cc9299876a160ab8035ea069",
+      "size_in_bytes": 5101
+    },
+    {
+      "_path": "include/Pythia8/SusyWidthFunctions.h",
+      "path_type": "hardlink",
+      "sha256": "85aa010cc960689471dc3eedd9f1e8630a2b798bfc6f96a8c87f33e4a9b554de",
+      "size_in_bytes": 2088
+    },
+    {
+      "_path": "include/Pythia8/TauDecays.h",
+      "path_type": "hardlink",
+      "sha256": "c459120418545a467a47596947b31d97b51d3c2eeea167b7500ec651a8b2d162",
+      "size_in_bytes": 3720
+    },
+    {
+      "_path": "include/Pythia8/TimeShower.h",
+      "path_type": "hardlink",
+      "sha256": "03cea6bdb0ee4b92cc3aa00cf98b7d55f43652b7cfb4681bd75697084ca0ed96",
+      "size_in_bytes": 8719
+    },
+    {
+      "_path": "include/Pythia8/UserHooks.h",
+      "path_type": "hardlink",
+      "sha256": "43a3e1b7d661bf82474becafa7969cbee4966dfbd020184b1790702f3301d6f8",
+      "size_in_bytes": 25722
+    },
+    {
+      "_path": "include/Pythia8/Vincia.h",
+      "path_type": "hardlink",
+      "sha256": "59cd87b4cd4851be6993dcb2695ab17151a2ce68302b06cc28f175a42776e24b",
+      "size_in_bytes": 3947
+    },
+    {
+      "_path": "include/Pythia8/VinciaAntennaFunctions.h",
+      "path_type": "hardlink",
+      "sha256": "4f349a4b619d4039c890189220b3a537e87c784e588a5c6e9d4fd1fc4d630818",
+      "size_in_bytes": 47591
+    },
+    {
+      "_path": "include/Pythia8/VinciaCommon.h",
+      "path_type": "hardlink",
+      "sha256": "4c138a9771550970f01ee1ecf84bd6b7fe60f6adb50d28d79b06594ef5284724",
+      "size_in_bytes": 25414
+    },
+    {
+      "_path": "include/Pythia8/VinciaDiagnostics.h",
+      "path_type": "hardlink",
+      "sha256": "5bb6fcb344a7d315bed20d53407957bb911d924cc802cd4834aa09846e0d2d60",
+      "size_in_bytes": 1428
+    },
+    {
+      "_path": "include/Pythia8/VinciaEW.h",
+      "path_type": "hardlink",
+      "sha256": "73d2ab3a9fbf25f5703d8aab756e9dd4f2d21bdcd2a7767b37f25786ca12340c",
+      "size_in_bytes": 44882
+    },
+    {
+      "_path": "include/Pythia8/VinciaFSR.h",
+      "path_type": "hardlink",
+      "sha256": "a32a0947ac050ad2bff58b5050ed46476dedc0f2b97a424da1414715f45059fb",
+      "size_in_bytes": 39283
+    },
+    {
+      "_path": "include/Pythia8/VinciaHistory.h",
+      "path_type": "hardlink",
+      "sha256": "06ad4461d973c4a0a542f5b793c6a4c126d704ae2db472d2d17b6f303b0692fa",
+      "size_in_bytes": 12599
+    },
+    {
+      "_path": "include/Pythia8/VinciaISR.h",
+      "path_type": "hardlink",
+      "sha256": "b90fc79a4d391fbad0b13df8338d30658f2a9a07c1d2e809ccbfe98806eb3c09",
+      "size_in_bytes": 51161
+    },
+    {
+      "_path": "include/Pythia8/VinciaMerging.h",
+      "path_type": "hardlink",
+      "sha256": "afe0d944ef010f1b10e9523828b4e29be531d6690d05abed03bee914731a583b",
+      "size_in_bytes": 1770
+    },
+    {
+      "_path": "include/Pythia8/VinciaMergingHooks.h",
+      "path_type": "hardlink",
+      "sha256": "2debddc5b456d8c4d153eae073ce1fdcfb20d1c2ac8da35f169b3037ac3589fe",
+      "size_in_bytes": 18556
+    },
+    {
+      "_path": "include/Pythia8/VinciaQED.h",
+      "path_type": "hardlink",
+      "sha256": "b3273e1ea82f05d89a40f72ed374fcb581c0339cb9bdcfc5b706dde60d20a54f",
+      "size_in_bytes": 17282
+    },
+    {
+      "_path": "include/Pythia8/VinciaTrialGenerators.h",
+      "path_type": "hardlink",
+      "sha256": "adff2706ae712e18af7970e069a7ac3d7300c52e6dd7990f11d2f048313ae371",
+      "size_in_bytes": 30080
+    },
+    {
+      "_path": "include/Pythia8/VinciaWeights.h",
+      "path_type": "hardlink",
+      "sha256": "196204eb5f313b9ff436217f9aebd3fb5fd6438d9864320ffbd65a916076843c",
+      "size_in_bytes": 2814
+    },
+    {
+      "_path": "include/Pythia8/Weights.h",
+      "path_type": "hardlink",
+      "sha256": "f2921206448396b04191a0f505e1d3ee91a0d7c9c0035de6cafb299568165323",
+      "size_in_bytes": 14378
+    },
+    {
+      "_path": "include/Pythia8Plugins/ColourReconnectionHooks.h",
+      "path_type": "hardlink",
+      "sha256": "7ffc797cd2eeffb479f8ee906adc7041277f39b98f5ee6be297acdcfc6859c2c",
+      "size_in_bytes": 33574
+    },
+    {
+      "_path": "include/Pythia8Plugins/CombineMatchingInput.h",
+      "path_type": "hardlink",
+      "sha256": "fad4477fd1c567f489447ba5b84cede8ae0b243e751f54182776dbe45dc03b04",
+      "size_in_bytes": 4807
+    },
+    {
+      "_path": "include/Pythia8Plugins/EvtGen.h",
+      "path_type": "hardlink",
+      "sha256": "d37336ac1313857cca19c08281b0587ef37b172006aaf653376ff33353d3a50a",
+      "size_in_bytes": 24334
+    },
+    {
+      "_path": "include/Pythia8Plugins/ExternalMEsMadgraph.h",
+      "path_type": "hardlink",
+      "sha256": "6822034dcd081a03eb2e7bc46fa055457cac164e322b3d0a6e95fa0146d08e3f",
+      "size_in_bytes": 12237
+    },
+    {
+      "_path": "include/Pythia8Plugins/FastJet3.h",
+      "path_type": "hardlink",
+      "sha256": "f53a82fd46f7db28e126f7d174517d6262be8335b6c05e4cae6e842d8cbb833c",
+      "size_in_bytes": 8334
+    },
+    {
+      "_path": "include/Pythia8Plugins/GeneratorInput.h",
+      "path_type": "hardlink",
+      "sha256": "853172bf10cf241a60a9708959e97cbb8dd7d7bfbf9ca38fabaed967bfdf736a",
+      "size_in_bytes": 40999
+    },
+    {
+      "_path": "include/Pythia8Plugins/HepMC2.h",
+      "path_type": "hardlink",
+      "sha256": "9a5a0178eff41461814db830072b3ae2889c09cae59e9a74da71b1a4bbc6b106",
+      "size_in_bytes": 19140
+    },
+    {
+      "_path": "include/Pythia8Plugins/HepMC3.h",
+      "path_type": "hardlink",
+      "sha256": "7f5d6a8b276ad34696eab3ee7be3f476b08a5babaf5e785e130dbac6dbc0d080",
+      "size_in_bytes": 16068
+    },
+    {
+      "_path": "include/Pythia8Plugins/JetMatching.h",
+      "path_type": "hardlink",
+      "sha256": "9af2d5a01ec2bbeb85a1ce91ee50c18be7cd655526d0da9a747f88358bab47ac",
+      "size_in_bytes": 73561
+    },
+    {
+      "_path": "include/Pythia8Plugins/LHAFortran.h",
+      "path_type": "hardlink",
+      "sha256": "a5f32da76d820386714184a6c594471ebba3ff772baddf7a13e1d5c9895f6d0b",
+      "size_in_bytes": 3895
+    },
+    {
+      "_path": "include/Pythia8Plugins/LHAHDF5.h",
+      "path_type": "hardlink",
+      "sha256": "90b0ff63523183beb03b3958947d3459c7fd3c593e4050b30b98691db3cc79b6",
+      "size_in_bytes": 8169
+    },
+    {
+      "_path": "include/Pythia8Plugins/LHAHelaconia.h",
+      "path_type": "hardlink",
+      "sha256": "53da0c1efcd609f9926ccc80625d78b020262d11b9e077e4a7f3144ba617d4b5",
+      "size_in_bytes": 14132
+    },
+    {
+      "_path": "include/Pythia8Plugins/LHAMadgraph.h",
+      "path_type": "hardlink",
+      "sha256": "18d866e8b5e707422559cf69ff679a4c01d0004d4e1a43751ed68c862facca7f",
+      "size_in_bytes": 24807
+    },
+    {
+      "_path": "include/Pythia8Plugins/LHAPDF5.h",
+      "path_type": "hardlink",
+      "sha256": "1f081de49c1fb4b2ea042621495f434a446bf0186b69ac3c3c919a9f706b3ddb",
+      "size_in_bytes": 8574
+    },
+    {
+      "_path": "include/Pythia8Plugins/LHAPDF6.h",
+      "path_type": "hardlink",
+      "sha256": "23487e93ff07f73e59f06813220d64af5321c4e81d552014916b8fbbdd2456ba",
+      "size_in_bytes": 9329
+    },
+    {
+      "_path": "include/Pythia8Plugins/LHAPowheg.h",
+      "path_type": "hardlink",
+      "sha256": "9df5365924f1d12af9aa5991c0398314a4b00281dba376403bf2eeec16b219a1",
+      "size_in_bytes": 3858
+    },
+    {
+      "_path": "include/Pythia8Plugins/LHEH5.h",
+      "path_type": "hardlink",
+      "sha256": "bec7a9347efa161e2879174cee70c174785aa71b7cda3ce00ac3d830346634cb",
+      "size_in_bytes": 21191
+    },
+    {
+      "_path": "include/Pythia8Plugins/MixMax.h",
+      "path_type": "hardlink",
+      "sha256": "a53a5f996b4e9a8094e4de3b351dbda8627f31871077204bbe3e5e6475736938",
+      "size_in_bytes": 68744
+    },
+    {
+      "_path": "include/Pythia8Plugins/PowhegHooks.h",
+      "path_type": "hardlink",
+      "sha256": "2f58d73cfb76300793efa354f9c6d4d3ed9031be1ecb136dfdcca384e8ed19b8",
+      "size_in_bytes": 18354
+    },
+    {
+      "_path": "include/Pythia8Plugins/PowhegHooksVincia.h",
+      "path_type": "hardlink",
+      "sha256": "9a8bc3f00147705f161a19ee2e9d11c2ab45f1c3075b26f36c04dd3c2948f2f1",
+      "size_in_bytes": 19091
+    },
+    {
+      "_path": "include/Pythia8Plugins/PowhegProcs.h",
+      "path_type": "hardlink",
+      "sha256": "121dc65562fa3cad2b78f41a24e6ea6e5d4f47037c6edae4994053e2611350ff",
+      "size_in_bytes": 5359
+    },
+    {
+      "_path": "include/Pythia8Plugins/ProgressLog.h",
+      "path_type": "hardlink",
+      "sha256": "ea7c3b68e1c9412d4f1233a5dcfc8140d13ef2d9e03ddb6732909edae6795450",
+      "size_in_bytes": 5300
+    },
+    {
+      "_path": "include/Pythia8Plugins/Pythia8Rivet.h",
+      "path_type": "hardlink",
+      "sha256": "de7072905074b283ab8d4425f03453d86ebfcb0b8e806db0ab3769ced094f063",
+      "size_in_bytes": 4707
+    },
+    {
+      "_path": "include/Pythia8Plugins/ResonanceDecayFilterHook.h",
+      "path_type": "hardlink",
+      "sha256": "c90dabedd57d9155e36f7dd09c7da93bf66071426604670c4d38530a6db699ff",
+      "size_in_bytes": 7426
+    },
+    {
+      "_path": "include/Pythia8Plugins/Visualisation.h",
+      "path_type": "hardlink",
+      "sha256": "872e68543f9002f0d10404e42bbfb50b62a7816256e6cebf0b772700933e49ed",
+      "size_in_bytes": 11664
+    },
+    {
+      "_path": "include/Pythia8Plugins/aMCatNLOHooks.h",
+      "path_type": "hardlink",
+      "sha256": "4479dd9bb311bdddbca107ab2bf8a7d8d47c1c40bb4d7ccc113602829397d9b4",
+      "size_in_bytes": 8130
+    },
+    {
+      "_path": "include/Pythia8Plugins/execinfo.h",
+      "path_type": "hardlink",
+      "sha256": "2b08f35f6219abd9789e0478b8e4e9c83da0b311c27663948c53c7136571b063",
+      "size_in_bytes": 457
+    },
+    {
+      "_path": "lib/libpythia8.a",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/chof/mambaforge/envs/py310/conda-bld/pythia8_1682949918734/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+      "sha256": "f649e05d8ddc2ba4647e080a4be5c2aad3053903ef923404e46fe7edec9deb6a",
+      "size_in_bytes": 24697308
+    },
+    {
+      "_path": "lib/libpythia8.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/chof/mambaforge/envs/py310/conda-bld/pythia8_1682949918734/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+      "sha256": "6570dd0454a856798621714ee3c2a4bb0b1ef36c4bd9a490b4b021550ccf9a99",
+      "size_in_bytes": 13345536
+    },
+    {
+      "_path": "lib/libpythia8lhapdf6.so",
+      "path_type": "hardlink",
+      "sha256": "b5c2b60d4f1c179b479d96537d580aeda831e2ad92fb16de8f46bbd28ead9f12",
+      "size_in_bytes": 69192
+    },
+    {
+      "_path": "lib/pythia8.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/chof/mambaforge/envs/py310/conda-bld/pythia8_1682949918734/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+      "sha256": "a8b0125a9d602e72f42e10fdfbe36835a24e71519e8ce337cf69f0ea18c72616",
+      "size_in_bytes": 7171264
+    },
+    {
+      "_path": "lib/python3.10/site-packages/pythia8.so",
+      "path_type": "softlink",
+      "sha256": "a8b0125a9d602e72f42e10fdfbe36835a24e71519e8ce337cf69f0ea18c72616",
+      "size_in_bytes": 7171264
+    },
+    {
+      "_path": "share/Pythia8/AUTHORS",
+      "path_type": "hardlink",
+      "sha256": "5b7ba60a16e9523cd5e3387bd95cfbd84e351e6907b28f3e09abfbc019bbe08b",
+      "size_in_bytes": 650
+    },
+    {
+      "_path": "share/Pythia8/COPYING",
+      "path_type": "hardlink",
+      "sha256": "640d90f6ee401241ff62834d0d1b33f83049e99b8bfdfa04ed1b0a1635dde3e7",
+      "size_in_bytes": 18093
+    },
+    {
+      "_path": "share/Pythia8/GUIDELINES",
+      "path_type": "hardlink",
+      "sha256": "98eb8d88093a6abbe11f9543b65d5d9ca0497916d9e5374136f15b5550879a0d",
+      "size_in_bytes": 4736
+    },
+    {
+      "_path": "share/Pythia8/README",
+      "path_type": "hardlink",
+      "sha256": "75cee1ad87175d78a36300951372819a6de15a6c386ee698b8b33fd65af096ad",
+      "size_in_bytes": 18121
+    },
+    {
+      "_path": "share/Pythia8/examples/Makefile",
+      "path_type": "hardlink",
+      "sha256": "25f99774037c73662ea333b44ba343f05db21fb76ac42a873105dd31e91511eb",
+      "size_in_bytes": 6392
+    },
+    {
+      "_path": "share/Pythia8/examples/Makefile.inc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/chof/mambaforge/envs/py310/conda-bld/pythia8_1682949918734/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla",
+      "sha256": "87f6e611696955e23579146ff0edd50e5679bfe7a7ff8fbdb420bc3a90d2e3e9",
+      "size_in_bytes": 8169
+    },
+    {
+      "_path": "share/Pythia8/examples/README",
+      "path_type": "hardlink",
+      "sha256": "5f4788d4dfcc03103952782954775cf2effd392b01293413f843ae41e2b24c89",
+      "size_in_bytes": 3853
+    },
+    {
+      "_path": "share/Pythia8/examples/__pycache__/main01.cpython-310.pyc",
+      "path_type": "hardlink",
+      "sha256": "1155800822e9b72fe8d1ca9259f144c94221da24f63d84567fa8cd5be86e1ebf",
+      "size_in_bytes": 750
+    },
+    {
+      "_path": "share/Pythia8/examples/__pycache__/main10.cpython-310.pyc",
+      "path_type": "hardlink",
+      "sha256": "0113f906a356bbefafab885e0e82174067ef7f5b7c09f6913bb0b6c0a6426e4b",
+      "size_in_bytes": 2957
+    },
+    {
+      "_path": "share/Pythia8/examples/__pycache__/main34.cpython-310.pyc",
+      "path_type": "hardlink",
+      "sha256": "0feeec3f65433851b72241b67478fa6e64e20918245447187981ff566fcf3a3d",
+      "size_in_bytes": 1667
+    },
+    {
+      "_path": "share/Pythia8/examples/main01.cc",
+      "path_type": "hardlink",
+      "sha256": "fd665891fa60e7c727959994dc469c29ae82b5912ac01c2650be3fc434b366d6",
+      "size_in_bytes": 1291
+    },
+    {
+      "_path": "share/Pythia8/examples/main01.py",
+      "path_type": "hardlink",
+      "sha256": "2e108c2050e1273c7e8ad12a78288a427e9d35f55a565efe496d2e0941c1c138",
+      "size_in_bytes": 1572
+    },
+    {
+      "_path": "share/Pythia8/examples/main02.cc",
+      "path_type": "hardlink",
+      "sha256": "788e90ea32cd554c1ae5b6f212807a5468303c91b45768c8ee3374a9c7185918",
+      "size_in_bytes": 1334
+    },
+    {
+      "_path": "share/Pythia8/examples/main03.cc",
+      "path_type": "hardlink",
+      "sha256": "8af68e38f0a95b4f53bf2193720dfa70d8a366be5d1f5e8735f32c0e0de881ce",
+      "size_in_bytes": 4441
+    },
+    {
+      "_path": "share/Pythia8/examples/main03.cmnd",
+      "path_type": "hardlink",
+      "sha256": "d05e11676e7afaeef969448dace6f9159bb810320cff6aee7fc90227ca87b396",
+      "size_in_bytes": 2667
+    },
+    {
+      "_path": "share/Pythia8/examples/main04.cc",
+      "path_type": "hardlink",
+      "sha256": "ba780b7fd3c67b2933207225523e193af7addcc864a7333468ff026991b93027",
+      "size_in_bytes": 8788
+    },
+    {
+      "_path": "share/Pythia8/examples/main04.cmnd",
+      "path_type": "hardlink",
+      "sha256": "85019f14458cf0302265d97c5e4da02790ffbb0a2330ebd8bd1bbd380c85e0a7",
+      "size_in_bytes": 2919
+    },
+    {
+      "_path": "share/Pythia8/examples/main04_photons.cmnd",
+      "path_type": "hardlink",
+      "sha256": "9302516ef1c48b47ea99565647f146022382797c2502d012df4aefe86cc3dddc",
+      "size_in_bytes": 2033
+    },
+    {
+      "_path": "share/Pythia8/examples/main05.cc",
+      "path_type": "hardlink",
+      "sha256": "4b3bda941f5207921c38fc9cd9f1ad486931fa3d4bf9cc14af70ac59cfdda0b8",
+      "size_in_bytes": 5155
+    },
+    {
+      "_path": "share/Pythia8/examples/main06.cc",
+      "path_type": "hardlink",
+      "sha256": "0551fce417df6dd22ad19f794b24bba2446fa9151a6c741e2244ac9d89cba1fd",
+      "size_in_bytes": 4959
+    },
+    {
+      "_path": "share/Pythia8/examples/main07.cc",
+      "path_type": "hardlink",
+      "sha256": "d497855ffd827c39111714c77e7fce65a5bc50b9ff5b8c4dc3848cfa933eea06",
+      "size_in_bytes": 4610
+    },
+    {
+      "_path": "share/Pythia8/examples/main07.cmnd",
+      "path_type": "hardlink",
+      "sha256": "d8d2912127c28db3f280fd8c6c6f5f5eb2c4bade8aa320af80bb03c6a4b62353",
+      "size_in_bytes": 2102
+    },
+    {
+      "_path": "share/Pythia8/examples/main08.cc",
+      "path_type": "hardlink",
+      "sha256": "5d1c268e3df537f1fcab20aa2e6509ca265c0778dacbf364b8431502bcbda87b",
+      "size_in_bytes": 7067
+    },
+    {
+      "_path": "share/Pythia8/examples/main08.cmnd",
+      "path_type": "hardlink",
+      "sha256": "5fdc5daa34a3fe443b845318a5648ac47473e9c4da0bb45cce046bcf86827d3b",
+      "size_in_bytes": 750
+    },
+    {
+      "_path": "share/Pythia8/examples/main09.cc",
+      "path_type": "hardlink",
+      "sha256": "c08878e1e93540cb4169d90ca75982ed9a2573026f3c56866487768ee384dd79",
+      "size_in_bytes": 2738
+    },
+    {
+      "_path": "share/Pythia8/examples/main10.cc",
+      "path_type": "hardlink",
+      "sha256": "4185dd1dc5ff5ed64eada74934fde0eef1d5866af25b34dce184653ff3250329",
+      "size_in_bytes": 4756
+    },
+    {
+      "_path": "share/Pythia8/examples/main10.py",
+      "path_type": "hardlink",
+      "sha256": "f34340356ae2d2985c2672185a759603322d1980f889f9c076f2d1145cab52e3",
+      "size_in_bytes": 4791
+    },
+    {
+      "_path": "share/Pythia8/examples/main101.cc",
+      "path_type": "hardlink",
+      "sha256": "75dbf35313a3ec6fb887c6ecbacc3e91c1e1acf975485d5b4f31547822368ff3",
+      "size_in_bytes": 4256
+    },
+    {
+      "_path": "share/Pythia8/examples/main102.cc",
+      "path_type": "hardlink",
+      "sha256": "d5ba907422598267a5dac5ec1d1797ee9f10714d40fb6a8f8691cc3a6e05827d",
+      "size_in_bytes": 3789
+    },
+    {
+      "_path": "share/Pythia8/examples/main103.cc",
+      "path_type": "hardlink",
+      "sha256": "be5aae802b5d0cb789ebc94dfcb74592807f8b6cc95cb523d0818621d0b426d2",
+      "size_in_bytes": 2635
+    },
+    {
+      "_path": "share/Pythia8/examples/main103.cmnd",
+      "path_type": "hardlink",
+      "sha256": "1f7ddbceec6189f6980c2858e2e3b5dfd696fce3532001b815d9af995182ec5c",
+      "size_in_bytes": 1603
+    },
+    {
+      "_path": "share/Pythia8/examples/main11.cc",
+      "path_type": "hardlink",
+      "sha256": "aed1ab640810797984908a31ad0b125bbc60cb9f07618b8e5f1987df140571bb",
+      "size_in_bytes": 2180
+    },
+    {
+      "_path": "share/Pythia8/examples/main111.cc",
+      "path_type": "hardlink",
+      "sha256": "98f3c355aa3d133e2e1883d1ce190866c2c59e97747cc33ef7f31c919b2b9815",
+      "size_in_bytes": 2695
+    },
+    {
+      "_path": "share/Pythia8/examples/main112.cc",
+      "path_type": "hardlink",
+      "sha256": "2f6330af9427c0a26a2b832a0da141fa7db75e935a460c880928289a36fc70a0",
+      "size_in_bytes": 7623
+    },
+    {
+      "_path": "share/Pythia8/examples/main113.cc",
+      "path_type": "hardlink",
+      "sha256": "4b89d1a33b7f2b7ff192eb729dde1427631def3e9673302a4019683b5f9188e8",
+      "size_in_bytes": 9156
+    },
+    {
+      "_path": "share/Pythia8/examples/main12.cc",
+      "path_type": "hardlink",
+      "sha256": "00f42528981d7fa77b65179582aa954c595a21cbf292f2846c9d6e45c5d6468b",
+      "size_in_bytes": 3593
+    },
+    {
+      "_path": "share/Pythia8/examples/main121.cc",
+      "path_type": "hardlink",
+      "sha256": "b03f3e281b824f086fd9866be1d55cf3cad2bcb70b8dabba11d975ba68e0e03d",
+      "size_in_bytes": 3753
+    },
+    {
+      "_path": "share/Pythia8/examples/main121.cmnd",
+      "path_type": "hardlink",
+      "sha256": "324ce788712713b7eabca528233786354960f6f7cc529700032e45476a64f248",
+      "size_in_bytes": 1407
+    },
+    {
+      "_path": "share/Pythia8/examples/main13.cc",
+      "path_type": "hardlink",
+      "sha256": "9bdfef57387c9f2501ab51d849ad7f4547292cdea3956408fe5ab2de4a289b77",
+      "size_in_bytes": 2062
+    },
+    {
+      "_path": "share/Pythia8/examples/main13.cmnd",
+      "path_type": "hardlink",
+      "sha256": "9486e7e09d892869052db4dd941e58aafb1b963014a2ef41584ffa0831eedc19",
+      "size_in_bytes": 1529
+    },
+    {
+      "_path": "share/Pythia8/examples/main14.cc",
+      "path_type": "hardlink",
+      "sha256": "e5be0b2d4b0e8ed0104f31035badf169b36687f38153612aa516e91c7aa1da32",
+      "size_in_bytes": 7648
+    },
+    {
+      "_path": "share/Pythia8/examples/main15.cc",
+      "path_type": "hardlink",
+      "sha256": "a0e36e5cb063283853472bdf2d7418b1f89096f37d6cca0a437da48f9658676b",
+      "size_in_bytes": 7442
+    },
+    {
+      "_path": "share/Pythia8/examples/main151.cc",
+      "path_type": "hardlink",
+      "sha256": "853591b4009b9925769413a8bf7503082354f309114509e33d0ebd39020e030e",
+      "size_in_bytes": 4230
+    },
+    {
+      "_path": "share/Pythia8/examples/main152.cc",
+      "path_type": "hardlink",
+      "sha256": "4b17a4b36b33fe3ca556aabfa12fdca4146f20ca26fa919f077383b0ee70ccd3",
+      "size_in_bytes": 5992
+    },
+    {
+      "_path": "share/Pythia8/examples/main153.cc",
+      "path_type": "hardlink",
+      "sha256": "50decab37d965c89b8509ff95c1c5dbb4426ed2cb4132a64e7d20be16c5a3ee4",
+      "size_in_bytes": 2008
+    },
+    {
+      "_path": "share/Pythia8/examples/main153.cmnd",
+      "path_type": "hardlink",
+      "sha256": "8bbbcddea04ae20d8baff9ec3c1da97cbee311df680b9bee961f52b044f707c5",
+      "size_in_bytes": 522
+    },
+    {
+      "_path": "share/Pythia8/examples/main154.cc",
+      "path_type": "hardlink",
+      "sha256": "309c855224d106673bba62542efb295058f779fa515a9bcb141890e39cbc860e",
+      "size_in_bytes": 3491
+    },
+    {
+      "_path": "share/Pythia8/examples/main154.cmnd",
+      "path_type": "hardlink",
+      "sha256": "0f2a2eb1d4cd9d8dbb72e1b1687e4952419a914472614173c2a6ea0b2930e94b",
+      "size_in_bytes": 306
+    },
+    {
+      "_path": "share/Pythia8/examples/main155.cc",
+      "path_type": "hardlink",
+      "sha256": "e996f75d7d9cb22487bb04382903016d5e185dc36a7ee7a1857750df0424a48e",
+      "size_in_bytes": 2469
+    },
+    {
+      "_path": "share/Pythia8/examples/main155.cmnd",
+      "path_type": "hardlink",
+      "sha256": "11e937d33a8cac8aed66afb6d6547c2a03d8c403d9e30f192877674971e87247",
+      "size_in_bytes": 333
+    },
+    {
+      "_path": "share/Pythia8/examples/main156.cc",
+      "path_type": "hardlink",
+      "sha256": "641ae136567d3c0926042aecd48e4fcfd6416d4d7e13a919121902fb21c03d17",
+      "size_in_bytes": 1728
+    },
+    {
+      "_path": "share/Pythia8/examples/main16.cc",
+      "path_type": "hardlink",
+      "sha256": "8a0aae91bfdce0ede4deb2f0e16d0947052358410c26613fe4f8fb516913f1a3",
+      "size_in_bytes": 4745
+    },
+    {
+      "_path": "share/Pythia8/examples/main16.cmnd",
+      "path_type": "hardlink",
+      "sha256": "41e08f72fa7fb6da074bb0e49a4a188ddb489eeb930522e93c611fa94daa7807",
+      "size_in_bytes": 3500
+    },
+    {
+      "_path": "share/Pythia8/examples/main161.cc",
+      "path_type": "hardlink",
+      "sha256": "1c15d2d636381d809cbf9290ee67d4c9360f224b1db17ca365871b6129652932",
+      "size_in_bytes": 1451
+    },
+    {
+      "_path": "share/Pythia8/examples/main162.cc",
+      "path_type": "hardlink",
+      "sha256": "010a7f595d0d4f915f8c2d352880c0b51a84f8a7d5e8cd7ed6a9b83467bf22c5",
+      "size_in_bytes": 2676
+    },
+    {
+      "_path": "share/Pythia8/examples/main163.cc",
+      "path_type": "hardlink",
+      "sha256": "6b6a43772ba9b0bc7713023f60cbaf2f175c09f96a663bb8b18064e34fa5c92a",
+      "size_in_bytes": 2128
+    },
+    {
+      "_path": "share/Pythia8/examples/main17.cc",
+      "path_type": "hardlink",
+      "sha256": "8610085ac53433807f875aed7ed13e2cc642e4bb7443260ab7daaadf88b936f9",
+      "size_in_bytes": 5892
+    },
+    {
+      "_path": "share/Pythia8/examples/main18.cc",
+      "path_type": "hardlink",
+      "sha256": "62bd668bf91227ce69c092ee32d8b1f7cae1136187530985ae91851626f0f905",
+      "size_in_bytes": 7481
+    },
+    {
+      "_path": "share/Pythia8/examples/main181.cc",
+      "path_type": "hardlink",
+      "sha256": "1230343e3b31382d7b119e40531c288f3d1405388ef92186aa0f8cbc894d6103",
+      "size_in_bytes": 3801
+    },
+    {
+      "_path": "share/Pythia8/examples/main182.cc",
+      "path_type": "hardlink",
+      "sha256": "9944a9908cfb28180f942d35aa0ac69e1e69cbd0fa228173ef37685d853ce7fd",
+      "size_in_bytes": 9249
+    },
+    {
+      "_path": "share/Pythia8/examples/main183.cc",
+      "path_type": "hardlink",
+      "sha256": "91ce75209a03387045074f335ffe5c0f61093e3a268e4227bfff6da09dd16009",
+      "size_in_bytes": 16183
+    },
+    {
+      "_path": "share/Pythia8/examples/main19.cc",
+      "path_type": "hardlink",
+      "sha256": "2e28df7e5476498c2f512f8488068323c754ac0ab0044ce0f3cef106469ad8c0",
+      "size_in_bytes": 7038
+    },
+    {
+      "_path": "share/Pythia8/examples/main20.cc",
+      "path_type": "hardlink",
+      "sha256": "e5793a837c037b84941d0cd4eb8094863ca18b6c514c29903e05ac27d55efc6c",
+      "size_in_bytes": 1954
+    },
+    {
+      "_path": "share/Pythia8/examples/main200.cc",
+      "path_type": "hardlink",
+      "sha256": "57554a0e58eba946663c694fbe3fc8330b2316e57dc220755ce0f7313ada8ccf",
+      "size_in_bytes": 9391
+    },
+    {
+      "_path": "share/Pythia8/examples/main200.cmnd",
+      "path_type": "hardlink",
+      "sha256": "4474831464ab4035fa1bd962704887085f488d6ff0f86df703fc2b1083a6d226",
+      "size_in_bytes": 1359
+    },
+    {
+      "_path": "share/Pythia8/examples/main201.cc",
+      "path_type": "hardlink",
+      "sha256": "4bc012349205c104e8266c7b1feaf16565f887bbd8f9fcf2b3630e6c52d7b8fe",
+      "size_in_bytes": 5655
+    },
+    {
+      "_path": "share/Pythia8/examples/main202.cc",
+      "path_type": "hardlink",
+      "sha256": "7697d29e5c4b9a38d190ef68c4211ce17490ed1699db3defbf459490484265f7",
+      "size_in_bytes": 3272
+    },
+    {
+      "_path": "share/Pythia8/examples/main202.cmnd",
+      "path_type": "hardlink",
+      "sha256": "be0d19c9e009f0fa1974dd1e8c64f75dac3c03a8911504ddce0a610f7eafeda2",
+      "size_in_bytes": 1062
+    },
+    {
+      "_path": "share/Pythia8/examples/main203.cc",
+      "path_type": "hardlink",
+      "sha256": "e024f5ff9480b001645aee6242cf6f66f2f3f9c344f746a88136f3201035993e",
+      "size_in_bytes": 4945
+    },
+    {
+      "_path": "share/Pythia8/examples/main204.cc",
+      "path_type": "hardlink",
+      "sha256": "515d95ae53b89f41fdc01540951097e1fc2cb3c595509bf52965e963f8f59785",
+      "size_in_bytes": 5415
+    },
+    {
+      "_path": "share/Pythia8/examples/main21.cc",
+      "path_type": "hardlink",
+      "sha256": "1c154de0607db95467ccdfd5aaf80d0fd31761278b542e1f0d4628cfd81e3635",
+      "size_in_bytes": 14686
+    },
+    {
+      "_path": "share/Pythia8/examples/main22.cc",
+      "path_type": "hardlink",
+      "sha256": "9f335be483fd69f1d5e6df091f03a8af4941662b5d5a222e594ed539d8d9daa0",
+      "size_in_bytes": 8804
+    },
+    {
+      "_path": "share/Pythia8/examples/main23.cc",
+      "path_type": "hardlink",
+      "sha256": "ddd910cad79b900155a8290ab92820adb85c7a96d24c849f4c566e433425365a",
+      "size_in_bytes": 11257
+    },
+    {
+      "_path": "share/Pythia8/examples/main24.cc",
+      "path_type": "hardlink",
+      "sha256": "a5d255402f62e1e6b60957f7f1f600d83a0fe4d47023af53863d2833652efd1e",
+      "size_in_bytes": 2281
+    },
+    {
+      "_path": "share/Pythia8/examples/main24.cmnd",
+      "path_type": "hardlink",
+      "sha256": "74281a9c3c8b3d6e16097d9815061eb5aec1138bb9f47a039f9bb3ffeb96109d",
+      "size_in_bytes": 2275
+    },
+    {
+      "_path": "share/Pythia8/examples/main25.cc",
+      "path_type": "hardlink",
+      "sha256": "4ecf4ced12f091aafc9c23dbf9755c9f857639e9610ccc0884a2ea296ee1b22c",
+      "size_in_bytes": 2140
+    },
+    {
+      "_path": "share/Pythia8/examples/main25.lhe",
+      "path_type": "hardlink",
+      "sha256": "69b31e16105c328479c604494de28b78a63880f19525bf166a11f15c54f76185",
+      "size_in_bytes": 41811
+    },
+    {
+      "_path": "share/Pythia8/examples/main26.cc",
+      "path_type": "hardlink",
+      "sha256": "48dc2249b8fb5e2cb32b03e4e171edc664a4517f3cb3e146a7c9ee87c1569749",
+      "size_in_bytes": 7788
+    },
+    {
+      "_path": "share/Pythia8/examples/main27.cc",
+      "path_type": "hardlink",
+      "sha256": "e66bf0af7d3d1ae08757d00466d7af85eae043adcdeff2543b9b0db94df8bbc3",
+      "size_in_bytes": 5356
+    },
+    {
+      "_path": "share/Pythia8/examples/main28.cc",
+      "path_type": "hardlink",
+      "sha256": "1b43707196c9f301643a389f60a1d55bfae728e36b031c6da25feef0777298b1",
+      "size_in_bytes": 7776
+    },
+    {
+      "_path": "share/Pythia8/examples/main280.cc",
+      "path_type": "hardlink",
+      "sha256": "94ccfb2e30cb4e2e5eefbe7eb2a0f526cde850d9e6986252690b5ebdfdf33f65",
+      "size_in_bytes": 13907
+    },
+    {
+      "_path": "share/Pythia8/examples/main280.cmnd",
+      "path_type": "hardlink",
+      "sha256": "f589820018f7d6c012dd795a857dae993d409e08e0472f50c90a598a1b75f32e",
+      "size_in_bytes": 2116
+    },
+    {
+      "_path": "share/Pythia8/examples/main29.cc",
+      "path_type": "hardlink",
+      "sha256": "06e66941bb146d5c157b6c2bde9ea6d35648f21aad6942747fc5864dc25c33dd",
+      "size_in_bytes": 9385
+    },
+    {
+      "_path": "share/Pythia8/examples/main30.cc",
+      "path_type": "hardlink",
+      "sha256": "802fbd849322f5373ac0c39773f339f819c4a37b569cc5af9441bf54ab2d2a24",
+      "size_in_bytes": 7166
+    },
+    {
+      "_path": "share/Pythia8/examples/main30.cmnd",
+      "path_type": "hardlink",
+      "sha256": "f588bdf1fe53625839a9aaef51b5983ad31658fec04ee5f497fdc613290785ee",
+      "size_in_bytes": 1933
+    },
+    {
+      "_path": "share/Pythia8/examples/main300.cc",
+      "path_type": "hardlink",
+      "sha256": "095712b5446940ad8ab6adf16b17afff530099dd84695f3272d37f22793c5adf",
+      "size_in_bytes": 30811
+    },
+    {
+      "_path": "share/Pythia8/examples/main300.cmnd",
+      "path_type": "hardlink",
+      "sha256": "97a567a4aa445ee22b116af8c696608302191f8b3455e1698ee95e4d22df5b83",
+      "size_in_bytes": 1453
+    },
+    {
+      "_path": "share/Pythia8/examples/main31.cc",
+      "path_type": "hardlink",
+      "sha256": "4ed1728bd19bf542c7ef0f4a318114969d8df8cdad5f8748e8bf4fe0a31ac97c",
+      "size_in_bytes": 2993
+    },
+    {
+      "_path": "share/Pythia8/examples/main31.cmnd",
+      "path_type": "hardlink",
+      "sha256": "f8432a2cb6ffc677614d240680a07084cbbd097d63ea11ad2d6fd2fce413de77",
+      "size_in_bytes": 3698
+    },
+    {
+      "_path": "share/Pythia8/examples/main32.cc",
+      "path_type": "hardlink",
+      "sha256": "7e69a2c294aa5db23b5d6fc8fa60e49c6611f3c1bb63806d66436441e0b860d8",
+      "size_in_bytes": 1998
+    },
+    {
+      "_path": "share/Pythia8/examples/main32.cmnd",
+      "path_type": "hardlink",
+      "sha256": "32f32a02e633e3c77acc103accee033b380856e9990dad5389f318566f4598cc",
+      "size_in_bytes": 3196
+    },
+    {
+      "_path": "share/Pythia8/examples/main32.unw",
+      "path_type": "hardlink",
+      "sha256": "df3125b6ed3cd21bc571e1077d4fefc198489ced1d6d57f017a87360f75efe59",
+      "size_in_bytes": 42300
+    },
+    {
+      "_path": "share/Pythia8/examples/main32_unw.par",
+      "path_type": "hardlink",
+      "sha256": "d7a395e539991510ff7ed26d5d80e1eb39db84e739b6e1a3fa6b94953fcdd40a",
+      "size_in_bytes": 1752
+    },
+    {
+      "_path": "share/Pythia8/examples/main33.cc",
+      "path_type": "hardlink",
+      "sha256": "4d4e3192507ef03700c9adc9ba0b8f096995b3d107575fb775a42731933dd10c",
+      "size_in_bytes": 2848
+    },
+    {
+      "_path": "share/Pythia8/examples/main33.cmnd",
+      "path_type": "hardlink",
+      "sha256": "67d8b771c4715963bf10cf1ea415c596e31df4d46f0a136d22e5e1395944ee39",
+      "size_in_bytes": 870
+    },
+    {
+      "_path": "share/Pythia8/examples/main33.pwhg",
+      "path_type": "hardlink",
+      "sha256": "8170289f28f2c947c2b8b749ae8871265c9e0f7d0b67a1f8d15a7790670f10b2",
+      "size_in_bytes": 1554
+    },
+    {
+      "_path": "share/Pythia8/examples/main333.cc",
+      "path_type": "hardlink",
+      "sha256": "d34c1142b3473143575b7f30a3f791490d4e1a3fbd9426275140c385beac6c4c",
+      "size_in_bytes": 2963
+    },
+    {
+      "_path": "share/Pythia8/examples/main34.cc",
+      "path_type": "hardlink",
+      "sha256": "0bd801a0feda653f471f290a81b62e2dc2601e6168ad3582483cab707c879d0e",
+      "size_in_bytes": 4063
+    },
+    {
+      "_path": "share/Pythia8/examples/main34.py",
+      "path_type": "hardlink",
+      "sha256": "4ff4eed8fa0fcfaf6aa2de865fbad8d45aebcca95f7e93ab007506f45ce07488",
+      "size_in_bytes": 3981
+    },
+    {
+      "_path": "share/Pythia8/examples/main35.cc",
+      "path_type": "hardlink",
+      "sha256": "a378d647b7ec3531fab9b0892556696a91ab470db4451b49ff7c054e6f2f209e",
+      "size_in_bytes": 3071
+    },
+    {
+      "_path": "share/Pythia8/examples/main36.cc",
+      "path_type": "hardlink",
+      "sha256": "39c88b7285cacfdf066e93865934638b2b5f9fa16f851dcd336956c6e3a0d3a7",
+      "size_in_bytes": 3322
+    },
+    {
+      "_path": "share/Pythia8/examples/main37.cc",
+      "path_type": "hardlink",
+      "sha256": "e85f3230b5f9a9fff3da47eaf41053d1cb5138e8059a9441515815a44e8119e7",
+      "size_in_bytes": 2338
+    },
+    {
+      "_path": "share/Pythia8/examples/main38.cc",
+      "path_type": "hardlink",
+      "sha256": "8e486f2b37623327377f918c737fd1a2f9dd318dfcea550da659db4674a6d62c",
+      "size_in_bytes": 8395
+    },
+    {
+      "_path": "share/Pythia8/examples/main41.cc",
+      "path_type": "hardlink",
+      "sha256": "01b0cbc8ff252cc639d604bfb91d55dbfc6febf352bc3915620fff4bce204137",
+      "size_in_bytes": 1881
+    },
+    {
+      "_path": "share/Pythia8/examples/main42.cc",
+      "path_type": "hardlink",
+      "sha256": "0fac2fc5ec7de5e9c2a5db4cd3390c9952f9527cd40a3aaf9d8ed10edaaef2e8",
+      "size_in_bytes": 3020
+    },
+    {
+      "_path": "share/Pythia8/examples/main42.cmnd",
+      "path_type": "hardlink",
+      "sha256": "a269bb8b448e3524e9076dd11a0b2af1cf9cf280b28ff84f5ca9b6320e400c18",
+      "size_in_bytes": 2736
+    },
+    {
+      "_path": "share/Pythia8/examples/main43.cc",
+      "path_type": "hardlink",
+      "sha256": "cb79f3103da2f8ba63756e66e7fe4de0aa4e1a28e6e3813cf25cfe426cb48439",
+      "size_in_bytes": 3501
+    },
+    {
+      "_path": "share/Pythia8/examples/main43.cmnd",
+      "path_type": "hardlink",
+      "sha256": "661d69e9150c0df2fda6d945802e85d4faadbd78adee130d5af76cbc94bef6e0",
+      "size_in_bytes": 2138
+    },
+    {
+      "_path": "share/Pythia8/examples/main44.cc",
+      "path_type": "hardlink",
+      "sha256": "1351157b592957ea94760739d5899093390bde66d09361cc8cd12f1f8e3e54dd",
+      "size_in_bytes": 4197
+    },
+    {
+      "_path": "share/Pythia8/examples/main44.cmnd",
+      "path_type": "hardlink",
+      "sha256": "4e1e607c66acc4c59576e9e9921f26ad668d30334a3910ed73ca39aa4a9a7e0a",
+      "size_in_bytes": 775
+    },
+    {
+      "_path": "share/Pythia8/examples/main45.cc",
+      "path_type": "hardlink",
+      "sha256": "bb32ae00c87b3610c40395226caf0f7cb559d5d64422a71e26f2deeca5cd29ad",
+      "size_in_bytes": 4322
+    },
+    {
+      "_path": "share/Pythia8/examples/main46.cc",
+      "path_type": "hardlink",
+      "sha256": "2299b55307018c8fcf3c6d5424b9f99269efca17ccb68cbe56b7573572aac826",
+      "size_in_bytes": 4154
+    },
+    {
+      "_path": "share/Pythia8/examples/main46.cmnd",
+      "path_type": "hardlink",
+      "sha256": "24e5f15dd0618f27dd48e75fda993db480242a2568dd945410e2f5fc6728e485",
+      "size_in_bytes": 689
+    },
+    {
+      "_path": "share/Pythia8/examples/main48.cc",
+      "path_type": "hardlink",
+      "sha256": "cc0ad3890e886a01fc0b23fd3902335b9c34e12394a2707e6193cdc073e0018e",
+      "size_in_bytes": 4310
+    },
+    {
+      "_path": "share/Pythia8/examples/main48.dec",
+      "path_type": "hardlink",
+      "sha256": "49cce54ea83135fbfcfb039290cc6c927915581ab7d9ad8aa1b3634a42b55618",
+      "size_in_bytes": 870
+    },
+    {
+      "_path": "share/Pythia8/examples/main51.cc",
+      "path_type": "hardlink",
+      "sha256": "79408d46674e254ff8ec1357095edeed4b953148229c12a03c3f1dacfdbc0fcb",
+      "size_in_bytes": 5927
+    },
+    {
+      "_path": "share/Pythia8/examples/main52.cc",
+      "path_type": "hardlink",
+      "sha256": "33d349cf768bdbbaf2572f21a33e01af7f28f47e172fd4c5426492a6eaecaf94",
+      "size_in_bytes": 8992
+    },
+    {
+      "_path": "share/Pythia8/examples/main53.cc",
+      "path_type": "hardlink",
+      "sha256": "d807b933f65311f90c20bb86055180e0a0167dcf805569e4857c84f4c4865a87",
+      "size_in_bytes": 2301
+    },
+    {
+      "_path": "share/Pythia8/examples/main53.cmnd",
+      "path_type": "hardlink",
+      "sha256": "636ef93086f62be3fb86a8eb0b12212440c921687cb93df150f1a8f9d7656e24",
+      "size_in_bytes": 1701
+    },
+    {
+      "_path": "share/Pythia8/examples/main54.cc",
+      "path_type": "hardlink",
+      "sha256": "136d0fa6762930b75e6149279511de91e614c9128b7f1848d9ffb37dd27ce3f9",
+      "size_in_bytes": 4160
+    },
+    {
+      "_path": "share/Pythia8/examples/main55.cc",
+      "path_type": "hardlink",
+      "sha256": "5bc30ea0a4830b1a6bc67e3aeb92f1d911794469b4deb57238fdcd9a5fa7c7dd",
+      "size_in_bytes": 3171
+    },
+    {
+      "_path": "share/Pythia8/examples/main61.cc",
+      "path_type": "hardlink",
+      "sha256": "06de44b325bf01b3656a83aaa5467970f8772a9a3cd4a6f1b506af32819cea5b",
+      "size_in_bytes": 4683
+    },
+    {
+      "_path": "share/Pythia8/examples/main62.cc",
+      "path_type": "hardlink",
+      "sha256": "d30afb16d34b586eab2645428664084ecd7d8d7d0aae8fa85efabcf85f3a5109",
+      "size_in_bytes": 7865
+    },
+    {
+      "_path": "share/Pythia8/examples/main62.cmnd",
+      "path_type": "hardlink",
+      "sha256": "67b7553789588426351f464eae72542016ad9d9dfb4125e9074a2e46aa2c202b",
+      "size_in_bytes": 978
+    },
+    {
+      "_path": "share/Pythia8/examples/main62.lhe",
+      "path_type": "hardlink",
+      "sha256": "31b845fddc88f4eaec6414e666c81812deea3bc088ffe0ef9d69237435b87f14",
+      "size_in_bytes": 162037
+    },
+    {
+      "_path": "share/Pythia8/examples/main63.cc",
+      "path_type": "hardlink",
+      "sha256": "4460d64a766416f9a6cb85b268ebd537074f54a64a6a3e26abc141071fe9c6d5",
+      "size_in_bytes": 2617
+    },
+    {
+      "_path": "share/Pythia8/examples/main63.cmnd",
+      "path_type": "hardlink",
+      "sha256": "2a62d3db799205e95d34551d8528b94513d24bc85e1af9dc7566c7827d6c0416",
+      "size_in_bytes": 661
+    },
+    {
+      "_path": "share/Pythia8/examples/main64.cc",
+      "path_type": "hardlink",
+      "sha256": "b5ec2f07e901cf365ecc23827090c50019a2731d32b5c2dd0c23df251f900c89",
+      "size_in_bytes": 1441
+    },
+    {
+      "_path": "share/Pythia8/examples/main68.cc",
+      "path_type": "hardlink",
+      "sha256": "fbb475baefd7fe9ecfe35e88a90788a16f86687595388acf0af018a531f2042a",
+      "size_in_bytes": 6874
+    },
+    {
+      "_path": "share/Pythia8/examples/main69.cc",
+      "path_type": "hardlink",
+      "sha256": "46582503a0684bea21589548e714e8e0ce58a84e393cdf162472cc25267d0d9e",
+      "size_in_bytes": 7853
+    },
+    {
+      "_path": "share/Pythia8/examples/main70.cc",
+      "path_type": "hardlink",
+      "sha256": "b710ff54db8a823974cbb96f9c6d666ec7f5161b86d86cdff26e68f35a874031",
+      "size_in_bytes": 5411
+    },
+    {
+      "_path": "share/Pythia8/examples/main71.cc",
+      "path_type": "hardlink",
+      "sha256": "86f1b8ce8085a19164e4bcb9a1bcea3526a7cb3274c999c7b0a0279eb0457158",
+      "size_in_bytes": 8495
+    },
+    {
+      "_path": "share/Pythia8/examples/main72.cc",
+      "path_type": "hardlink",
+      "sha256": "4688f28429c3737c2730e3bd3be40f22394ea3ce409480907039ec8619a3a2f7",
+      "size_in_bytes": 10680
+    },
+    {
+      "_path": "share/Pythia8/examples/main73.cc",
+      "path_type": "hardlink",
+      "sha256": "f744a918e3c11bff9fd986609efc3e1ea6226bc97c10b9a2113de40e593f0997",
+      "size_in_bytes": 5348
+    },
+    {
+      "_path": "share/Pythia8/examples/main74.cc",
+      "path_type": "hardlink",
+      "sha256": "3977b4b9db07fc9ec5a1f3eb94ea4ce5b7369071afbef18cb5737819c5f674fa",
+      "size_in_bytes": 4189
+    },
+    {
+      "_path": "share/Pythia8/examples/main75.cc",
+      "path_type": "hardlink",
+      "sha256": "8fdc6d1bd3d3e77434a13826eec6316ef167a928fdd6d0df2382e1f1fe671e98",
+      "size_in_bytes": 3225
+    },
+    {
+      "_path": "share/Pythia8/examples/main75.cmnd",
+      "path_type": "hardlink",
+      "sha256": "d433d54eae2c56b1e47e405160f949d3ae850c17ab89f9b4dec2a6e3e00f07c8",
+      "size_in_bytes": 877
+    },
+    {
+      "_path": "share/Pythia8/examples/main76.cc",
+      "path_type": "hardlink",
+      "sha256": "acf37bf4d0acde084f86e96c753d527770e6a80b5069811c727b316861b9cf78",
+      "size_in_bytes": 1647
+    },
+    {
+      "_path": "share/Pythia8/examples/main76.cmnd",
+      "path_type": "hardlink",
+      "sha256": "d873733c0c2f8fa598b0fee7fe0fec6fd4055122bf8c3318e7bdde386cbb5959",
+      "size_in_bytes": 2299
+    },
+    {
+      "_path": "share/Pythia8/examples/main77.cc",
+      "path_type": "hardlink",
+      "sha256": "f334b049c84a01cf86827c665f28218b5a3ec1045d51eea12ad2f0bb7a51781a",
+      "size_in_bytes": 7034
+    },
+    {
+      "_path": "share/Pythia8/examples/main78.cc",
+      "path_type": "hardlink",
+      "sha256": "7cccb92a215f242da96eed8ecbaefd37672213e2449ca03832b5034fca629326",
+      "size_in_bytes": 3800
+    },
+    {
+      "_path": "share/Pythia8/examples/main80.cc",
+      "path_type": "hardlink",
+      "sha256": "eff7111d6ce1d9d07832a1c5a91f4787857a1990386b4f5a383cac6ccbfdda26",
+      "size_in_bytes": 3196
+    },
+    {
+      "_path": "share/Pythia8/examples/main80.cmnd",
+      "path_type": "hardlink",
+      "sha256": "41692a82258068e80da9c3ba693aa9a55976f780c25f559934bf3cada52f5b4a",
+      "size_in_bytes": 1960
+    },
+    {
+      "_path": "share/Pythia8/examples/main81.cc",
+      "path_type": "hardlink",
+      "sha256": "96c15d8c62a1911ec11b192f1372e75c9b1d21cc1290a08b6acfcc250d7445b7",
+      "size_in_bytes": 6048
+    },
+    {
+      "_path": "share/Pythia8/examples/main81.cmnd",
+      "path_type": "hardlink",
+      "sha256": "ac7061702e131c6959e802c8a4e8ab609714a8f4f1e388e8338640e8b3c46ea1",
+      "size_in_bytes": 688
+    },
+    {
+      "_path": "share/Pythia8/examples/main82.cc",
+      "path_type": "hardlink",
+      "sha256": "15c6d9400d0ee1efa7fee4833d615c31853d361734ee3d6b4f4f8ad77d3bcc38",
+      "size_in_bytes": 11247
+    },
+    {
+      "_path": "share/Pythia8/examples/main82.cmnd",
+      "path_type": "hardlink",
+      "sha256": "edfbec90f0998bd9f9bd3f641161a78b1ffd05a3fdeb4130c1b25b862c8fe9e2",
+      "size_in_bytes": 538
+    },
+    {
+      "_path": "share/Pythia8/examples/main83.cc",
+      "path_type": "hardlink",
+      "sha256": "07ebcb3ba33477c02e68a668f43213bb4c7fbede6f6084838c5235f6655eeeb0",
+      "size_in_bytes": 11916
+    },
+    {
+      "_path": "share/Pythia8/examples/main83.cmnd",
+      "path_type": "hardlink",
+      "sha256": "edfbec90f0998bd9f9bd3f641161a78b1ffd05a3fdeb4130c1b25b862c8fe9e2",
+      "size_in_bytes": 538
+    },
+    {
+      "_path": "share/Pythia8/examples/main84.cc",
+      "path_type": "hardlink",
+      "sha256": "51c1a96a4cfa10b31846c52961e360746a0b75316e4c104dfa9e61c611861320",
+      "size_in_bytes": 15257
+    },
+    {
+      "_path": "share/Pythia8/examples/main84.cmnd",
+      "path_type": "hardlink",
+      "sha256": "763b456dea2c2ea3b4977db1125d0d985526e3a83f8e9dfea3130750e6ac57e0",
+      "size_in_bytes": 508
+    },
+    {
+      "_path": "share/Pythia8/examples/main85.cc",
+      "path_type": "hardlink",
+      "sha256": "1c10df35e3bede3b44c88cff41a146bc904a2cfb905234de33e6ecb2a154addc",
+      "size_in_bytes": 9440
+    },
+    {
+      "_path": "share/Pythia8/examples/main85.cmnd",
+      "path_type": "hardlink",
+      "sha256": "58a0553a72e6f8c832670a32cc6a08fe053df402ec3b9afa339bbc917c31e3dd",
+      "size_in_bytes": 888
+    },
+    {
+      "_path": "share/Pythia8/examples/main86.cc",
+      "path_type": "hardlink",
+      "sha256": "95feddb5e266ebfeacfbadff08dfce03b8dfbc0ddd21d33e971618b9c03cd849",
+      "size_in_bytes": 12124
+    },
+    {
+      "_path": "share/Pythia8/examples/main86.cmnd",
+      "path_type": "hardlink",
+      "sha256": "ee1f10eb6ed2972f83bc712e74eb474f8855de08fe55db9d868d6b2522476e42",
+      "size_in_bytes": 571
+    },
+    {
+      "_path": "share/Pythia8/examples/main87.cc",
+      "path_type": "hardlink",
+      "sha256": "f77650969e7638331a2bf729ad3b3cb5bf323b231c8b9c49cebcb6d652c7a3da",
+      "size_in_bytes": 19078
+    },
+    {
+      "_path": "share/Pythia8/examples/main87.cmnd",
+      "path_type": "hardlink",
+      "sha256": "b9dba1f46274fd92d4746e513c84f0a35104bcef54ee602967f0473782f29bcd",
+      "size_in_bytes": 1527
+    },
+    {
+      "_path": "share/Pythia8/examples/main88.cc",
+      "path_type": "hardlink",
+      "sha256": "740c97f1a76c9f656530f5b784367e27457c087d8af620eff33524cf43ec64cc",
+      "size_in_bytes": 22061
+    },
+    {
+      "_path": "share/Pythia8/examples/main88.cmnd",
+      "path_type": "hardlink",
+      "sha256": "0eb7fa2b68a88bf16038e8e7cd6df3cd90d4eca06a4442d83ec4ab21746ebd98",
+      "size_in_bytes": 1529
+    },
+    {
+      "_path": "share/Pythia8/examples/main89.cc",
+      "path_type": "hardlink",
+      "sha256": "4e7da9b287740ee4e70a2fd44845ecdfd4b4351ae295f408ececd634430e7da1",
+      "size_in_bytes": 8116
+    },
+    {
+      "_path": "share/Pythia8/examples/main89ckkwl.cmnd",
+      "path_type": "hardlink",
+      "sha256": "6de0162b79029e81f681994fe737e7e4691b38aeab1f5bcd4e43ed1a1c93c122",
+      "size_in_bytes": 1284
+    },
+    {
+      "_path": "share/Pythia8/examples/main89fxfx.cmnd",
+      "path_type": "hardlink",
+      "sha256": "7943e9eb73dba5872f1a5b6c979195042e73500227ae0306bb69bf770f7820f8",
+      "size_in_bytes": 1259
+    },
+    {
+      "_path": "share/Pythia8/examples/main89mlm.cmnd",
+      "path_type": "hardlink",
+      "sha256": "4072a4b77866d05d535c26481d03d5a86fef03fd7b0f2b2c69a930f5424a16cb",
+      "size_in_bytes": 949
+    },
+    {
+      "_path": "share/Pythia8/examples/main89umeps.cmnd",
+      "path_type": "hardlink",
+      "sha256": "5741e5572db515bda0c448eed18a9673fde28a94e499c2f12a731119279f740f",
+      "size_in_bytes": 1315
+    },
+    {
+      "_path": "share/Pythia8/examples/main89unlops.cmnd",
+      "path_type": "hardlink",
+      "sha256": "4c5357bfa6a49515ed5869e0509dd2996d121379b8762391ccc596741fd2a388",
+      "size_in_bytes": 1725
+    },
+    {
+      "_path": "share/Pythia8/examples/main91.cc",
+      "path_type": "hardlink",
+      "sha256": "c4aebab87b95fb8a5df5af2e90c342e135e1987f02ff564fcb6cdf44e8f5a2d1",
+      "size_in_bytes": 2221
+    },
+    {
+      "_path": "share/Pythia8/examples/main92.cc",
+      "path_type": "hardlink",
+      "sha256": "121a3926e38bc597e908505dcdeea1c5fffa8b103b4dd76868ac57e0c410998c",
+      "size_in_bytes": 1707
+    },
+    {
+      "_path": "share/Pythia8/examples/main92.h",
+      "path_type": "hardlink",
+      "sha256": "6f744238d4e7fac4af2eefc4840ca3be30678088735051df769d0b6d8a3f9dbc",
+      "size_in_bytes": 450
+    },
+    {
+      "_path": "share/Pythia8/examples/main92LinkDef.h",
+      "path_type": "hardlink",
+      "sha256": "d3285712cc0cc39d6184ffa98da813c1482fa47f611a6a2cd3401d8450080180",
+      "size_in_bytes": 2235
+    },
+    {
+      "_path": "share/Pythia8/examples/main93.cc",
+      "path_type": "hardlink",
+      "sha256": "aa8fcf14231e06e9428615f437747f2c5805fcbda68dc9b646df98622d2b0783",
+      "size_in_bytes": 12673
+    },
+    {
+      "_path": "share/Pythia8/examples/main93.cmnd",
+      "path_type": "hardlink",
+      "sha256": "3e27a96c73786cbd37b082501a457829c5b9df54fe19dfd0a5244eabc15be184",
+      "size_in_bytes": 1742
+    },
+    {
+      "_path": "share/Pythia8/examples/main93.h",
+      "path_type": "hardlink",
+      "sha256": "61b689d54b098756d6473e1a769ac806baae353562ad866ea85f8401f552fcdc",
+      "size_in_bytes": 1647
+    },
+    {
+      "_path": "share/Pythia8/examples/main93LinkDef.h",
+      "path_type": "hardlink",
+      "sha256": "0e3efab49e3f78e5854f0b06fc9dd2376a33d57d2fc0e655fde14bd46d97670f",
+      "size_in_bytes": 667
+    },
+    {
+      "_path": "share/Pythia8/examples/photoninproton.lhe",
+      "path_type": "hardlink",
+      "sha256": "3433cf8eb5f330f6fb862e3da2d758d0468ced1296c29597a5ddc493ee366612",
+      "size_in_bytes": 1278
+    },
+    {
+      "_path": "share/Pythia8/examples/powheg-dijets.lhe",
+      "path_type": "hardlink",
+      "sha256": "aef82df2960de524f998f122b46cee2c14cecc3fad870892d60906f41638db0a",
+      "size_in_bytes": 86655
+    },
+    {
+      "_path": "share/Pythia8/examples/powheg-hvq.lhe",
+      "path_type": "hardlink",
+      "sha256": "aeb95a5b6d27039cf571d77de23a270df7e139c920396dea75d1e37fe7ec3454",
+      "size_in_bytes": 85486
+    },
+    {
+      "_path": "share/Pythia8/examples/runmains",
+      "path_type": "hardlink",
+      "sha256": "75692a045c2b1ab0d58b5a2018da047a3162a6cecc4065c374cce4fe6e879342",
+      "size_in_bytes": 4601
+    },
+    {
+      "_path": "share/Pythia8/examples/slha1-example.spc",
+      "path_type": "hardlink",
+      "sha256": "b88118afde0b4e311d573624ffa8fdbb2d8c7f684ec93effe403004efa80c485",
+      "size_in_bytes": 6303
+    },
+    {
+      "_path": "share/Pythia8/examples/slha2-example.spc",
+      "path_type": "hardlink",
+      "sha256": "5d65f5d1c2ed08cf6e6b74253ef7111824466f34b545cf04118a13ecfb5f4baa",
+      "size_in_bytes": 15215
+    },
+    {
+      "_path": "share/Pythia8/examples/sps1aNarrowStopGluino.spc",
+      "path_type": "hardlink",
+      "sha256": "b0e51dd1e8c597943590017a4a2178b37affe4bb72978bc2e8ff398f3ec50672",
+      "size_in_bytes": 48429
+    },
+    {
+      "_path": "share/Pythia8/examples/sps1aNarrowStopGluinoRPV.spc",
+      "path_type": "hardlink",
+      "sha256": "fbdb60c060c8cdec480e37ec418f92982bf9ad2e9e9a0fd3e3f22f79b923b7be",
+      "size_in_bytes": 46894
+    },
+    {
+      "_path": "share/Pythia8/examples/sps1aWithDecays.spc",
+      "path_type": "hardlink",
+      "sha256": "4a613460d7cdfea5588d816d165c37d4f9327e027642a6d257c3059009641950",
+      "size_in_bytes": 48219
+    },
+    {
+      "_path": "share/Pythia8/examples/ttbar.hdf5",
+      "path_type": "hardlink",
+      "sha256": "f139f36982778ea25172d4daf7c30c1523f6fe8ba3a750097798e2f4622d9da2",
+      "size_in_bytes": 145695
+    },
+    {
+      "_path": "share/Pythia8/examples/ttbar.lhe",
+      "path_type": "hardlink",
+      "sha256": "db772b69ab4e0300d973b57414523ac8e7fa8535eac49ee52a6b69b1c131983d",
+      "size_in_bytes": 175489
+    },
+    {
+      "_path": "share/Pythia8/examples/ttbar.lhe.gz",
+      "path_type": "hardlink",
+      "sha256": "ce80de23e36b6dc638228c6f9975e346c37322e0194d49c2c92cd3c909bae140",
+      "size_in_bytes": 44701
+    },
+    {
+      "_path": "share/Pythia8/examples/ttbar2.lhe",
+      "path_type": "hardlink",
+      "sha256": "1d9350a8dea9e778f98b8010acaf1005c3bd25c2626b97a128f46b286e502e48",
+      "size_in_bytes": 71489
+    },
+    {
+      "_path": "share/Pythia8/examples/w+_production_lhc_0.lhe",
+      "path_type": "hardlink",
+      "sha256": "d227ff1232360ff7f037a5556e635532fa7537701fcd23d625b8af4be951fef0",
+      "size_in_bytes": 98426
+    },
+    {
+      "_path": "share/Pythia8/examples/w+_production_lhc_1.lhe",
+      "path_type": "hardlink",
+      "sha256": "8e83396480bdf69ca4d6817df6fb25be46c610a396ec9b3f92798b0c7dd59433",
+      "size_in_bytes": 112264
+    },
+    {
+      "_path": "share/Pythia8/examples/w+_production_lhc_2.lhe",
+      "path_type": "hardlink",
+      "sha256": "938fd541fb548204fb883cf4541bfcdc71e88049ff70f8dea58f73af1f3f6678",
+      "size_in_bytes": 125965
+    },
+    {
+      "_path": "share/Pythia8/examples/w_production_powheg_0.lhe",
+      "path_type": "hardlink",
+      "sha256": "94012aade2679bfd93f72cef644c934c2d077b079966cd6af0b8007872fbd784",
+      "size_in_bytes": 198547
+    },
+    {
+      "_path": "share/Pythia8/examples/w_production_powheg_1.lhe",
+      "path_type": "hardlink",
+      "sha256": "0ff0fb5ef1ffa11369f96ebcf77dd81cd6b18d54093c5865b8055ee81e8a5310",
+      "size_in_bytes": 228068
+    },
+    {
+      "_path": "share/Pythia8/examples/w_production_tree_0.lhe",
+      "path_type": "hardlink",
+      "sha256": "8f52de1958d866b83fe7ae970e5933f26bb637829aca9ddc2293e371ce96b9d2",
+      "size_in_bytes": 177607
+    },
+    {
+      "_path": "share/Pythia8/examples/w_production_tree_1.lhe",
+      "path_type": "hardlink",
+      "sha256": "bfb0f3f1aa4a316c8281b7fcf8123f2f3b28bae0af753e8216ad010325882ffa",
+      "size_in_bytes": 205013
+    },
+    {
+      "_path": "share/Pythia8/examples/w_production_tree_2.lhe",
+      "path_type": "hardlink",
+      "sha256": "0ac271218bc229e0549190466a9c36154185f2442ef0ea3e485ada9b9268e9ed",
+      "size_in_bytes": 232419
+    },
+    {
+      "_path": "share/Pythia8/examples/wbj_lhef3.lhe",
+      "path_type": "hardlink",
+      "sha256": "70bf71c26566f76ae9fccac6c1d150d0972d57eb6cfc28155a78801aa9705cac",
+      "size_in_bytes": 102864
+    },
+    {
+      "_path": "share/Pythia8/examples/zProduction_Ckkwl_012.lhe.gz",
+      "path_type": "hardlink",
+      "sha256": "44c27e72107830420f84f6a509248b73498dc266f88e3a9707257f55e38c66df",
+      "size_in_bytes": 1284930
+    },
+    {
+      "_path": "share/Pythia8/examples/zProduction_Fxfx_01.lhe.gz",
+      "path_type": "hardlink",
+      "sha256": "6c8dc7cde5e591009448a61b3ce3290e2dcd81adfa0808f2be4671465cec0454",
+      "size_in_bytes": 1306055
+    },
+    {
+      "_path": "share/Pythia8/examples/zProduction_Mlm_012.lhe.gz",
+      "path_type": "hardlink",
+      "sha256": "aa51d8e9e32f96e429de9bc5546c67d40775146dbf481e5f3732b4c2d63683ff",
+      "size_in_bytes": 1508774
+    },
+    {
+      "_path": "share/Pythia8/examples/zProduction_UnlopsLoop_01.lhe.gz",
+      "path_type": "hardlink",
+      "sha256": "06d0c7264ea1bce0d6523d56af277c23d079cebabf2425712455db5f69910e9b",
+      "size_in_bytes": 994481
+    },
+    {
+      "_path": "share/Pythia8/examples/zProduction_UnlopsTree_12.lhe.gz",
+      "path_type": "hardlink",
+      "sha256": "ae49b8b5af45ff428eba3bfaf9dfbfd2e14bdf282d235c0d0c5895925b3b99bb",
+      "size_in_bytes": 1321103
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/AdvancedUsage.html",
+      "path_type": "hardlink",
+      "sha256": "9b86dab90cfbc53c6a89421b6860bd8445e49405af79ba0d2124582938ebbed1",
+      "size_in_bytes": 13168
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/AlpgenEventInterface.html",
+      "path_type": "hardlink",
+      "sha256": "0988cb591c499a58cdd3b5054d71bd9f4519747fe327d2cc6b457946aa0356c4",
+      "size_in_bytes": 13583
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/BeamParameters.html",
+      "path_type": "hardlink",
+      "sha256": "746b018052ba7bc7ebb2fcec088ec4fa7bc2abe8c5fe76d5887c6d8d7ed36aaa",
+      "size_in_bytes": 24518
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/BeamRemnants.html",
+      "path_type": "hardlink",
+      "sha256": "ec7259289edd6715cf68690d8f7bf14d8640a8888f9dbeea9272576ab93c1130",
+      "size_in_bytes": 21156
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/BeamShape.html",
+      "path_type": "hardlink",
+      "sha256": "a3c0dbb5f706ce5e90eacb86105fcb52d7279c3dc9346fe976e4942190aa48a8",
+      "size_in_bytes": 3770
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/Bibliography.html",
+      "path_type": "hardlink",
+      "sha256": "8b99bcb8a6923e9c75e8f4345bddd6b09a6d7d89374a133d638a1cb88001a423",
+      "size_in_bytes": 23584
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/BoseEinsteinEffects.html",
+      "path_type": "hardlink",
+      "sha256": "f83fc26850a191a66ae2ad04b4e40ad96fdfd3c9b7255e80172fb3ab00c49a7e",
+      "size_in_bytes": 6506
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/CKKWLMerging.html",
+      "path_type": "hardlink",
+      "sha256": "1761a80ad462691f7ed64575074566fea821656fe00cb9ef7c828fb3e6e2afa9",
+      "size_in_bytes": 76254
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/COPYING",
+      "path_type": "hardlink",
+      "sha256": "ab15fd526bd8dd18a9e77ebc139656bf4d33e97fc7238cd11bf60e2b9b8666c6",
+      "size_in_bytes": 17987
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/ColourReconnection.html",
+      "path_type": "hardlink",
+      "sha256": "b26aaf92e5da86921c02a55008cf2670b3231ba57fc57bfc50f43e163715657c",
+      "size_in_bytes": 31568
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/CompositenessProcesses.html",
+      "path_type": "hardlink",
+      "sha256": "67286a204b0d2f60f913f753d6de8197db6be3abad3d944b62fd9fb5a9a48b41",
+      "size_in_bytes": 14543
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/CouplingsAndScales.html",
+      "path_type": "hardlink",
+      "sha256": "63d27f5c193e2c7dec5683028c58c3aed320fd16ff560fee8c8a23734f10ea59",
+      "size_in_bytes": 16798
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/CrossSectionsAndWeights.html",
+      "path_type": "hardlink",
+      "sha256": "6dd727727cd132ea79c31152ca88973d3831d21d601f0a2bf53fd3ce1697380e",
+      "size_in_bytes": 14048
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/DarkMatterProcesses.html",
+      "path_type": "hardlink",
+      "sha256": "deac33698827651f67a4069382ce570959725814b1b4df3564d1887bd41b48e1",
+      "size_in_bytes": 13302
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/DeuteronProduction.html",
+      "path_type": "hardlink",
+      "sha256": "ad5f7dbb5b3339560511f6a99142ef696188d65a24c53227f9cd0bb341504367",
+      "size_in_bytes": 10023
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/Diffraction.html",
+      "path_type": "hardlink",
+      "sha256": "afb18e7de0c521053527b4449a65e8904682cf3f2c5c59cc50b41fb09e50208a",
+      "size_in_bytes": 25729
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/DireExpert.html",
+      "path_type": "hardlink",
+      "sha256": "a3e9592b16d3269c5dcd892342dc8e7269c0bc3479965eedd932223f3b044a5d",
+      "size_in_bytes": 19259
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/DireShowers.html",
+      "path_type": "hardlink",
+      "sha256": "13496e8c35aca6cdb17cfec67be6ffd81bea126f8b6be48e4b10fe02dc273ce7",
+      "size_in_bytes": 13334
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/DireWeights.html",
+      "path_type": "hardlink",
+      "sha256": "8b849b1d17f7555a73bf8db6b82a747be9771c41093f0770b14d435dad56f59b",
+      "size_in_bytes": 23252
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/ElectroweakProcesses.html",
+      "path_type": "hardlink",
+      "sha256": "c43f1f8893a3e11ccd031c642de0fc82c8863f0039cb4588102f4ca28b82033d",
+      "size_in_bytes": 17699
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/ErrorChecks.html",
+      "path_type": "hardlink",
+      "sha256": "298c01981ea76ef1d3ac29fc61a77755d8a882515ac512249fea9d259afa78bb",
+      "size_in_bytes": 6300
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/EventAnalysis.html",
+      "path_type": "hardlink",
+      "sha256": "ab06e4cf9f72a5b27e6272ae1a50c38a05d4865cf6e1e3234f8194d7de748b1b",
+      "size_in_bytes": 45004
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/EventInformation.html",
+      "path_type": "hardlink",
+      "sha256": "0a2cd11a85926b1d52f384011bc4572f683e4b3da8a8c399e910393cd9784fa4",
+      "size_in_bytes": 35369
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/EventRecord.html",
+      "path_type": "hardlink",
+      "sha256": "5729bbb62aed52c4ac58a0b101ff6bb01b4cd5136a82c2fe93dee8e1535390d0",
+      "size_in_bytes": 20525
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/EventStatistics.html",
+      "path_type": "hardlink",
+      "sha256": "c9a471a333b48a785beccfbc6d19361f00d89f56c87613cf7598f34ad4635529",
+      "size_in_bytes": 5709
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/ExampleKeywords.html",
+      "path_type": "hardlink",
+      "sha256": "80795d964be2d69647fadf588eb102010f1dc9a51e705730f438547aadd26bbe",
+      "size_in_bytes": 115507
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/Examples.js",
+      "path_type": "hardlink",
+      "sha256": "967b17f37080981b056aec8e56e6777ae51f24b53da9924a34c257a8d2122099",
+      "size_in_bytes": 10899
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/Expand.js",
+      "path_type": "hardlink",
+      "sha256": "57fafe10c44f31add7767c1496834b1c417462e26eef6e49a70001c9ba18f303",
+      "size_in_bytes": 1185
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/ExternalDecays.html",
+      "path_type": "hardlink",
+      "sha256": "482a0ecd88aec7097bb5b617fd02c66bbd936528ea141a9342a4947d9b9a3bbb",
+      "size_in_bytes": 7171
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/ExtraDimensionalProcesses.html",
+      "path_type": "hardlink",
+      "sha256": "4e7e8c7e648d7167b23399f6ff0cb0e256026edd172c1bc06f997328443eebd2",
+      "size_in_bytes": 33753
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/FlavourSelection.html",
+      "path_type": "hardlink",
+      "sha256": "d12955f1c5b993b4258203869331265b0ac4a792bcdf8c3f3983cb583682cedd",
+      "size_in_bytes": 24279
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/FourVectors.html",
+      "path_type": "hardlink",
+      "sha256": "490e92f2c9823d360283d589e23f20187a13fb811138d65a099b4b690414b545",
+      "size_in_bytes": 23497
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/FourthGenerationProcesses.html",
+      "path_type": "hardlink",
+      "sha256": "3d20a8e3bd1684d3b63a2fd71b5318d88a4d9223a9e5da076d575d32f0ee071c",
+      "size_in_bytes": 8961
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/Fragmentation.html",
+      "path_type": "hardlink",
+      "sha256": "696a25c3655e8aefe18da32bc5443abc324af899feca9df73d3072a2c8bd8db9",
+      "size_in_bytes": 28536
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/Frontpage.html",
+      "path_type": "hardlink",
+      "sha256": "b3cce87fb1728c6138937e47c2f6d30ebf7f47e1a38931d3ad755bf6fdca7c8c",
+      "size_in_bytes": 13809
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/GUIDELINES",
+      "path_type": "hardlink",
+      "sha256": "9eb602b30bb250b2043373e854c1355bd90ca87a063728fe739d3cd4aed104f5",
+      "size_in_bytes": 4650
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/GettingStarted.html",
+      "path_type": "hardlink",
+      "sha256": "ba560de0fea2d5bf6a3ca324c2628c18f6404ffb5db8150a720f080b45b5abee",
+      "size_in_bytes": 1413
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/Glossary.html",
+      "path_type": "hardlink",
+      "sha256": "609b0f9b7c94ff329e985d1decd3f2d41127ae8a14735de7b063ef3a57227b35",
+      "size_in_bytes": 3241
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/HadronLevelStandalone.html",
+      "path_type": "hardlink",
+      "sha256": "d997d892063ced6e19589b2b06f00097d44fe23a3d87a7623402936706807f57",
+      "size_in_bytes": 13902
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/HadronVertexInformation.html",
+      "path_type": "hardlink",
+      "sha256": "063b543e6264514b854db643b477a491d6b43347f0da54c6231af3df8ea737d6",
+      "size_in_bytes": 11762
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/HadronWidths.html",
+      "path_type": "hardlink",
+      "sha256": "5d7e4f98786ca1ef3f81ab462f591e8b5f513f52faed346f7159d2d6bdcabf12",
+      "size_in_bytes": 7269
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/HadronicRescattering.html",
+      "path_type": "hardlink",
+      "sha256": "4c5b8aca88d5ef90cb649443cb563b582f0f39047910523029dce775ec4b7508",
+      "size_in_bytes": 12716
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/HeavyIons.html",
+      "path_type": "hardlink",
+      "sha256": "1cc494959f89851f302f2476aa71341101884a079ac85591c70f220fdd35bf57",
+      "size_in_bytes": 22258
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/HelacOniaProcesses.html",
+      "path_type": "hardlink",
+      "sha256": "530b5ab8b4bdeaeea918f488533f9822a27e5a848969ae720196eae61478ecca",
+      "size_in_bytes": 6573
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/HepMCInterface.html",
+      "path_type": "hardlink",
+      "sha256": "e8bc5b6fc87f9d7fd020ef51a63ee582dd3ac8af8ab094d841fec3a251a12815",
+      "size_in_bytes": 17401
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/HiddenValleyProcesses.html",
+      "path_type": "hardlink",
+      "sha256": "f9bcd1b5c113af6e9bbc3aeecfdea1c1e950f5bd81a86a6a4b68a966e0139f03",
+      "size_in_bytes": 41260
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/HiggsProcesses.html",
+      "path_type": "hardlink",
+      "sha256": "9ece8b03e45ed03c748a0836ce05d6f596a68f18591d0b06cb4efaa628cb9663",
+      "size_in_bytes": 52077
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/Histograms.html",
+      "path_type": "hardlink",
+      "sha256": "f3908fb1625f93477ee6f06cf714cf1e118a7fade9f95396807e0d4dff9db408",
+      "size_in_bytes": 34238
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/ImplementNewMatching.html",
+      "path_type": "hardlink",
+      "sha256": "0c9015334999b33fac34b5545b7dbe87188b1ef533e161c49868980c2a2fee41",
+      "size_in_bytes": 17264
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/ImplementNewShowers.html",
+      "path_type": "hardlink",
+      "sha256": "2459eb518e38df81c0606b8819d08fdede5d0ea67bac3bb8db2c032f04d0b424",
+      "size_in_bytes": 43177
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/Index.html",
+      "path_type": "hardlink",
+      "sha256": "d8bc15b9925cef300c7b7adb8b6f6d1f447f951f65e8d7c915b93c784a75ed45",
+      "size_in_bytes": 11689
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/Index.js",
+      "path_type": "hardlink",
+      "sha256": "07a2571a1cb5fb1f34675553d1120e30af2fbae2a13605165dcb3f00a7f1441e",
+      "size_in_bytes": 2305920
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/JetFinders.html",
+      "path_type": "hardlink",
+      "sha256": "d88ebe18ab2abaef450ff2e1c84175852b5185b01b1b264ebac24aaaa87537bd",
+      "size_in_bytes": 2782
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/JetMatching.html",
+      "path_type": "hardlink",
+      "sha256": "237e3c3547d9cab074562f7a559c963da2a341a2674d8bfc101eff5e1df939fc",
+      "size_in_bytes": 35864
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/Jquery.js",
+      "path_type": "hardlink",
+      "sha256": "ecb916133a9376911f10bc5c659952eb0031e457f5df367cde560edbfba38fb8",
+      "size_in_bytes": 95957
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/LHA.html",
+      "path_type": "hardlink",
+      "sha256": "0153969f05dbdd64b8c9158660c623c993c0cb1687bf6cf53ad9ac7335e79d86",
+      "size_in_bytes": 36344
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/LHAHDF5.html",
+      "path_type": "hardlink",
+      "sha256": "5997963c5be81049b1936e51e8b85135940276c03d44c1acbd3232b6a0324c84",
+      "size_in_bytes": 3141
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/LHEF.html",
+      "path_type": "hardlink",
+      "sha256": "40b8d3f18eb1688162457655986c95d24f3b4b0dfd29c2719988ec1c52e7327c",
+      "size_in_bytes": 42417
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/LeftRightSymmetryProcesses.html",
+      "path_type": "hardlink",
+      "sha256": "52743812f9a5e3d5fc289063cd5faa24fbdeca50bfcc8dc6f32cddf625622f19",
+      "size_in_bytes": 9162
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/LeptoquarkProcesses.html",
+      "path_type": "hardlink",
+      "sha256": "392fb66c39e932bb03751b6ae2e96bcf9f78e2544c7f348ab26affadfe872224",
+      "size_in_bytes": 4056
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/MadGraph5Processes.html",
+      "path_type": "hardlink",
+      "sha256": "bd840e5cc1fe5a31b5e734571cae8cf2e7246a227be37f53efe2bc6988f371fe",
+      "size_in_bytes": 17238
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/MainProgramSettings.html",
+      "path_type": "hardlink",
+      "sha256": "3c462f98e632d3b356e47336085abdaa8f72b302e97abb9b30c2a13cbc609267",
+      "size_in_bytes": 15456
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/MasterSwitches.html",
+      "path_type": "hardlink",
+      "sha256": "a60df4e01a04085a69e8181ad94af39af1f9c3d42c7e77abf5987a9a5a09c52a",
+      "size_in_bytes": 11844
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/MatchingAndMerging.html",
+      "path_type": "hardlink",
+      "sha256": "056160aeff5f653fec32e53dc68b1233794a940cb2f2862cb228ab3af55f1e85",
+      "size_in_bytes": 14629
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/MergingVariations.html",
+      "path_type": "hardlink",
+      "sha256": "87c5a46c24992c03da3a652ceb1313544d7c3fff856a2b96141b63c41f6aff5c",
+      "size_in_bytes": 2024
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/MultipartonInteractions.html",
+      "path_type": "hardlink",
+      "sha256": "e04f2ce9779f8ceb4c3ceb1bfecc7f92b7882d503dc09b3bc75e833e3e09927a",
+      "size_in_bytes": 37952
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/NLOMerging.html",
+      "path_type": "hardlink",
+      "sha256": "d2f77055a921959aeb06521f6bc5c9d2e898f0ae67f7b5413b402995157855cf",
+      "size_in_bytes": 45562
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/NewGaugeBosonProcesses.html",
+      "path_type": "hardlink",
+      "sha256": "26ce3f135672471dd55a3c12cec60b111ee89f7a18536ba0c284f6e2fbc2053d",
+      "size_in_bytes": 19903
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/OniaProcesses.html",
+      "path_type": "hardlink",
+      "sha256": "7be71a7b11c6d41cc57e7f9ad17e9a751c7c1c1dbcbd56714c8524c52d7237f1",
+      "size_in_bytes": 35788
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/PDFSelection.html",
+      "path_type": "hardlink",
+      "sha256": "6e5343822486817ff69c0936479411e94236e00f127b271e008e9d9b88e12d93",
+      "size_in_bytes": 47355
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/POWHEGMerging.html",
+      "path_type": "hardlink",
+      "sha256": "bc866c9c157108cadcadd579b300de788283bad67ea8b6b0201669091ef9fae0",
+      "size_in_bytes": 13396
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/Parallelism.html",
+      "path_type": "hardlink",
+      "sha256": "fcddf93f66a140500b0fe9e19ea528795e70ca30ba9fc349bfda61102cddcebe",
+      "size_in_bytes": 9788
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/ParticleData.html",
+      "path_type": "hardlink",
+      "sha256": "f96e8cd6bcd51da624d54fe196be594fbf77de44bdbb80ab985bfd012667ca6a",
+      "size_in_bytes": 761100
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/ParticleDataScheme.html",
+      "path_type": "hardlink",
+      "sha256": "3984ca066e61345080f077a30e34134d3d510600dc50127dc935fcafc3847ffc",
+      "size_in_bytes": 77422
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/ParticleDecays.html",
+      "path_type": "hardlink",
+      "sha256": "069f6c6af679bed9286b7c782b6484af43fdc7ba6ab1ca8202432001a91f7f42",
+      "size_in_bytes": 25272
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/ParticleProperties.html",
+      "path_type": "hardlink",
+      "sha256": "818de66282907848bcc9e018c3c7023d3f700621fcd66678bf5492faeac3ed80",
+      "size_in_bytes": 47661
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/PartonDistributions.html",
+      "path_type": "hardlink",
+      "sha256": "94ec45c0e03a842328c639b8dd08f383b0a8c96c6cec2d70f5e86e8d32b953aa",
+      "size_in_bytes": 12850
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/PartonShowers.html",
+      "path_type": "hardlink",
+      "sha256": "df1af14d4a7e76f0c2cd9e21974c8e3221fd753ffb44cea69a84efe3593772db",
+      "size_in_bytes": 7474
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/PartonVertexInformation.html",
+      "path_type": "hardlink",
+      "sha256": "dc6a60b30a25761f7cce4d4f7dd5fede5714611d3dcfefed0f676c2ce105aaf5",
+      "size_in_bytes": 12787
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/PhaseSpaceCuts.html",
+      "path_type": "hardlink",
+      "sha256": "dc04770e4155411d7d27315cceb52ac82dfd97ce50db939ff23886bc65c1b988",
+      "size_in_bytes": 18851
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/Photoproduction.html",
+      "path_type": "hardlink",
+      "sha256": "a3547faa9a8a908e5a5b44f9f7495a0afa51bcee2fba08dec659e7e94d06fb22",
+      "size_in_bytes": 16838
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/ProMCFiles.html",
+      "path_type": "hardlink",
+      "sha256": "bf85eae49fef1df1e8f352e290c31767d0e2d43de6600643894a0fe449a018c6",
+      "size_in_bytes": 1448
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/ProcessSelection.html",
+      "path_type": "hardlink",
+      "sha256": "0a0da96cf6826a5f3cd9adc03a7725f02f7208b8df4145ecdc670a5d785d2095",
+      "size_in_bytes": 8731
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/ProgramClasses.html",
+      "path_type": "hardlink",
+      "sha256": "75d4f76c221f4befd6ad30d4e115ad903ca74a0e9b9aba402ddc1daa1c77671b",
+      "size_in_bytes": 6410
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/ProgramFiles.html",
+      "path_type": "hardlink",
+      "sha256": "4a01465cf927d9db7ee41c2532c755caed5a5de8d410054c975c6256ff8998d8",
+      "size_in_bytes": 19418
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/ProgramFlow.html",
+      "path_type": "hardlink",
+      "sha256": "c86a9a9479144ff191470f58fdd62df82471820a52bb5e4c2e3d883354a33438",
+      "size_in_bytes": 61697
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/ProgramMethods.html",
+      "path_type": "hardlink",
+      "sha256": "3db3561a132a9be82688564f255c8b558bbcd353e7d5a7c7bf22249183b58077",
+      "size_in_bytes": 194010
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/PythonInterface.html",
+      "path_type": "hardlink",
+      "sha256": "71bfceb4f123a912b68ffc9da8e6b25a2f347e79880acbff53c0504c71f1a131",
+      "size_in_bytes": 10586
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/QCDHardProcesses.html",
+      "path_type": "hardlink",
+      "sha256": "0db4ab5f7b5200abc7d49d6c44cb78e6a4bc119484d89b1a5f280975bfc5d6e3",
+      "size_in_bytes": 10246
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/QCDLowEnergyProcesses.html",
+      "path_type": "hardlink",
+      "sha256": "cdb6bffc9ba4591a9a97c6da31b1f97cd82dfbce12219ed121b87c0511dcc9f6",
+      "size_in_bytes": 6805
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/QCDSoftProcesses.html",
+      "path_type": "hardlink",
+      "sha256": "ec61df4c60be0a6ea5e2c4858dd64ec8de53969b0a0ac5711bf0fbf087c4ed3f",
+      "size_in_bytes": 6442
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/RHadrons.html",
+      "path_type": "hardlink",
+      "sha256": "dc9f1a5b5be15b9c55581bed4aa4ae74dfcd199379675b17ecbef15d8b01d5dc",
+      "size_in_bytes": 8679
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/RIVETusage.html",
+      "path_type": "hardlink",
+      "sha256": "a97b5f1f4a93c6bc2d1fee8f3bd4680fed95bb79d580204343e1a8bd5b40f196",
+      "size_in_bytes": 5817
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/ROOTusage.html",
+      "path_type": "hardlink",
+      "sha256": "b68c83eafb45309ab72050616927fe8c53c3bb84e6d3e667335a10342746e543",
+      "size_in_bytes": 14070
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/RandomNumberSeed.html",
+      "path_type": "hardlink",
+      "sha256": "00aaad101193ba2c092b5ec5b499bcbe25fcfa8d16b330c9031ee4b4df4768aa",
+      "size_in_bytes": 1598
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/RandomNumbers.html",
+      "path_type": "hardlink",
+      "sha256": "14013cf5c87fd84444b9ec6c8ca42843696b43dda47746adfb745b9a1928cd24",
+      "size_in_bytes": 8742
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/ResonanceDecays.html",
+      "path_type": "hardlink",
+      "sha256": "811ddf8ed6210495454ff089bdd997eae37d1e7a9ab5545630d000d9700307bf",
+      "size_in_bytes": 21783
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/RopeHadronization.html",
+      "path_type": "hardlink",
+      "sha256": "2bfa28d6404349dfe8c00856f40721b7f20c5db629092b8556f948985d8f313a",
+      "size_in_bytes": 15897
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/SUSYLesHouchesAccord.html",
+      "path_type": "hardlink",
+      "sha256": "2eaf32cd7e6c789fa722902c983c4cb11f73459ce2b85aeb8d49f3fe9726d5a1",
+      "size_in_bytes": 18197
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/SUSYProcesses.html",
+      "path_type": "hardlink",
+      "sha256": "b9566fb7a3add2a6ad2fc17cae09881b34b07780c21999952104dd948e5e3a0c",
+      "size_in_bytes": 19002
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/SampleMainPrograms.html",
+      "path_type": "hardlink",
+      "sha256": "dc5572a2ef6a80ef5d5787c45d7bc155d2a7a6b8b54d29037b19390e40eb4453",
+      "size_in_bytes": 27834
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/SaveSettings.html",
+      "path_type": "hardlink",
+      "sha256": "db81baa10ab140daefd15fcdc73cba0bf5c5b4037c5ebb312d5e77cc8bea0508",
+      "size_in_bytes": 5561
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/Search.js",
+      "path_type": "hardlink",
+      "sha256": "8db1946038b65f7f1a5a8040ff88b6a2328c225f6afba48fa7a70637135ea6fe",
+      "size_in_bytes": 1780
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/SecondHardProcess.html",
+      "path_type": "hardlink",
+      "sha256": "553319c80602e32b013760f9a7c01168ea991e3cde866d4cccdb33336daff0c5",
+      "size_in_bytes": 24163
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/SemiInternalProcesses.html",
+      "path_type": "hardlink",
+      "sha256": "9e530ac29d0d079110457ed4422710068db7cbe33fde29c246d844d4b3cd263f",
+      "size_in_bytes": 37566
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/SemiInternalResonances.html",
+      "path_type": "hardlink",
+      "sha256": "b17a68b38aa1a2a121a19c320e2821a23675ec02e620b2618545e98178065dc4",
+      "size_in_bytes": 12274
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/SettingsScheme.html",
+      "path_type": "hardlink",
+      "sha256": "5049b0c37bc1893535f9fa02fd6bba81c53ae466979f04bfacf7ab54b37cf555",
+      "size_in_bytes": 31973
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/SimpleShowers.html",
+      "path_type": "hardlink",
+      "sha256": "a50fea495148d2f0f32e20337d090a91e7094ff0b482081f515f51dc24c8d982",
+      "size_in_bytes": 5628
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/SpacelikeShowers.html",
+      "path_type": "hardlink",
+      "sha256": "e4058f1d7ac3b25a5a4f5e58370ea3394b4f933ab2852a1e0009dc522eae3aa3",
+      "size_in_bytes": 29649
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/StandardModelParameters.html",
+      "path_type": "hardlink",
+      "sha256": "644957a8d38b6141024426ae2e22dcbf84ce89eec7f81eba8308455b5504388a",
+      "size_in_bytes": 17705
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/TimelikeShowers.html",
+      "path_type": "hardlink",
+      "sha256": "1fd8f36c98dbb24901010cf35858cb8bd7f22cfee789d6b220177c0bb15c81b8",
+      "size_in_bytes": 51540
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/TopProcesses.html",
+      "path_type": "hardlink",
+      "sha256": "5268a791974cb17306803da91858ddd881fb26e1c2e654f5d7ec032d773f765d",
+      "size_in_bytes": 2616
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/TotalCrossSections.html",
+      "path_type": "hardlink",
+      "sha256": "2bc139e3f048854ad1c132c7af4503441803c5309da5ab3c5623a8d61c6b45ea",
+      "size_in_bytes": 47957
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/Tunes.html",
+      "path_type": "hardlink",
+      "sha256": "5550ac382d3a714eb46adc6efa8fb436c95a3e5e82c6d78c42fdeb6269b03117",
+      "size_in_bytes": 22570
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/UMEPSMerging.html",
+      "path_type": "hardlink",
+      "sha256": "aa755c4622ac99808c3fd9f9b977e8c58861f8e3ec2bca39a805da500105f8e0",
+      "size_in_bytes": 10027
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/Underscore.js",
+      "path_type": "hardlink",
+      "sha256": "a1b6400a21ddee090e93d8882ffa629963132785bfa41b0abbea199d278121e9",
+      "size_in_bytes": 16449
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/UpdateHistory.html",
+      "path_type": "hardlink",
+      "sha256": "c7c0a6540640953e9927bf65180bc58f4d57feb7507e42f1c113395146c2acfc",
+      "size_in_bytes": 42882
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/UserHooks.html",
+      "path_type": "hardlink",
+      "sha256": "8197105ea74963287230ff58edcdbb073ad78d881d63cc9e2b5ef8c778d34dda",
+      "size_in_bytes": 60963
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/Variations.html",
+      "path_type": "hardlink",
+      "sha256": "40954b17b4c0136580ba65ae50398f30542357864672fa309af06e40ed4ee174",
+      "size_in_bytes": 22522
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/Version.html",
+      "path_type": "hardlink",
+      "sha256": "8fc912068907f178eeb243786d2e2077f39aaee971c4f6c86b2e012c6be39f1e",
+      "size_in_bytes": 899
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/Vincia.html",
+      "path_type": "hardlink",
+      "sha256": "7ab6af40e306e9ff764151e6f22af2c525bb094fcf60d820f3c0e919add4f934",
+      "size_in_bytes": 40354
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/VinciaEW.html",
+      "path_type": "hardlink",
+      "sha256": "0fd7a4b36643050bf8ee72126016c3a03c29d4ae41ae1f472018a4ee3a2ce017",
+      "size_in_bytes": 63706
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/VinciaMECs.html",
+      "path_type": "hardlink",
+      "sha256": "d96c0acbf2bdee123a1c244a896a16de2e153d61bd17c65b45c6a992bcff80db",
+      "size_in_bytes": 5006
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/VinciaMerging.html",
+      "path_type": "hardlink",
+      "sha256": "31d305ffea880ffff697791e8880aa32faecdc5ffb279bcb4ac3cce83aa5bf10",
+      "size_in_bytes": 10893
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/VinciaQCD.html",
+      "path_type": "hardlink",
+      "sha256": "02e62f2ba42d3c8b4dbe32f225b57bbb7e554e2e7ea8f882b2a7d82e18c41d67",
+      "size_in_bytes": 22033
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/WeakShowers.html",
+      "path_type": "hardlink",
+      "sha256": "481a5c8c62e28c1eed1afc4394899e7d5063ace2b8af1bdeadc2387b1996463c",
+      "size_in_bytes": 10808
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/Welcome.html",
+      "path_type": "hardlink",
+      "sha256": "d55c33580f8608134ea5949f87cb0ad865e36f14d5becb0c2d31cd27f451e4c7",
+      "size_in_bytes": 576
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/aMCatNLOMatching.html",
+      "path_type": "hardlink",
+      "sha256": "7c82adc9f505957bf5a19a279229f9f9ef8da74da93da00f5213e80b4bea2dc0",
+      "size_in_bytes": 4179
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/dot.gif",
+      "path_type": "hardlink",
+      "sha256": "ad9be977e950bc96661c80eb9a84192abeaab8be04763609238b118b788601ec",
+      "size_in_bytes": 1096
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main01-python.html",
+      "path_type": "hardlink",
+      "sha256": "b982de956ae22b97ffdc333eb502344d50ac9792a6f6e80e82c95d4907d19fbe",
+      "size_in_bytes": 2091
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main01.html",
+      "path_type": "hardlink",
+      "sha256": "1517159ee0e65219481725826573c5008058950f52ad8624505877d7b829dfd0",
+      "size_in_bytes": 1738
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main02.html",
+      "path_type": "hardlink",
+      "sha256": "4943f661495336589327fb142af3c758523cac956bd60c88b2632f4908c8eebb",
+      "size_in_bytes": 1833
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main03.html",
+      "path_type": "hardlink",
+      "sha256": "b54590d719537a66f4963c3b1cbd77c3edbd3375cbd268d53b381b3b84f29a84",
+      "size_in_bytes": 5074
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main04.html",
+      "path_type": "hardlink",
+      "sha256": "72d80df6c994729e0cad36be27e419b719459aa911d2c1403ebd0681c6519217",
+      "size_in_bytes": 9427
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main05.html",
+      "path_type": "hardlink",
+      "sha256": "15e707ef0431dd488e2be6b1ebbce23a49a6cbc441a988e1bd7e68f26e528d90",
+      "size_in_bytes": 5711
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main06.html",
+      "path_type": "hardlink",
+      "sha256": "d9693f885d7ec18a3126d844d14e74bc8c9fc6202ce2aa12ccc0aeee6cd8a776",
+      "size_in_bytes": 5541
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main07.html",
+      "path_type": "hardlink",
+      "sha256": "728a0633f265f6d65007d6e1181cf8abd289972cc897d3fcb5ce22e263be27db",
+      "size_in_bytes": 5174
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main08.html",
+      "path_type": "hardlink",
+      "sha256": "a19d39ffd2cd9bbc1aa1a9bb6a7ea2389f0c1b97a35c543b9e74e3f6c51b8087",
+      "size_in_bytes": 7560
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main09.html",
+      "path_type": "hardlink",
+      "sha256": "829d53f0ba5bfc3fa94cc4b2a87ad822e02a437e05fedb68f92b4ab46f0bd208",
+      "size_in_bytes": 3174
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main10-python.html",
+      "path_type": "hardlink",
+      "sha256": "518460bfea63014d790e6f888333aa4a0ef202fb2eb21af804eb290356d70a0a",
+      "size_in_bytes": 5426
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main10.html",
+      "path_type": "hardlink",
+      "sha256": "350d26da5603ebbf80a5296b9cc83aa6d321a5c82df31dfabe6d9b1c3f17397d",
+      "size_in_bytes": 5321
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main101.html",
+      "path_type": "hardlink",
+      "sha256": "6911d4d8fbd082a0b4bdb7e72347699e213d511ba33b0aa73f9f19f19c7b7c1b",
+      "size_in_bytes": 4804
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main102.html",
+      "path_type": "hardlink",
+      "sha256": "a3f4e9b8a2b51aa34f0f3fb78ee8956cea2258d1be9c86d92d9190dc454613e4",
+      "size_in_bytes": 4341
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main103.html",
+      "path_type": "hardlink",
+      "sha256": "653f18967fc7824b82531d03863d9fef12d0ed4861f1f821b70cd26745d3921e",
+      "size_in_bytes": 3107
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main11.html",
+      "path_type": "hardlink",
+      "sha256": "21f05c8ff83f74bd45aceded08bc7c169982eba7ebae8fbde457d8a0824977a4",
+      "size_in_bytes": 2615
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main111.html",
+      "path_type": "hardlink",
+      "sha256": "6b3ac215495522e745f81fc99a25d3a909ebc1dd9856f2446514a71a5f9449ad",
+      "size_in_bytes": 3215
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main112.html",
+      "path_type": "hardlink",
+      "sha256": "856d5cc1745d734d623750857ac70b6c7974d18f6e5676a3d881021976b53761",
+      "size_in_bytes": 8350
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main113.html",
+      "path_type": "hardlink",
+      "sha256": "52716d832cc33c65a614b7a2ebf8d9da320ae6506c2ac65a0c766c3f628b9a4a",
+      "size_in_bytes": 9755
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main12.html",
+      "path_type": "hardlink",
+      "sha256": "be31dcd0e38c961329436bbf1e9783de0c878fba1c8e7369be6bfdcb80d0c880",
+      "size_in_bytes": 4028
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main121.html",
+      "path_type": "hardlink",
+      "sha256": "916bc678053f95cff49c7e40ffb7f4359af2a825219786d4b2454444369e15b3",
+      "size_in_bytes": 4249
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main13.html",
+      "path_type": "hardlink",
+      "sha256": "7fb061484ba92492a8714c2368e79b6b8dea4cd989c0dd9cab4fc3a669c8c54a",
+      "size_in_bytes": 2566
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main14.html",
+      "path_type": "hardlink",
+      "sha256": "03515fd3f612af9a0bb95b3735b7119da87e9dfcaca7bbc9760a982e659aca5c",
+      "size_in_bytes": 8099
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main15.html",
+      "path_type": "hardlink",
+      "sha256": "a24863b5c19e8671ff952f771c59bb6c3da0c0d95975e8cc0cf66313d0c5cdc5",
+      "size_in_bytes": 7874
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main151.html",
+      "path_type": "hardlink",
+      "sha256": "98ba5d2bcbb8509e93bc9b7be3b86ee9bfce63071b7d7f17c4fbf7aa13f3a15d",
+      "size_in_bytes": 4763
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main152.html",
+      "path_type": "hardlink",
+      "sha256": "e82afe9c7eb4af071e22bcc3efae03490278115de3a58ffd47efb528f67b263a",
+      "size_in_bytes": 6526
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main153.html",
+      "path_type": "hardlink",
+      "sha256": "90450f8d1f0c2b9e024b7ffb2967facfab666918e67faa3480d7c35895551b55",
+      "size_in_bytes": 2411
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main154.html",
+      "path_type": "hardlink",
+      "sha256": "f68ed5f3e7faba4332654b0a8c4f579f3205270f07df0ea604c7101351d4f316",
+      "size_in_bytes": 4029
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main155.html",
+      "path_type": "hardlink",
+      "sha256": "71da31ddc1bb9d3d00e076c1a9ff11a363fc9c2b9bcf7c805670396af2635f01",
+      "size_in_bytes": 3069
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main156.html",
+      "path_type": "hardlink",
+      "sha256": "4a3831368e86f36594ad8951d78f3ea2abae2f17c018f85d9593d3b3092b27fe",
+      "size_in_bytes": 2134
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main16.html",
+      "path_type": "hardlink",
+      "sha256": "7b97b184e9b837458e0208a4714fb946aeb6d307075ef9750728455f19923768",
+      "size_in_bytes": 5325
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main161.html",
+      "path_type": "hardlink",
+      "sha256": "d930e3010b4c84025e70dee08d0e75a57f6b8df313337ce04acd709611ddc3ba",
+      "size_in_bytes": 1850
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main162.html",
+      "path_type": "hardlink",
+      "sha256": "1dfc569a2f08fcfdc6c0c8d3404d6af367cf7620d106f8f8ea1a75d63958504c",
+      "size_in_bytes": 3152
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main163.html",
+      "path_type": "hardlink",
+      "sha256": "993178ef55493290b0199c35596f922e757653366152f0644ec73236e188365f",
+      "size_in_bytes": 2527
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main17.html",
+      "path_type": "hardlink",
+      "sha256": "48a88fdd9f5ee556f7788597112305aaa6a6cbd6a8df66c690ff9f7671c81d6c",
+      "size_in_bytes": 6383
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main18.html",
+      "path_type": "hardlink",
+      "sha256": "ea761ccba2e88637e36868653a4bd625a4f0b33c4265e9d6492bede0a847601d",
+      "size_in_bytes": 7912
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main181.html",
+      "path_type": "hardlink",
+      "sha256": "c7b4979e01549c25e7aee7b607a70c6a8e9e9b76e14277ea5fa58339c5dad976",
+      "size_in_bytes": 4280
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main182.html",
+      "path_type": "hardlink",
+      "sha256": "ba234da48566023567da141d4716f5220c7cfec0ae2b4bba75db010177518c09",
+      "size_in_bytes": 9913
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main183.html",
+      "path_type": "hardlink",
+      "sha256": "9f3c4a20be19d7437c6e1b6126307fd510b31f66e2cb072688ed6cff6cd447c3",
+      "size_in_bytes": 16858
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main19.html",
+      "path_type": "hardlink",
+      "sha256": "9bd71cb355ea6d95062291654396009b37855c1a45d2f5d8c1243873566117e3",
+      "size_in_bytes": 7604
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main20.html",
+      "path_type": "hardlink",
+      "sha256": "9efb165fe144e6ceb124bdf2b9adf5dc2d22420e19cd6cccbddb4966812bfa2b",
+      "size_in_bytes": 2389
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main200.html",
+      "path_type": "hardlink",
+      "sha256": "94a71146202f977eb9ba04ddc5a378d0cd0686354b27ef904374eeee30484cb1",
+      "size_in_bytes": 9917
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main201.html",
+      "path_type": "hardlink",
+      "sha256": "aaef593930bb0efaf614df8757e8c04dafb8b3da0e6a4a1d5ef85ec9578cf92b",
+      "size_in_bytes": 6164
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main202.html",
+      "path_type": "hardlink",
+      "sha256": "3183b5e930a4b61dff063733e0dfdcba8a41375be191f48215af4f91a0b85d5f",
+      "size_in_bytes": 3778
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main203.html",
+      "path_type": "hardlink",
+      "sha256": "581f379803b58a8a42bfbe8d9b0d03db9739a320a779a44f71f67cbbef89ddc1",
+      "size_in_bytes": 5469
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main204.html",
+      "path_type": "hardlink",
+      "sha256": "47af8e5d64a9da2003ea6164a7b1fa975df2aa929d503d3667a1576b82ed644f",
+      "size_in_bytes": 5949
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main21.html",
+      "path_type": "hardlink",
+      "sha256": "25cf021888d370ebc6c634af92186bb20c1684192cc9217d157c4d011b07e6ef",
+      "size_in_bytes": 15053
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main22.html",
+      "path_type": "hardlink",
+      "sha256": "3882007ef97ef2b582172aabb768fddb0d05bebb6dbad97ce69d4bef3757b112",
+      "size_in_bytes": 9253
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main23.html",
+      "path_type": "hardlink",
+      "sha256": "031ae755f71992d33cfd18644cf07833c6636c33d949d27ef857af4c14eae100",
+      "size_in_bytes": 11941
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main24.html",
+      "path_type": "hardlink",
+      "sha256": "e17646df004e4a511d3c6c962ab37af4622942fac71359e2b186888c78c8deb3",
+      "size_in_bytes": 2873
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main25.html",
+      "path_type": "hardlink",
+      "sha256": "8704a4516e9aacf60a37d2fd3e0dad2876a0521638d07fcfcfedbb9b2f25d487",
+      "size_in_bytes": 2640
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main26.html",
+      "path_type": "hardlink",
+      "sha256": "5eb949aef83af53754647c4afc060222bf0e13c2cf298eda6c7759efb9f1152e",
+      "size_in_bytes": 8251
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main27.html",
+      "path_type": "hardlink",
+      "sha256": "41b3824f63729b2a2981bf685ff2d59519a34f770a4b245eeb844a9252a2f5ff",
+      "size_in_bytes": 5786
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main28.html",
+      "path_type": "hardlink",
+      "sha256": "a257307edb75b14dea8654b3a9cab1301ccb57770c6572a526db431c7a931446",
+      "size_in_bytes": 8272
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main280.html",
+      "path_type": "hardlink",
+      "sha256": "01db8e4f1c114628a61476803ff4d41f898df8cfb70eb0e09d383bf8da1af89f",
+      "size_in_bytes": 14519
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main29.html",
+      "path_type": "hardlink",
+      "sha256": "14d27fa3e8ebc8c526f506dd1629e716a3cb21e608891973c49dc2334346fe9d",
+      "size_in_bytes": 9893
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main30.html",
+      "path_type": "hardlink",
+      "sha256": "9fd0c70649117bbcff7a6572b9e8454d69fe97056cb53bb9b48c1703afd6702a",
+      "size_in_bytes": 7694
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main300.html",
+      "path_type": "hardlink",
+      "sha256": "71c79f3c373e2b3986be2d35108fb42cfb3f68ba3eadea163cde6ba6e9931ca1",
+      "size_in_bytes": 31509
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main31.html",
+      "path_type": "hardlink",
+      "sha256": "e52b3a2aad2818010b7d0780ae4c3bb536c240f15412609c273d765a863a206c",
+      "size_in_bytes": 3472
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main32.html",
+      "path_type": "hardlink",
+      "sha256": "b1f88a478c152ce4755836197edb7e08ad45e2ab9e1d9514329d1d73542fbd0e",
+      "size_in_bytes": 2474
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main33.html",
+      "path_type": "hardlink",
+      "sha256": "224bf3e7160f7324cb28a8aaa6e281f8b7e7869ea32b67d650f3d9f6016bfff9",
+      "size_in_bytes": 3359
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main333.html",
+      "path_type": "hardlink",
+      "sha256": "4147419e0acf73651ca7c7a5b44f8966a80a81bcb0abf104cfd369a1e550d609",
+      "size_in_bytes": 3557
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main34-python.html",
+      "path_type": "hardlink",
+      "sha256": "778630ac89b669b4e7387ab4a0ceb9ed9c2e125f5a18ee1132d251dc36168bd5",
+      "size_in_bytes": 4564
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main34.html",
+      "path_type": "hardlink",
+      "sha256": "61d3f8b6a10424e86692d547eeea98ab230197cc3936974571933e3981abaa37",
+      "size_in_bytes": 4576
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main35.html",
+      "path_type": "hardlink",
+      "sha256": "b65a811683b62190360e81e7a0ba357ff00a6711b92e70297bb593ff63ae5d51",
+      "size_in_bytes": 3522
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main36.html",
+      "path_type": "hardlink",
+      "sha256": "27145406120ddd5434ade7df8da307e1c9add05943eeade8a49b6c197ef479b2",
+      "size_in_bytes": 3747
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main37.html",
+      "path_type": "hardlink",
+      "sha256": "b1e54e2b40d6c7d66bae46bc218340b0dd8307f28ea5579c8dfdf33a4319b33b",
+      "size_in_bytes": 2773
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main38.html",
+      "path_type": "hardlink",
+      "sha256": "674202a7ebb24c7994d7e46d6dbecc967669d979a2243ff34b93f7cbf001c840",
+      "size_in_bytes": 8830
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main41.html",
+      "path_type": "hardlink",
+      "sha256": "946c3262c2697dcc0854b012ad972401cdbdd39e1e1ef4b9fb68594085e8396e",
+      "size_in_bytes": 2340
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main42.html",
+      "path_type": "hardlink",
+      "sha256": "c22e9386fadc0a8820577bde733814e78a6be5b6ea09f5993934b52d0884297f",
+      "size_in_bytes": 3694
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main43.html",
+      "path_type": "hardlink",
+      "sha256": "9d26c18609f8f35e3acff572978687c3d7d0de382d2efe3f2423be9873dd387e",
+      "size_in_bytes": 4026
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main44.html",
+      "path_type": "hardlink",
+      "sha256": "7dc3c886984aac43de934443333a3ac3784871a894481a113fb92a443694bc81",
+      "size_in_bytes": 4621
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main45.html",
+      "path_type": "hardlink",
+      "sha256": "56f91fca2cff070620d4f9f58d1e206fe66f1518a0dbb6db9bc16bcbefa51b61",
+      "size_in_bytes": 4746
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main46.html",
+      "path_type": "hardlink",
+      "sha256": "76541757ec01e63be839a5d1d65bb272e89115b4717237e3c8ee3b49d36ccfd8",
+      "size_in_bytes": 4636
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main48.html",
+      "path_type": "hardlink",
+      "sha256": "cef71be0e766ab3d017c431700569084b42624c44a4d2d0fff8834f298296000",
+      "size_in_bytes": 4839
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main51.html",
+      "path_type": "hardlink",
+      "sha256": "fac7f31bd302123ccea8e27617594b9bada4a6ed02f573fb48337653cd2ce8a6",
+      "size_in_bytes": 6363
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main52.html",
+      "path_type": "hardlink",
+      "sha256": "c8d27bf363db88648ec381ddc683dcedf5525729089f43c6744f7218e2d22da7",
+      "size_in_bytes": 9555
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main53.html",
+      "path_type": "hardlink",
+      "sha256": "29c8af10af2c6e4e2a5c139e1678ecf572c9136b988954ad47fb53e06803ffa1",
+      "size_in_bytes": 2805
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main54.html",
+      "path_type": "hardlink",
+      "sha256": "6398d5133070919c438604251bf40beaa71b246c643274e4698e1ff7bd101cc1",
+      "size_in_bytes": 4628
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main55.html",
+      "path_type": "hardlink",
+      "sha256": "18052a7cedf252fc49d54bf6dae53ec907d0923cedb1dd84afbf6f4eb2fac60d",
+      "size_in_bytes": 3617
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main61.html",
+      "path_type": "hardlink",
+      "sha256": "64367fab3111277906cb673f801b106e8a70d224bb49c2ed8f9a1d4d01635698",
+      "size_in_bytes": 5149
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main62.html",
+      "path_type": "hardlink",
+      "sha256": "de7c95b32c8f78fb15e3f339952fc9acd7f3171d1cf6bb3e4fce95def8996a4e",
+      "size_in_bytes": 8440
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main63.html",
+      "path_type": "hardlink",
+      "sha256": "201ad4f05475369281fc7e33a45193ddab344d26e17920406d30d78614ff48ad",
+      "size_in_bytes": 3039
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main64.html",
+      "path_type": "hardlink",
+      "sha256": "32cee63c52053048dff4bc667bde3a0f0d870cdde9b0d7abd6d226d5d50adc23",
+      "size_in_bytes": 1876
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main68.html",
+      "path_type": "hardlink",
+      "sha256": "ae1964373ed19a13f4ed3e5a229f636c257122138cd093194f970de68801059a",
+      "size_in_bytes": 7522
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main69.html",
+      "path_type": "hardlink",
+      "sha256": "d9f589a1eecd5530c63889b41bc6022f19ade0ec3e04ada86b646cc00d5b5c36",
+      "size_in_bytes": 8393
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main70.html",
+      "path_type": "hardlink",
+      "sha256": "eea4b4ea4e34b3da734fc64c934e87f2d20a21a3475325dde8035f5a292bde97",
+      "size_in_bytes": 6057
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main71.html",
+      "path_type": "hardlink",
+      "sha256": "65e8b200307377675e1ee2775c574458e2d701a9896b3e9f72b7bdb8c53addd9",
+      "size_in_bytes": 8924
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main72.html",
+      "path_type": "hardlink",
+      "sha256": "81ededeb6055097dfcd3558a08fc64248f697350933c4be8303428bbc02b8f5c",
+      "size_in_bytes": 11236
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main73.html",
+      "path_type": "hardlink",
+      "sha256": "7d15e6f23bd56891f169ef00497cf9351abfcde81f68df0c570587b387596511",
+      "size_in_bytes": 5783
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main74.html",
+      "path_type": "hardlink",
+      "sha256": "ccdc91f2e42744a2a2600b511844e528cb485e4165e7cd4c6eaf988c8e210628",
+      "size_in_bytes": 4618
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main75.html",
+      "path_type": "hardlink",
+      "sha256": "d40484dc87f0347c6a9f3562e2ab1cc63a3b85a953fd41f42af0e97d354bfdf1",
+      "size_in_bytes": 3810
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main76.html",
+      "path_type": "hardlink",
+      "sha256": "0096db110e5fb460abd00508f886ca055d5b13991fbfb6a9a9473ff499894c69",
+      "size_in_bytes": 2170
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main77.html",
+      "path_type": "hardlink",
+      "sha256": "39e74ed6892220f5bd018e74d15fdad5c3cf6f737ccd4cda27d1b3d64ed101ea",
+      "size_in_bytes": 7500
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main78.html",
+      "path_type": "hardlink",
+      "sha256": "41ddc72fc1ec7a7c4d3d4fa2404ab96aa869758deab97c99e3be45f734d58ca3",
+      "size_in_bytes": 4385
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main80.html",
+      "path_type": "hardlink",
+      "sha256": "2dfdfc2aa16f3121e29447b9cce8eafdd59326cd6a704ee096a6640491913854",
+      "size_in_bytes": 3659
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main81.html",
+      "path_type": "hardlink",
+      "sha256": "a91847e15bbc1b9cbefc040a282272bd1b92773e9e33646ada660e440ee799aa",
+      "size_in_bytes": 6511
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main82.html",
+      "path_type": "hardlink",
+      "sha256": "cf67154274b6665e666674a1ff196ab672e890549884e98d02c426c05d076c02",
+      "size_in_bytes": 11892
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main83.html",
+      "path_type": "hardlink",
+      "sha256": "422e44218708807302502b3f72f72f078e4171baf9bf5d02d5f7fea52fee0b8e",
+      "size_in_bytes": 12379
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main84.html",
+      "path_type": "hardlink",
+      "sha256": "913073def6ac03f98a245dadd8cee2652d02c0462e1f09fe2c637de3a11a8db5",
+      "size_in_bytes": 15841
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main85.html",
+      "path_type": "hardlink",
+      "sha256": "a640d60ad5cfb33f982561f58935704650937d9ab2663b1eb7aa236463b0918f",
+      "size_in_bytes": 10024
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main86.html",
+      "path_type": "hardlink",
+      "sha256": "5e979bf20a34f7c825649d5bdd92f1fab6c7e627f2a3bed84aff6569b9ce54e9",
+      "size_in_bytes": 12701
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main87.html",
+      "path_type": "hardlink",
+      "sha256": "f5a3c680bd49e767be99b9ee89ceb6c5ff08fb82cf44d8166e509bb38d78d769",
+      "size_in_bytes": 19606
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main88.html",
+      "path_type": "hardlink",
+      "sha256": "c4f0cec9a717dc804c73a60a1b88bfa23082c54ce699763cf6c37587a141a3f4",
+      "size_in_bytes": 22624
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main89.html",
+      "path_type": "hardlink",
+      "sha256": "0d30c1967d77d743a85acd7711b9ea0bce2782e456c1413401dbeb016a23d02b",
+      "size_in_bytes": 9396
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main91.html",
+      "path_type": "hardlink",
+      "sha256": "70e0b4b8230208d279a546e4443a7b79b5b756fc4d54e8705ca805c87493bb61",
+      "size_in_bytes": 2639
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main92.html",
+      "path_type": "hardlink",
+      "sha256": "4da593eb59982e39756503b9fd397a440beb8185d05588f9c6e9366d1748fe26",
+      "size_in_bytes": 2125
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/examples/main93.html",
+      "path_type": "hardlink",
+      "sha256": "514b5b310702b1e07c7c2e915bcb6544517dad15b70be371d9e868648a7be566",
+      "size_in_bytes": 13442
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/pythia.css",
+      "path_type": "hardlink",
+      "sha256": "9d85ac164e0d6e9b155f297e9fc2ff2cbb6326a23a36f42fc3e44b4d09638ec7",
+      "size_in_bytes": 2962
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/pythia32.gif",
+      "path_type": "hardlink",
+      "sha256": "b4df6d318c364568c23c74a83df7156da72de0611eb7160dcab3e734f520b236",
+      "size_in_bytes": 1789
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/pythia99.gif",
+      "path_type": "hardlink",
+      "sha256": "bd0a35c7d082c791c62dc29885ed99cff4f0c9b46eb4174222617a1b04e8fd4a",
+      "size_in_bytes": 2795
+    },
+    {
+      "_path": "share/Pythia8/htmldoc/vincia-kins.png",
+      "path_type": "hardlink",
+      "sha256": "068331e54712c8aa3d63851fb4745ece10e0114011ef2f0f05e9ac7e45bcb36b",
+      "size_in_bytes": 26934
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/CT14qed_proton_0000.dat",
+      "path_type": "hardlink",
+      "sha256": "6014ff899b1bd2fe7f0c6da8cf47d96f32dec4645bdbd14ac883d1ef2e50ecf9",
+      "size_in_bytes": 1107785
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/EPS09LOR_208",
+      "path_type": "hardlink",
+      "sha256": "7fc9ec084d67b1c98323716b03211a10d741d1ece7158d2c059d57892b2b6193",
+      "size_in_bytes": 5901873
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/GJR07LOproton.dat",
+      "path_type": "hardlink",
+      "sha256": "0e04155a95a44ca9bb60ef8bf6efbbc160313129fe962841e7d1aee8bdf364da",
+      "size_in_bytes": 4345009
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/GKG18_DPDF_FitA_LO_0000.dat",
+      "path_type": "hardlink",
+      "sha256": "57c19523cfd3d43f71d6780a699e442636af287a5e326dcab8c27816f3c48731",
+      "size_in_bytes": 4491460
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/GKG18_DPDF_FitA_NLO_0000.dat",
+      "path_type": "hardlink",
+      "sha256": "5a4f51f8b3d52ed3e36884732e4feff46f8d096ef57c7e30faddf75b9ec41a4f",
+      "size_in_bytes": 4491460
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/GKG18_DPDF_FitB_LO_0000.dat",
+      "path_type": "hardlink",
+      "sha256": "fcbbcada81b168672fd0eb021f3419fa773772d1424f70d6082161e4f75a2e0c",
+      "size_in_bytes": 4491460
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/GKG18_DPDF_FitB_NLO_0000.dat",
+      "path_type": "hardlink",
+      "sha256": "5bf4a5ae96fa53864494d9b06cc8878fdffcdd39881b0d57ac65f11ef1216bdd",
+      "size_in_bytes": 4491460
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/GRS99LOKplus.dat",
+      "path_type": "hardlink",
+      "sha256": "2130755b85767f4d1dcfe2c81965b9502fe8aac19cb2499caaefc5317a708d8a",
+      "size_in_bytes": 4345009
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/GRS99LOpi.dat",
+      "path_type": "hardlink",
+      "sha256": "99434fb335d9c5bd91beff36049eb5caad22ff15331c4d8ccc61c9b47fb33bb9",
+      "size_in_bytes": 208878
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/NNPDF23_lo_as_0119_qed_0000.dat",
+      "path_type": "hardlink",
+      "sha256": "9303fa5d639cae20c08ba26d6dacb8419be5c8ff4ce7eb450000d21f3dc9334e",
+      "size_in_bytes": 1052028
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/NNPDF23_lo_as_0130_qed_0000.dat",
+      "path_type": "hardlink",
+      "sha256": "5ac9499dcf7f6fe0a363f89f9320782f412eb91732725f7c435f0e2c119e2bf0",
+      "size_in_bytes": 1052028
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/NNPDF23_nlo_as_0119_qed_0000.dat",
+      "path_type": "hardlink",
+      "sha256": "8315541674b604fe82ba900436255551fda350c98fdd4d1190b398ed2423accc",
+      "size_in_bytes": 934672
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/NNPDF23_nnlo_as_0119_qed_0000.dat",
+      "path_type": "hardlink",
+      "sha256": "a6d23361a7292c4a14312d96c0ac5d6bf0543577ab2b4bc42d0d12de48aed753",
+      "size_in_bytes": 934672
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/NNPDF31_lo_as_0118_0000.dat",
+      "path_type": "hardlink",
+      "sha256": "911e647f0a10a7131294be8830a5049e1c9f08c5bb2341828e3cd3d885f576d9",
+      "size_in_bytes": 1257508
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/NNPDF31_lo_as_0130_0000.dat",
+      "path_type": "hardlink",
+      "sha256": "3a5aa9800b8c0ee7ea324eb680f42b0f3d6bba4ba6c87dcea25eb7262ed3535a",
+      "size_in_bytes": 1257508
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/NNPDF31_nlo_as_0118_luxqed_0000.dat",
+      "path_type": "hardlink",
+      "sha256": "bf2795712ada50f3761d6aaf32b94caffcd3f1ac48e33b49f8556dfd9364232f",
+      "size_in_bytes": 1370014
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/NNPDF31_nnlo_as_0118_luxqed_0000.dat",
+      "path_type": "hardlink",
+      "sha256": "fad21eefad6fda087b71ba0ff2ce130649ddec05274bf693f961c8fa9507caa9",
+      "size_in_bytes": 1370014
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/NNPDF31sx_nlonllx_as_0118_LHCb_luxqed_0000.dat",
+      "path_type": "hardlink",
+      "sha256": "0b4a9baca4b5d60207479add0f83d521ee4e6453fb61f9375548143b5139671c",
+      "size_in_bytes": 1287906
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/NNPDF31sx_nnlonllx_as_0118_LHCb_luxqed_0000.dat",
+      "path_type": "hardlink",
+      "sha256": "864ecf9bf99128948356cf27ea9c84d81668413894bccadfd5b1f68d7ed04382",
+      "size_in_bytes": 1287754
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/SU21Bcplus.dat",
+      "path_type": "hardlink",
+      "sha256": "e4b9e367451e8dc5d4fa110187c003be88db034c9c132294b35a3efc73079372",
+      "size_in_bytes": 165346
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/SU21Bplus.dat",
+      "path_type": "hardlink",
+      "sha256": "4def179c89ffee48d17d1b54a36eaf7f0d9e3e4f9efdb488686c4de638f788c0",
+      "size_in_bytes": 165346
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/SU21Bszero.dat",
+      "path_type": "hardlink",
+      "sha256": "4679f2807dc17ea8bbd59c7c74726ad8abf75171492eaf8d89af2afd9896b808",
+      "size_in_bytes": 165346
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/SU21Dsplus.dat",
+      "path_type": "hardlink",
+      "sha256": "335e66733958b0e010965fd8274931af27ad2aac4d5ba0def67062c857ec7b8c",
+      "size_in_bytes": 165346
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/SU21Dzero.dat",
+      "path_type": "hardlink",
+      "sha256": "d7a560aeae06a1496532cfa3c499330717b9e9174c5f757e7dc7265566288b0d",
+      "size_in_bytes": 165346
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/SU21Jpsi.dat",
+      "path_type": "hardlink",
+      "sha256": "01a44796f0ef2aed5db7e32a3f998ce5d35f6cdecc9c4983a043a31ec7979bd4",
+      "size_in_bytes": 164422
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/SU21Kplus.dat",
+      "path_type": "hardlink",
+      "sha256": "cf2e92da7bb72a32c3bd070b6af2b085dd86e4997c3449b8dd643bc98854c076",
+      "size_in_bytes": 165346
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/SU21Omega.dat",
+      "path_type": "hardlink",
+      "sha256": "7cd2f2535cf2d3ab890d1c309a291f643aee82dc87a239552b2d06883290354c",
+      "size_in_bytes": 165346
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/SU21Omegab.dat",
+      "path_type": "hardlink",
+      "sha256": "bdb7a130fa2bbb04298b01a259483cee99ad552c0b575273ec4b1d8d29fb85e7",
+      "size_in_bytes": 165346
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/SU21Omegac.dat",
+      "path_type": "hardlink",
+      "sha256": "c30b280a3e087ee93481f8fbc0925d0105b386bf4225f5c0d23d64f5324878f7",
+      "size_in_bytes": 165346
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/SU21Sigmabplus.dat",
+      "path_type": "hardlink",
+      "sha256": "69154dd46b267d125dca9c7e77f28ac58db84e00268f9f6d667b3c72a42a933b",
+      "size_in_bytes": 165346
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/SU21Sigmacplusplus.dat",
+      "path_type": "hardlink",
+      "sha256": "2afbcac6c7c46543b2e300dd5af16bb1e1931edfa66423df85482f6a57f134e3",
+      "size_in_bytes": 165346
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/SU21Sigmaplus.dat",
+      "path_type": "hardlink",
+      "sha256": "15109b8c77384e4dc92466ab21931a099f9b1edfbfd4757d97e9e4bd44cd0a29",
+      "size_in_bytes": 165346
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/SU21Upsilon.dat",
+      "path_type": "hardlink",
+      "sha256": "6d856a6031f665f16195afc3d63189daec184059498c7de8ca2fe9cba45c2803",
+      "size_in_bytes": 164422
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/SU21Xibzero.dat",
+      "path_type": "hardlink",
+      "sha256": "fafca2b7616b1565a982227c926cbc26e375b2f238bfa744e9015e1d8ced5528",
+      "size_in_bytes": 165346
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/SU21Xicplus.dat",
+      "path_type": "hardlink",
+      "sha256": "60d778e848841a2bbdb9fff304c995c891f86288544b4af584de4f9a430754c6",
+      "size_in_bytes": 165346
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/SU21Xizero.dat",
+      "path_type": "hardlink",
+      "sha256": "3ae5f4243adb4360d9f0f9033e21944e29c666ba094f9f0fa8d7a742224c6a7d",
+      "size_in_bytes": 165346
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/SU21eta.dat",
+      "path_type": "hardlink",
+      "sha256": "c21cfe2ca99c4b27f44a47b98a80189e27ba08e817864e593feaec70decdb281",
+      "size_in_bytes": 164422
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/SU21phi.dat",
+      "path_type": "hardlink",
+      "sha256": "073f3bfe3f9c08f437d95e0c78d54e0bf84ea9c3124cb77f30a1ea17a8418e15",
+      "size_in_bytes": 164422
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/SU21piplus.dat",
+      "path_type": "hardlink",
+      "sha256": "e979349aa01d08b60bb844dfba7bd89c5bf0e5aa0e08d30df606385d8f0645a8",
+      "size_in_bytes": 165346
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/SU21proton.dat",
+      "path_type": "hardlink",
+      "sha256": "74c5f1c5b1b978deb07e978dc6ec11bf8c65fa041db0d8d1f1b4bfc3a421e121",
+      "size_in_bytes": 165346
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/ct09mc1.pds",
+      "path_type": "hardlink",
+      "sha256": "dd63e683cbbf85ed2f062397bda97492c711a85fd9dd2d6f8d8d6e4d1f738a48",
+      "size_in_bytes": 506771
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/ct09mc2.pds",
+      "path_type": "hardlink",
+      "sha256": "ac156f4b2430e751958974760be4f71906ab89a0e811830bca575cc24143a380",
+      "size_in_bytes": 506771
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/ct09mcs.pds",
+      "path_type": "hardlink",
+      "sha256": "c448cbd57d06592f798679aa12fc5d1f43e012caf43be9c831311f6beed9ea0a",
+      "size_in_bytes": 506807
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/cteq6l.tbl",
+      "path_type": "hardlink",
+      "sha256": "8525243c99321fe64d5e8e9f223fd9106069d07bd12bdb14f4b99316e848873e",
+      "size_in_bytes": 219892
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/cteq6l1.tbl",
+      "path_type": "hardlink",
+      "sha256": "023dce6f7e6f64dfab376ced5d2c487f8ef8d0ccb976d383a2f0a8049370f058",
+      "size_in_bytes": 219850
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/ctq66.00.pds",
+      "path_type": "hardlink",
+      "sha256": "8c31b12d5a33632fd6f4d8a0b4b59c86e75bfcf5b8473b5b6ef7e9afec5a513d",
+      "size_in_bytes": 400910
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/mrstlostar.00.dat",
+      "path_type": "hardlink",
+      "sha256": "f265bd2eae169532570b2448c7600be44d4c4598de2e1cec8e5eba9148b20c25",
+      "size_in_bytes": 329977
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/mrstlostarstar.00.dat",
+      "path_type": "hardlink",
+      "sha256": "4cfd9612338c108e8a0614d7951876769eab57664403f3ebaebb0ad5d849075e",
+      "size_in_bytes": 333011
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/mstw2008lo.00.dat",
+      "path_type": "hardlink",
+      "sha256": "73cd19622929d3a70b78b6c2f3c6f586b50acdf92e98d635fa92ff0ff83f65a2",
+      "size_in_bytes": 329976
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/mstw2008nlo.00.dat",
+      "path_type": "hardlink",
+      "sha256": "70a92aca0b689fc9be25c58e96dbab43d6c491f311fa828c6db9d973112ec6de",
+      "size_in_bytes": 329977
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/pomH1FitA.data",
+      "path_type": "hardlink",
+      "sha256": "5b4935ddd63453ca4bb6053aaeda89e03ae710966d06044fe49ec685795ed3de",
+      "size_in_bytes": 86419
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/pomH1FitB.data",
+      "path_type": "hardlink",
+      "sha256": "08cdc22f7681b791105b86793a603c438d5a7c2bd053e59fd5cf953230474f94",
+      "size_in_bytes": 86419
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/pomH1FitBlo.data",
+      "path_type": "hardlink",
+      "sha256": "c7bc4f565f5eff856a3225d1763bdb69adb172fbfbf46eaec18158b2c8d09b4e",
+      "size_in_bytes": 85223
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/pomH1Jets.data",
+      "path_type": "hardlink",
+      "sha256": "1065eb94aca955178aa92544496c71468c5241842a5e0b6b1ab5cc173abc811c",
+      "size_in_bytes": 350164
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/pomactwb14.pds",
+      "path_type": "hardlink",
+      "sha256": "c13dbe3c4b890c9fd7e3e9dcb2ba8069348ecdbdf1d6fa468beb31b6324b18a9",
+      "size_in_bytes": 65842
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/pomactwd14.pds",
+      "path_type": "hardlink",
+      "sha256": "7c210567a320af3f3cc1b12071b4714319a560a074f539be25d90edcb2b33b87",
+      "size_in_bytes": 65842
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/pomactwd19.pds",
+      "path_type": "hardlink",
+      "sha256": "5252e59982ec938537323dd4e8fea815430c0ed50ce44fd3037001c098559ee3",
+      "size_in_bytes": 65842
+    },
+    {
+      "_path": "share/Pythia8/pdfdata/pomactwsg14.pds",
+      "path_type": "hardlink",
+      "sha256": "be49f813b873c99a2975a2523e78912d8c925d5a3089136584173f5fae876f4e",
+      "size_in_bytes": 65843
+    },
+    {
+      "_path": "share/Pythia8/pdfdoc/evtgen.pdf",
+      "path_type": "hardlink",
+      "sha256": "c58b5af352f563c8e6ba21ad747bce98962d4a4b5bf066cd396c77e4a9da6c50",
+      "size_in_bytes": 89706
+    },
+    {
+      "_path": "share/Pythia8/pdfdoc/g2qqbarsplit.pdf",
+      "path_type": "hardlink",
+      "sha256": "77ba4a0e7c9cc3d7fd22f01b533a74b16389bdd4a558dc525aeccd02750a6441",
+      "size_in_bytes": 107819
+    },
+    {
+      "_path": "share/Pythia8/pdfdoc/pdfwarning.pdf",
+      "path_type": "hardlink",
+      "sha256": "966077e8aa946656e2c958276450531660de76d6bc9ebb47f51389e34cf34fed",
+      "size_in_bytes": 74255
+    },
+    {
+      "_path": "share/Pythia8/pdfdoc/pythia8200.pdf",
+      "path_type": "hardlink",
+      "sha256": "31d9b528473363a48b605eff2d1d51444d1e6f7a813c93e7bc0d8ee2daf3ae73",
+      "size_in_bytes": 434994
+    },
+    {
+      "_path": "share/Pythia8/pdfdoc/worksheet.pdf",
+      "path_type": "hardlink",
+      "sha256": "261e2d10b73752b5107174936a52ebd7a4f03c49998cb3f8b35daf23186d86ce",
+      "size_in_bytes": 647873
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/AdvancedUsage.xml",
+      "path_type": "hardlink",
+      "sha256": "ae78a8cd465aab4d545dbe5d4dd6c042c7e4760a87a13f67e3e3c6a05384055a",
+      "size_in_bytes": 12870
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/AlpgenEventInterface.xml",
+      "path_type": "hardlink",
+      "sha256": "163a2923ac892345869c8b5869da3ffec7d254dcbec4dbd0b0c7e6cc346a9215",
+      "size_in_bytes": 12227
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/BeamParameters.xml",
+      "path_type": "hardlink",
+      "sha256": "7b31c148297b0e0f38f4f1b5f9ff2f7928fd9dcf7db66c0305134cffbca78f5a",
+      "size_in_bytes": 19394
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/BeamRemnants.xml",
+      "path_type": "hardlink",
+      "sha256": "14f39068ac653b284b85fce74a462c24a9c49be6520cb615f9d7290194df8476",
+      "size_in_bytes": 17569
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/BeamShape.xml",
+      "path_type": "hardlink",
+      "sha256": "32058822addda740fb31e757370c017dd3d92290c758a15c698d93dfc53c53ce",
+      "size_in_bytes": 3396
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/Bibliography.xml",
+      "path_type": "hardlink",
+      "sha256": "f9de3265fb4f1dfe585353b54657aca7ab9cdfd7d40f267c3f8a422dd39bea3d",
+      "size_in_bytes": 20411
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/BoseEinsteinEffects.xml",
+      "path_type": "hardlink",
+      "sha256": "92ba7a68ad141261b1b12082024accbae265e517e7d792957cf18a66571293f2",
+      "size_in_bytes": 5613
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/CKKWLMerging.xml",
+      "path_type": "hardlink",
+      "sha256": "e0edd541a6f2efb127dae0312e8fbe7066cc93ded3d6d9f44c2e2d481153b1ed",
+      "size_in_bytes": 69785
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/ColourReconnection.xml",
+      "path_type": "hardlink",
+      "sha256": "372fa2dcf80fc52868eb8b23bbedf38144b48adb2e493d284179ee2ce76de0d3",
+      "size_in_bytes": 27587
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/CompositenessProcesses.xml",
+      "path_type": "hardlink",
+      "sha256": "f735ce16aafdbef6a5c958d12c506c85f7452f7031ea812fc331df442fd46353",
+      "size_in_bytes": 9514
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/CouplingsAndScales.xml",
+      "path_type": "hardlink",
+      "sha256": "af278a67648f57f0d15ca06313ce37e289254de8941d61b52299114ca54ac0d4",
+      "size_in_bytes": 13542
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/CrossSectionsAndWeights.xml",
+      "path_type": "hardlink",
+      "sha256": "7822adc6dfa1f09c4d2f31b6d2bf5c25b3bab5f8acb0035f4a0c74af3d3ada82",
+      "size_in_bytes": 12053
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/DarkMatterProcesses.xml",
+      "path_type": "hardlink",
+      "sha256": "7c80d42a08c195f6e67a81078c7833f3914bed617db1a4d52f1b76b2ade1cf7a",
+      "size_in_bytes": 9581
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/DeuteronProduction.xml",
+      "path_type": "hardlink",
+      "sha256": "adf2b3511f84d826e7cc520ecee2d297b1f8adc83d409034aa6a9a5636e7c066",
+      "size_in_bytes": 8660
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/Diffraction.xml",
+      "path_type": "hardlink",
+      "sha256": "5b1d524aee0400007369fd39cede3a3787566ec70a47faf780c66ebb3f6a8911",
+      "size_in_bytes": 22360
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/DireExpert.xml",
+      "path_type": "hardlink",
+      "sha256": "b1ceaf3fb627ab47e1c4673b876355de505fe0683c2ee9bc73304729693cbaba",
+      "size_in_bytes": 12207
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/DireShowers.xml",
+      "path_type": "hardlink",
+      "sha256": "1bef138508dc8de7e86cef22ff6abec59e21d119121754796529e402bf7896dd",
+      "size_in_bytes": 9924
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/DireWeights.xml",
+      "path_type": "hardlink",
+      "sha256": "900248fff3ec2ab081b49efd692353bd4a0bb52d2521593a814699cd6549e8aa",
+      "size_in_bytes": 12606
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/ElectroweakProcesses.xml",
+      "path_type": "hardlink",
+      "sha256": "a475630cb6b2e79e228e5dbd56e3ef15a3a28471dfe2e81784905e041db4540e",
+      "size_in_bytes": 13093
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/ErrorChecks.xml",
+      "path_type": "hardlink",
+      "sha256": "96c7aca568dcef0cb4f71316cd47d84ab5e942447d904d4aa1544d2b904d862e",
+      "size_in_bytes": 5004
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/EventAnalysis.xml",
+      "path_type": "hardlink",
+      "sha256": "a45b6b9c64acf86a999c83bc458b3ec0fc854fa887906df6d096376e1210c368",
+      "size_in_bytes": 39494
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/EventInformation.xml",
+      "path_type": "hardlink",
+      "sha256": "24014c0fdfbb12963f05434d868d252983acd5f082fa4bef086259782f672254",
+      "size_in_bytes": 29680
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/EventRecord.xml",
+      "path_type": "hardlink",
+      "sha256": "2d3b2219d876cd082c2f2f3aa1a78e14dfd93cde76d99953f701b5c886f95650",
+      "size_in_bytes": 18157
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/EventStatistics.xml",
+      "path_type": "hardlink",
+      "sha256": "649312fb5df8cad1a30dfd68bf806ab2a5f90dccf616790c1301db3de9133a60",
+      "size_in_bytes": 5256
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/ExampleKeywords.xml",
+      "path_type": "hardlink",
+      "sha256": "f05dc60edcdcd88e949e5ba600e3c90d0860c11d7c5950dc9693862b35f665a8",
+      "size_in_bytes": 1199
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/ExternalDecays.xml",
+      "path_type": "hardlink",
+      "sha256": "df2c1b053b19c34bdf7ecc73aa428d608f87b99afad5a5af0b780a6e27d6ac40",
+      "size_in_bytes": 6790
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/ExtraDimensionalProcesses.xml",
+      "path_type": "hardlink",
+      "sha256": "861e3525d6ef093e1fa9362650426b3b8f81415c77276912f0b1fdd505a49f82",
+      "size_in_bytes": 22630
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/FlavourSelection.xml",
+      "path_type": "hardlink",
+      "sha256": "e06e277e45e27de51ed9fa638cc365c1023b23845db89a317608ffe1778fde7f",
+      "size_in_bytes": 18094
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/FourVectors.xml",
+      "path_type": "hardlink",
+      "sha256": "ef579b3cd69901bdb113038e014784bed8790ed612b3e4bc9ceaa989cb631929",
+      "size_in_bytes": 19704
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/FourthGenerationProcesses.xml",
+      "path_type": "hardlink",
+      "sha256": "c3d3bbabe4e20d1f83c4b7696c212ed5659a1c717c23f03b494a67d24c66fa26",
+      "size_in_bytes": 6419
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/Fragmentation.xml",
+      "path_type": "hardlink",
+      "sha256": "982dbdb93aad5b4f790c4605d42b64c1683c6dd0e4375afd7385d4de6faaa21a",
+      "size_in_bytes": 21613
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/Frontpage.xml",
+      "path_type": "hardlink",
+      "sha256": "6c0493fe7d5a0d1739e752c252600a17ca7be668ea51ddd5e725783d948827db",
+      "size_in_bytes": 13114
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/GettingStarted.xml",
+      "path_type": "hardlink",
+      "sha256": "feb1e8f5b2c5ee055d1363014998fa0ac69dfbfd88d7f021cadbf9f09596922b",
+      "size_in_bytes": 1250
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/Glossary.xml",
+      "path_type": "hardlink",
+      "sha256": "ef7ae590a9dee98230565991cc8dec620629ad41d77e4c7e2e03ca339aca8324",
+      "size_in_bytes": 3110
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/HadronLevelStandalone.xml",
+      "path_type": "hardlink",
+      "sha256": "a3ee5ea5e41e78621b7f276a3cb65881d7a769f811fc17e15dec0cbc3c192e79",
+      "size_in_bytes": 13458
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/HadronVertexInformation.xml",
+      "path_type": "hardlink",
+      "sha256": "2765bc796eb4661ba91ceb41e124a974d383b1fefb4fa26eea97ebd77eca2641",
+      "size_in_bytes": 10295
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/HadronWidths.dat",
+      "path_type": "hardlink",
+      "sha256": "87f6f6f53f5660f606c25e416775a57110cd6cad705e6811a85936dfa7798111",
+      "size_in_bytes": 516025
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/HadronWidths.xml",
+      "path_type": "hardlink",
+      "sha256": "ea83eccbe4c8a15804687e04dae5685d35c68818edd3936643ddbd48be26aa74",
+      "size_in_bytes": 6467
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/HadronicRescattering.xml",
+      "path_type": "hardlink",
+      "sha256": "a53acfdb4652e9ecdb1f4cfe2c4d601d5fab6b6ae175344dc7c016830ccd1aa6",
+      "size_in_bytes": 10666
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/HeavyIons.xml",
+      "path_type": "hardlink",
+      "sha256": "69076952a03be3bff6244dc50236fa8813f39e44f88d1b7bd3917664b11b4d75",
+      "size_in_bytes": 18532
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/HelacOniaProcesses.xml",
+      "path_type": "hardlink",
+      "sha256": "00a223d1f677a37f5ce6879a2ea395e1e8d6d0eaa8e7d399024742a73da2eab0",
+      "size_in_bytes": 6034
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/HepMCInterface.xml",
+      "path_type": "hardlink",
+      "sha256": "7ccb062e9b52c8790aa24285b6b956d14e5bf316279060b5214c9be257fc1759",
+      "size_in_bytes": 15422
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/HiddenValleyProcesses.xml",
+      "path_type": "hardlink",
+      "sha256": "f1c15a405ea64a9399f039023b42976da177e1c7484e973c616a3c5eb3799ea4",
+      "size_in_bytes": 35635
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/HiggsProcesses.xml",
+      "path_type": "hardlink",
+      "sha256": "1ed460217d0da27962d678415ecf6f2dc1b4d0b06d18b3471f9c638c6cf64439",
+      "size_in_bytes": 40054
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/Histograms.xml",
+      "path_type": "hardlink",
+      "sha256": "b28590087cf2a383a083e27939ff5c93a6e864fac00327424ac5e44cca010548",
+      "size_in_bytes": 30828
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/ImplementNewMatching.xml",
+      "path_type": "hardlink",
+      "sha256": "cc503ff0bc458a343422bdf21039dc5a31b0f9012f23dea6a0121b4c30c12de9",
+      "size_in_bytes": 16016
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/ImplementNewShowers.xml",
+      "path_type": "hardlink",
+      "sha256": "a754a71bdaa05a321af8a27fb37fe97f3ecb2e0e59282b0de7770d40d247a5c9",
+      "size_in_bytes": 40826
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/Index.xml",
+      "path_type": "hardlink",
+      "sha256": "23572b15262b55e12c71f47702632e2e04bb95b5d9283d8e967a8df62d595df0",
+      "size_in_bytes": 10044
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/JetFinders.xml",
+      "path_type": "hardlink",
+      "sha256": "2c7772f040b2a4b1f51356e76b9309e0fef4da754288b5b0a780148ca7cb215e",
+      "size_in_bytes": 2468
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/JetMatching.xml",
+      "path_type": "hardlink",
+      "sha256": "1b833140d797130c34524dbee26bce784723ff717ac8f920911abf7b4530e561",
+      "size_in_bytes": 31156
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/LHA.xml",
+      "path_type": "hardlink",
+      "sha256": "009c9e2ecb59e71556f99a9a8ff8e86e553c4eea0ef103fe90f2a429bb039632",
+      "size_in_bytes": 32678
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/LHAHDF5.xml",
+      "path_type": "hardlink",
+      "sha256": "302057ac236caae4fa72bdc5fcd7e1adc0a5b4cf178ce286570df72fad650167",
+      "size_in_bytes": 2902
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/LHEF.xml",
+      "path_type": "hardlink",
+      "sha256": "b4be4842a235d93b0c9cd8736d2a16dfd2b804c72d3e178639f302a531c6a402",
+      "size_in_bytes": 39730
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/LeftRightSymmetryProcesses.xml",
+      "path_type": "hardlink",
+      "sha256": "df58b318897ed29871b34610c105509ce3cde022e466e92577c6cfd6cbbf8699",
+      "size_in_bytes": 6453
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/LeptoquarkProcesses.xml",
+      "path_type": "hardlink",
+      "sha256": "730a0783270c5dff7cd59d9c69959465b51f3ff2c3221df3aa637c85b71b4125",
+      "size_in_bytes": 3265
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/MadGraph5Processes.xml",
+      "path_type": "hardlink",
+      "sha256": "e349e86fdace864a8f68f83d11df343c0a6f3537703df453edd6a66011f3a387",
+      "size_in_bytes": 16010
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/MainProgramSettings.xml",
+      "path_type": "hardlink",
+      "sha256": "dc88235e703ff6ff647d0ada854faa58cb8c3f0f19c92354f4bf34e921d5e2d6",
+      "size_in_bytes": 10956
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/MasterSwitches.xml",
+      "path_type": "hardlink",
+      "sha256": "c726019f42b6d00328d4b6bec192947de75a13ef04290471ae90ffb0e747aba9",
+      "size_in_bytes": 9566
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/MatchingAndMerging.xml",
+      "path_type": "hardlink",
+      "sha256": "92c050644750570a9ad5061e27f541c49e7d8267630a7a27c09a39bd690b0110",
+      "size_in_bytes": 13742
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/MergingVariations.xml",
+      "path_type": "hardlink",
+      "sha256": "91e4f23ad640e5572cc17889989b5039454caeca314811926d85b17a4bd0e912",
+      "size_in_bytes": 1602
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/MultipartonInteractions.xml",
+      "path_type": "hardlink",
+      "sha256": "c55b73b87a4a864d6857f82f4e01d1a0b3c660e10a0090bd01375834e4a64f0f",
+      "size_in_bytes": 33301
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/NLOMerging.xml",
+      "path_type": "hardlink",
+      "sha256": "e1aa17520a4a3834e554bafb7dd315e6caf35db6b58c27c8a2c110e29d196d14",
+      "size_in_bytes": 42541
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/NewGaugeBosonProcesses.xml",
+      "path_type": "hardlink",
+      "sha256": "aaadae2dd33f6290772011d6bccb41f7493236172f8dfa08ef83d083544a04b5",
+      "size_in_bytes": 14866
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/NucleonExcitations.dat",
+      "path_type": "hardlink",
+      "sha256": "e75b93ff50a16b73e038eba70441dde2c665ff3df849b4b261e621d58af298e3",
+      "size_in_bytes": 18542
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/OniaProcesses.xml",
+      "path_type": "hardlink",
+      "sha256": "e29df20eb810dd4854bb6bece0fe0a0d15bee731c47d10a4448dec58b4a1d3a0",
+      "size_in_bytes": 26370
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/PDFSelection.xml",
+      "path_type": "hardlink",
+      "sha256": "cb56ae447995d5914309b53ae91a59546b57a35ec4857f163fa349e9913386c9",
+      "size_in_bytes": 39578
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/POWHEGMerging.xml",
+      "path_type": "hardlink",
+      "sha256": "71161c1827cf5d478680b088a87778936e321dec864a314bc77b1d0063376e02",
+      "size_in_bytes": 11592
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/Parallelism.xml",
+      "path_type": "hardlink",
+      "sha256": "259ca8d01cc15c359a1193009643e13bc900aeb8d8de2c91b2a4708e9c312aad",
+      "size_in_bytes": 8889
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/ParticleData.xml",
+      "path_type": "hardlink",
+      "sha256": "d32105fa05bfd0557edb294cd3ff9e5adb978245f98601a0234561cd33b3736a",
+      "size_in_bytes": 689943
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/ParticleDataScheme.xml",
+      "path_type": "hardlink",
+      "sha256": "565761fa03eb7c3fe8d7fde8be5915429da89b15443380ee8d978af2db767698",
+      "size_in_bytes": 69826
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/ParticleDecays.xml",
+      "path_type": "hardlink",
+      "sha256": "41e2af2885bbb96374e196622a2213f4986d3a249284ecb6cc4012a7c672e148",
+      "size_in_bytes": 21323
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/ParticleProperties.xml",
+      "path_type": "hardlink",
+      "sha256": "c1478705697aebe25db6d3fea0aa5ee6ac13ef209856d8d3f455b18c31db36bb",
+      "size_in_bytes": 42844
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/PartonDistributions.xml",
+      "path_type": "hardlink",
+      "sha256": "915258ba969f3126da857af1b1c51ac7638931b611a5fcbb9234902faa267662",
+      "size_in_bytes": 11869
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/PartonShowers.xml",
+      "path_type": "hardlink",
+      "sha256": "7ce3eb2d70c8048e5e194715e9f0144e7ab4321029ffed6da11a94550868f12b",
+      "size_in_bytes": 6919
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/PartonVertexInformation.xml",
+      "path_type": "hardlink",
+      "sha256": "f48754931b5a68262267bbb9cf0d237bf5903716f96bae4eb976211af8b17251",
+      "size_in_bytes": 10983
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/PhaseSpaceCuts.xml",
+      "path_type": "hardlink",
+      "sha256": "3ccafbf70acbc79a35cc28a52e2d84ae8edfc787c13e89d3edcec3d0e9d2fe83",
+      "size_in_bytes": 16015
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/Photoproduction.xml",
+      "path_type": "hardlink",
+      "sha256": "a2148eb80eca2afe744a288f55f52a2a16a6fb9260312abb84e425e1e56c47a7",
+      "size_in_bytes": 14692
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/ProcessSelection.xml",
+      "path_type": "hardlink",
+      "sha256": "d27ef46a92b6bfff2dbd15542d9aee1c27d6f694f6cdc32ec635a79c89ae3643",
+      "size_in_bytes": 6633
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/ProgramClasses.xml",
+      "path_type": "hardlink",
+      "sha256": "7567a8968a603af6e1ec2686b049aae62ed7c8f9760a4417c06da896b5edf0e8",
+      "size_in_bytes": 5863
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/ProgramFiles.xml",
+      "path_type": "hardlink",
+      "sha256": "7073a46542530d4447426463d3140f8333b2bef1597e6d5c34c070b5a112a800",
+      "size_in_bytes": 15115
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/ProgramFlow.xml",
+      "path_type": "hardlink",
+      "sha256": "ea1abe9ada7b9f314d4c1e1098e1e91e7bcb830f104f150e07d1fe66d56dff51",
+      "size_in_bytes": 56808
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/ProgramMethods.xml",
+      "path_type": "hardlink",
+      "sha256": "d5d4aa9ad4bc5536bbf3ff68a9ea863c4f1591012499f5424307cd719e6bb2f2",
+      "size_in_bytes": 575
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/PythonInterface.xml",
+      "path_type": "hardlink",
+      "sha256": "02a06eff7f9a4cc5510e4458da2b04d8ddea68f09c0417cd0b848b3034e973fb",
+      "size_in_bytes": 10052
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/QCDHardProcesses.xml",
+      "path_type": "hardlink",
+      "sha256": "cdb2edf05f002757059e3615373a979f568cc9ca89c5462b75d8927be97919d7",
+      "size_in_bytes": 7476
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/QCDLowEnergyProcesses.xml",
+      "path_type": "hardlink",
+      "sha256": "4fcee682ae7af5381dc537a372a72a43d96f67d2056ce40280c580bd619812bf",
+      "size_in_bytes": 5562
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/QCDSoftProcesses.xml",
+      "path_type": "hardlink",
+      "sha256": "3827cf1498a6cec419bcf8d367389cc9cf4035b67d972ba7f88bf36faa1e2a47",
+      "size_in_bytes": 5282
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/RHadrons.xml",
+      "path_type": "hardlink",
+      "sha256": "5c237afd1089fd6727f420d34f0e837fb546990777f793a23a4e457472f0c6d6",
+      "size_in_bytes": 7250
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/RIVETusage.xml",
+      "path_type": "hardlink",
+      "sha256": "56bd607ff0f5116bb952e5bdf4ad5235bd647bb593d8e1aaeb13a9cc3a79ea99",
+      "size_in_bytes": 5584
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/ROOTusage.xml",
+      "path_type": "hardlink",
+      "sha256": "4041f7396aac48535272b8a2b1ae85966bab22705c76a7f51253ff7ad984a7a2",
+      "size_in_bytes": 13644
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/RandomNumberSeed.xml",
+      "path_type": "hardlink",
+      "sha256": "8b64317619625543f8a77b68bf3028ec75a94f802288e5b0f56571fc90ae0d2b",
+      "size_in_bytes": 1248
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/RandomNumbers.xml",
+      "path_type": "hardlink",
+      "sha256": "4d42e95578a3c87c10d27f088e880a6777479a20dff9dcfa8580ad0ada43f237",
+      "size_in_bytes": 7585
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/ResonanceDecays.xml",
+      "path_type": "hardlink",
+      "sha256": "e4ffb0ad841f4f31b970746c13a5784378d3cadc64c0075f17d8a10dd97993d7",
+      "size_in_bytes": 20976
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/RopeHadronization.xml",
+      "path_type": "hardlink",
+      "sha256": "5f3adaaae7c98b9d8469da34b95b7ca51ce003b10611a5ea13772c20b6627185",
+      "size_in_bytes": 11972
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/SUSYLesHouchesAccord.xml",
+      "path_type": "hardlink",
+      "sha256": "e904f9ac4ed5b2cca638c57107b5e0022ffafc67b1ef046bb8430d0f1ca20544",
+      "size_in_bytes": 16215
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/SUSYProcesses.xml",
+      "path_type": "hardlink",
+      "sha256": "a0e275c57b92ca03652edec68b95764b179b7c445cad2ebb7b36ae19b756e9e3",
+      "size_in_bytes": 15550
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/SampleMainPrograms.xml",
+      "path_type": "hardlink",
+      "sha256": "c44f3c0022e33b8085243e9f2c1184b303fe87fe00e8ead4bef677e28a3de072",
+      "size_in_bytes": 27581
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/SaveSettings.xml",
+      "path_type": "hardlink",
+      "sha256": "d299395822a31b8174edc1777c9964365f860c050eadfbed9da01004a9eb1e36",
+      "size_in_bytes": 5390
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/SecondHardProcess.xml",
+      "path_type": "hardlink",
+      "sha256": "005d610d69533522c4a8f183d749f44c29434f70713633403ce83f4c4e43adf0",
+      "size_in_bytes": 21878
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/SemiInternalProcesses.xml",
+      "path_type": "hardlink",
+      "sha256": "43bc378e31d03bc4b397928f977ad47a4c82480c6680d4babbbf67aa4a5fc295",
+      "size_in_bytes": 35893
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/SemiInternalResonances.xml",
+      "path_type": "hardlink",
+      "sha256": "d2f2740e5fdf14b480a93ccb4f058c95d8592e79a4fba03b52bffb759b933178",
+      "size_in_bytes": 11646
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/SettingsScheme.xml",
+      "path_type": "hardlink",
+      "sha256": "59984414fd1eeda387afdd493a71f8fe356721b2efcca1d7c69d70e110b2d054",
+      "size_in_bytes": 29032
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/SimpleShowers.xml",
+      "path_type": "hardlink",
+      "sha256": "37666a25b20cd12d1af25b6ee4baf7617c74bf051d4e842625ea001742b28593",
+      "size_in_bytes": 5312
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/SpacelikeShowers.xml",
+      "path_type": "hardlink",
+      "sha256": "3a26d4e37c4674cf43ab5e6a8648747c7b8ec1506c3d146343607543858fcde5",
+      "size_in_bytes": 24234
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/StandardModelParameters.xml",
+      "path_type": "hardlink",
+      "sha256": "b774653d16e0a77040e3ef9d7179d1b31738c5613cd74345efc3d8822292fc14",
+      "size_in_bytes": 14046
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/TimelikeShowers.xml",
+      "path_type": "hardlink",
+      "sha256": "77b7979109605954ed42afe5650ee17ab6ec45d9f0c08293a55709a6faf6283e",
+      "size_in_bytes": 44343
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/TopProcesses.xml",
+      "path_type": "hardlink",
+      "sha256": "ca4f4699b4a4cd597731d8639d32ccea878f4bdda8290d1c4c8467b87582fde2",
+      "size_in_bytes": 1757
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/TotalCrossSections.xml",
+      "path_type": "hardlink",
+      "sha256": "afe038424d5a3f568bbd85874b26f4f96b75a3af5cab1033448c1e27326218d5",
+      "size_in_bytes": 37672
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/Tunes.xml",
+      "path_type": "hardlink",
+      "sha256": "09909a6b1f39c3a6256cd43c4ee45ebdb2b1667771fbfc14f976947c3d221c0a",
+      "size_in_bytes": 19975
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/UMEPSMerging.xml",
+      "path_type": "hardlink",
+      "sha256": "fc64e1e94ef15dbd536703b8f08de9c799319b331cb1897b6cf6da5877cb77c2",
+      "size_in_bytes": 9374
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/UpdateHistory.xml",
+      "path_type": "hardlink",
+      "sha256": "d739917e088d11312f699d861bf87038137c342c2dd6fe1470931c1210c0a5ea",
+      "size_in_bytes": 41960
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/UserHooks.xml",
+      "path_type": "hardlink",
+      "sha256": "dc67182b031e91842ac0de3e4c62daf9959956f774b39f026301c90585a981b0",
+      "size_in_bytes": 56729
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/Variations.xml",
+      "path_type": "hardlink",
+      "sha256": "74e03bf9d2b31df7e156a8ec4d29c56ecbc9d6935ddf0619d83493d4567e0fc0",
+      "size_in_bytes": 19728
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/Version.xml",
+      "path_type": "hardlink",
+      "sha256": "ec7e2aa880f3685041840f2e7aa5c9ada540b7704765ff967a26e03b09e43bd2",
+      "size_in_bytes": 584
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/Vincia.xml",
+      "path_type": "hardlink",
+      "sha256": "1b24570cf50825e28644c92edc77b110fac915d6d2a2be7e028c9609313b3c40",
+      "size_in_bytes": 35198
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/VinciaEW.xml",
+      "path_type": "hardlink",
+      "sha256": "e497656f9bdc4793b437d9c4c46cc26b8725edf5cfab0f62324dd6c2c20e98a5",
+      "size_in_bytes": 60388
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/VinciaMECs.xml",
+      "path_type": "hardlink",
+      "sha256": "c7a2844cb8d05bb2d8d50205c168a4eb657881269d29e4451940d4e1683f6d59",
+      "size_in_bytes": 4002
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/VinciaMerging.xml",
+      "path_type": "hardlink",
+      "sha256": "8b28a8a43cdf5ed82e9408841361b750a7f2912f8e1d84f2eaaa06f23ca16271",
+      "size_in_bytes": 9629
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/VinciaQCD.xml",
+      "path_type": "hardlink",
+      "sha256": "1ba2c3c1d16df95f6440f18fa91e971d9f2f204b34160d33f204129c0f5e5359",
+      "size_in_bytes": 16191
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/WeakShowers.xml",
+      "path_type": "hardlink",
+      "sha256": "94a4bda32d700cdecf11cd9855525b421416610d31b4a73bd18e364de6550b60",
+      "size_in_bytes": 9953
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/Welcome.xml",
+      "path_type": "hardlink",
+      "sha256": "55da213e1d18980d4ffd43b0f76a9d4c16dabb9b4f85008c71990d3f27db9203",
+      "size_in_bytes": 452
+    },
+    {
+      "_path": "share/Pythia8/xmldoc/aMCatNLOMatching.xml",
+      "path_type": "hardlink",
+      "sha256": "e98929270033c82456efbbfbbb41a0403d362cb2274c2af23107fe605ac7f46a",
+      "size_in_bytes": 3925
+    }
+  ],
+  "paths_version": 1
+}

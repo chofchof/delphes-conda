@@ -1,0 +1,105 @@
+{
+  "channeldata_version": 1,
+  "packages": {
+    "delphes": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": "Delphes is a C++ framework, performing a fast multipurpose detector response simulation. The simulation includes a tracking system, embedded into a magnetic field, calorimeters and a muon system. The framework is interfaced to standard file formats (e.g. Les Houches Event File or HepMC) and outputs observables such as isolated leptons, missing transverse energy and collection of jets which can be used for dedicated analyses. The simulation of the detector response takes into account the effect of magnetic field, the granularity of the calorimeters and sub-detector resolutions. Visualisation of the final state particles is also built-in using the corresponding ROOT library.",
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": "https://cp3.irmp.ucl.ac.be/projects/delphes",
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": null,
+      "keywords": null,
+      "license": "GPL",
+      "post_link": false,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": "http://cp3.irmp.ucl.ac.be/downloads/Delphes-3.5.0.tar.gz",
+      "subdirs": [
+        "linux-64"
+      ],
+      "summary": "A framework for fast simulation of a generic collider experiment",
+      "tags": null,
+      "text_prefix": false,
+      "timestamp": 1682917881,
+      "version": "3.5.0"
+    },
+    "hepmc2": {
+      "activate.d": false,
+      "binary_prefix": false,
+      "deactivate.d": false,
+      "description": "The HepMC package is an object oriented, C++ event record for High Energy Physics Monte Carlo generators and simulation. The original code was written by M. Dobbs and J.B. Hansen  (Comput. Phys. Commun. 134 (2001) 41). Since the first implementation, the package has undergone several modifications and in particular, the latest HepMC3 series is a completely new re-write using currently available C++11 techniques.",
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": "http://hepmc.web.cern.ch/hepmc/",
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": null,
+      "keywords": null,
+      "license": "LGPL-2.1",
+      "post_link": false,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {},
+      "source_git_url": null,
+      "source_url": "https://hepmc.web.cern.ch/hepmc/releases/hepmc2.06.11.tgz",
+      "subdirs": [
+        "linux-64"
+      ],
+      "summary": "HepMC - a C++ Event Record for Monte Carlo Generators",
+      "tags": null,
+      "text_prefix": true,
+      "timestamp": 1682909367,
+      "version": "2.06.11"
+    },
+    "pythia8": {
+      "activate.d": false,
+      "binary_prefix": true,
+      "deactivate.d": false,
+      "description": "The Pythia program is a standard tool for the generation of events in high-energy collisions, comprising a coherent set of physics models for the evolution from a few-body hard process to a complex multiparticle final state. It contains a library of hard processes, models for initial- and final-state parton showers, matching and merging methods between hard processes and parton showers, multiparton interactions, beam remnants, string fragmentation and particle decays. It also has a set of utilities and several interfaces to external programs.",
+      "dev_url": null,
+      "doc_source_url": null,
+      "doc_url": null,
+      "home": "http://home.thep.lu.se/Pythia/",
+      "icon_hash": null,
+      "icon_url": null,
+      "identifiers": null,
+      "keywords": null,
+      "license": "GPL-2.0-only",
+      "post_link": false,
+      "pre_link": false,
+      "pre_unlink": false,
+      "recipe_origin": null,
+      "run_exports": {
+        "8.307": {
+          "weak": [
+            "pythia8 >=8.307,<8.400.0a0"
+          ]
+        }
+      },
+      "source_git_url": null,
+      "source_url": "https://pythia.org/download/pythia83/pythia8307.tgz",
+      "subdirs": [
+        "linux-64"
+      ],
+      "summary": "A tool for the generation of events in high-energy collisions",
+      "tags": null,
+      "text_prefix": true,
+      "timestamp": 1682950364,
+      "version": "8.307"
+    }
+  },
+  "subdirs": [
+    "linux-64",
+    "noarch"
+  ]
+}

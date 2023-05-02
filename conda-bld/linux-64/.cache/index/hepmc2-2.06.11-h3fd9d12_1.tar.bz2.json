@@ -1,0 +1,1 @@
+{"build": "h3fd9d12_1", "build_number": 1, "depends": ["libgcc-ng >=12", "libstdcxx-ng >=12"], "license": "LGPL-2.1", "license_family": "LGPL", "name": "hepmc2", "subdir": "linux-64", "timestamp": 1682909367050, "version": "2.06.11", "size": 1590203, "md5": "1e287aaf83c40669b6d7a71688d53bba", "sha256": "cfc45b70744a429fff34ae81e43c54882272b0553cdabb231ac4ab99eb263b62"}

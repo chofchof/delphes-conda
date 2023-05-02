@@ -1,0 +1,1 @@
+{"build": "h3fd9d12_0", "build_number": 0, "depends": ["libgcc-ng >=12", "libstdcxx-ng >=12", "pythia8 >=8.307,<8.400.0a0"], "license": "GPL", "name": "delphes", "subdir": "linux-64", "timestamp": 1682917881873, "version": "3.5.0", "size": 23800766, "md5": "ac332bf134e49b23cd4b913f8fdf13b0", "sha256": "d2b0cf72914e5271e1b5a1394887ec0e1d2ec62f5ef4635dd118bcc5b09a6de4"}
