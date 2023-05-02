@@ -31,7 +31,7 @@ Create a conda environment with the name, e.g., `delphes`.
 - You may drop the channel information `-c conda-forge` in Miniforge3 or Mambaforge.
 
 ```bash
-$ conda create -n delphes -c conda-forge root=6.26.10 lhapdf rsync
+$ conda create -n delphes -c conda-forge python=3.11 root=6.26.10 lhapdf rsync
 $ conda activate delphes
 ```
 
@@ -63,7 +63,6 @@ delphes==3.5.0
 pythia8==8.307
 hepmc==2.06.11
 (CTRL-D)
-(delphes)$ conda update --all -y
 ```
 
 
