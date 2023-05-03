@@ -153,14 +153,13 @@ drwxr-xr-x 3 chof chof      4096 Apr 10 13:31 ..
 
 Reference: https://cp3.irmp.ucl.ac.be/projects/delphes/wiki/WorkBook/QuickTour
 
-
+The following examples can be found in https://github.com/chofchof/delphes-conda/tree/main/examples.
 
 ### Running Delphes
 
 When running Delphes without parameters or when supplying an invalid command line, the following message will be shown:
 
 ```bash
-(delphes)$ cd examples
 (delphes)$ DelphesHepMC3
  Usage: DelphesHepMC3 config_file output_file [input_file(s)]
  config_file - configuration file in Tcl format,
@@ -185,7 +184,7 @@ Running Delphes with files accessible via HTTP:
 
 ```bash
 (delphes)$ rm -f ../delphes_output.root
-(delphes)$ curl http://cp3.irmp.ucl.ac.be/~demin/test.hepmc3.gz | gunzip | ./DelphesHepMC3 cards/delphes_card_CMS.tcl ../delphes_output.root
+(delphes)$ curl http://cp3.irmp.ucl.ac.be/~demin/test.hepmc3.gz | gunzip | DelphesHepMC3 cards/delphes_card_CMS.tcl ../delphes_output.root
 ...(skip)...
 ** 1000 events processed
 ** Exiting...
