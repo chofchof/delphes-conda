@@ -9,6 +9,7 @@ source:
   url: http://cp3.irmp.ucl.ac.be/downloads/Delphes-{{ version }}.tar.gz
   sha256: 37685b945ef43aab09217d70b0ac7f9c5d3c2c27cf3b3f8d64c4e6eb5c5fd9aa
   patches:
+    - patches/delphes-3.5.0_drop_dict_in_executables.patch
     - patches/delphes-3.5.0_remove_external.patch
 
 build:
@@ -24,10 +25,6 @@ requirements:
   host:
     - pythia8
 
-#test:
-#  imports:
-#    - delphes
-
 about:
   home: https://cp3.irmp.ucl.ac.be/projects/delphes
   license: GPL
@@ -42,7 +39,3 @@ about:
     response takes into account the effect of magnetic field, the granularity of
     the calorimeters and sub-detector resolutions. Visualisation of the final state
     particles is also built-in using the corresponding ROOT library.
-
-extra:
-  recipe-maintainers:
-    - chofchof

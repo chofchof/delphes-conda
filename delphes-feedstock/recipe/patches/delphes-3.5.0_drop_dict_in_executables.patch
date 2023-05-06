@@ -1,0 +1,13 @@
+diff --git a/Makefile b/Makefile
+index d99d4e0..e4d5b19 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2574,7 +2574,7 @@ $(EXECUTABLE_OBJ): tmp/%.$(ObjSuf): %.cpp
+ 	@echo ">> Compiling $<"
+ 	@$(CXX) $(CXXFLAGS) -c $< $(OutPutOpt)$@
+ 
+-$(EXECUTABLE): %$(ExeSuf): $(DELPHES_DICT_OBJ) $(FASTJET_DICT_OBJ) $(DELPHES_OBJ) $(FASTJET_OBJ) $(TCL_OBJ)
++$(EXECUTABLE): %$(ExeSuf): $(DELPHES)
+ 	@echo ">> Building $@"
+ 	@$(LD) $(LDFLAGS) $^ $(DELPHES_LIBS) $(OutPutOpt)$@
+ 

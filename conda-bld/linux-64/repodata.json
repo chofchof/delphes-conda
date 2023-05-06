@@ -12,10 +12,10 @@
         "pythia8 >=8.307,<8.400.0a0"
       ],
       "license": "GPL",
-      "md5": "ac332bf134e49b23cd4b913f8fdf13b0",
+      "md5": "30a1a9622764767d6db88a32dcb9d62e",
       "name": "delphes",
-      "sha256": "d2b0cf72914e5271e1b5a1394887ec0e1d2ec62f5ef4635dd118bcc5b09a6de4",
-      "size": 23800766,
+      "sha256": "494f4a8924b21c7b374077f73951acc2c056e162e08ad9c53137fadb98f18eb0",
+      "size": 4376878,
       "subdir": "linux-64",
       "timestamp": 1682917881873,
       "version": "3.5.0"

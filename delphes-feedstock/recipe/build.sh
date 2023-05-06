@@ -6,7 +6,6 @@ make HAS_PYTHIA8=true PYTHIA8=${PREFIX}
 # Install libraries
 cp -fp libDelphes.so libDelphesNoFastJet.so "${PREFIX}/lib"
 cp -fp ClassesDict_rdict.pcm ExRootAnalysisDict_rdict.pcm FastJetDict_rdict.pcm ModulesDict_rdict.pcm Pythia8Dict_rdict.pcm "${PREFIX}/lib"
-ln -s ../lib/ClassesDict_rdict.pcm ../lib/ExRootAnalysisDict_rdict.pcm ../lib/FastJetDict_rdict.pcm ../lib/ModulesDict_rdict.pcm ../lib/Pythia8Dict_rdict.pcm "${PREFIX}/bin"
 
 # Install executables
 cp -fp CaloGrid DelphesHepMC2 DelphesHepMC3 DelphesLHEF DelphesPythia8 DelphesROOT DelphesSTDHEP hepmc2pileup lhco2root pileup2root root2lhco root2pileup stdhep2pileup "${PREFIX}/bin"
