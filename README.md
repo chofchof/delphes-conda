@@ -87,11 +87,11 @@ https://launchpad.net/mg5amcnlo
 
 ### Installation
 
-Download https://launchpad.net/mg5amcnlo/3.0/3.4.x/+download/MG5_aMC_v3.4.2.tar.gz.
+Download https://launchpad.net/mg5amcnlo/3.0/3.5.x/+download/MG5_aMC_v3.5.0.tar.gz.
 
 ```bash
-(delphes)$ tar xvfz MG5_aMC_v3.4.2.tar.gz
-(delphes)$ cd MG5_aMC_v3_4_2
+(delphes)$ tar xvfz MG5_aMC_v3.5.0.tar.gz
+(delphes)$ cd MG5_aMC_v3_5_0
 (delphes)$ sed -i -e "70cpythia8_path = $CONDA_PREFIX" -e "173clhapdf_py3 = lhapdf-config" input/mg5_configuration.txt
 (delphes)$ sed -i -e '105c\ \ llhapdf+= $(shell $(lhapdf) --cflags --libs) -lLHAPDF $(STDLIB)' Template/LO/Source/.make_opts
 (delphes)$ bin/mg5_aMC
@@ -101,7 +101,7 @@ MG5_aMC>install mg5amc_py8_interface
 MG5_aMC>quit
 ```
 
-- MadGraph5 (3.4.2) has a conflict with `lhapdf` if it is installed from conda-forge. Compile-time error occurs when `pdlabel` is set to `lhapdf` in `run_card.dat`. To solve this problem, `Template/LO/Source/.make_opts` must be modified to add `$(STDLIB)` as above.
+- MadGraph5 (3.5.0) has a conflict with `lhapdf` if it is installed from conda-forge. Compile-time error occurs when `pdlabel` is set to `lhapdf` in `run_card.dat`. To solve this problem, `Template/LO/Source/.make_opts` must be modified to add `$(STDLIB)` as above.
 - If `install mg5amc_py8_interface` does not work, press (CTRL+C) and then try again.
 
 ### Test
