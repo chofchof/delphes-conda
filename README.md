@@ -87,11 +87,11 @@ https://launchpad.net/mg5amcnlo
 
 ### Installation
 
-Download https://launchpad.net/mg5amcnlo/3.0/3.5.x/+download/MG5_aMC_v3.5.0.tar.gz.
+Download https://launchpad.net/mg5amcnlo/3.0/3.5.x/+download/MG5_aMC_v3.5.1.tar.gz.
 
 ```bash
-(delphes)$ tar xvfz MG5_aMC_v3.5.0.tar.gz
-(delphes)$ cd MG5_aMC_v3_5_0
+(delphes)$ tar xvfz MG5_aMC_v3.5.1.tar.gz
+(delphes)$ cd MG5_aMC_v3_5_1
 (delphes)$ sed -i -e "70cpythia8_path = $CONDA_PREFIX" -e "173clhapdf_py3 = lhapdf-config" input/mg5_configuration.txt
 (delphes)$ sed -i -e '105c\ \ llhapdf+= $(shell $(lhapdf) --cflags --libs) -lLHAPDF $(STDLIB)' Template/LO/Source/.make_opts
 (delphes)$ bin/mg5_aMC
@@ -101,7 +101,7 @@ MG5_aMC>install mg5amc_py8_interface
 MG5_aMC>quit
 ```
 
-- MadGraph5 (3.5.0) has a conflict with `lhapdf` if it is installed from conda-forge. Compile-time error occurs when `pdlabel` is set to `lhapdf` in `run_card.dat`. To solve this problem, `Template/LO/Source/.make_opts` must be modified to add `$(STDLIB)` as above.
+- MadGraph5 (3.5.1) has a conflict with `lhapdf` if it is installed from conda-forge. Compile-time error occurs when `pdlabel` is set to `lhapdf` in `run_card.dat`. To solve this problem, `Template/LO/Source/.make_opts` must be modified to add `$(STDLIB)` as above.
 - If `install mg5amc_py8_interface` does not work, press (CTRL+C) and then try again.
 
 ### Test
@@ -115,7 +115,7 @@ MG5_aMC>output ../pp_zz
 MG5_aMC>launch
 > 1 (set shower = Pythia8)
 > 0 (done)
-> 2 (run_card.dat #line 47 & 48: lhapdf = pdlabel, 315000 = lhaid)
+> 2 (run_card.dat #line 50 & 51: lhapdf = pdlabel, 315000 = lhaid)
 > 0 (done)
 ...(skip)...
   === Results Summary for run: run_01 tag: tag_1 ===
@@ -129,22 +129,22 @@ INFO: Done
 ...(skip)...
 MG5_aMC> quit
 (delphes)$ ls -al ../pp_zz/Events/run_01/
-total 800872
-drwxr-xr-x 2 chof chof      4096 Apr 10 13:34 .
-drwxr-xr-x 3 chof chof      4096 Apr 10 13:31 ..
--rw-r--r-- 1 chof chof      7295 Apr 10 13:31 log_sys_0.txt
--rw-r--r-- 1 chof chof      7292 Apr 10 13:31 log_sys_1.txt
--rw-r--r-- 1 chof chof      7294 Apr 10 13:31 log_sys_2.txt
--rw-r--r-- 1 chof chof      7289 Apr 10 13:31 log_sys_3.txt
--rw-r--r-- 1 chof chof      7276 Apr 10 13:31 parton_systematics.log
--rw-r--r-- 1 chof chof     23427 Apr 10 13:32 run_01_tag_1_banner.txt
--rwxr--r-- 1 chof chof       226 Apr 10 13:31 run_shower.sh
--rw-r--r-- 1 chof chof    774497 Apr 10 13:32 tag_1_djrs.dat
--rw-r--r-- 1 chof chof    774489 Apr 10 13:32 tag_1_pts.dat
--rw-r--r-- 1 chof chof      5765 Apr 10 13:31 tag_1_pythia8.cmd
--rw-r--r-- 1 chof chof   1593862 Apr 10 13:32 tag_1_pythia8.log
--rw-r--r-- 1 chof chof 806811284 Apr 10 13:32 tag_1_pythia8_events.hepmc.gz
--rw-r--r-- 1 chof chof  10035134 Apr 10 13:31 unweighted_events.lhe.gz
+total 805876
+drwxr-xr-x 2 user user      4096 Jul 21 15:41 .
+drwxr-xr-x 3 user user      4096 Jul 21 15:37 ..
+-rw-r--r-- 1 user user      7295 Jul 21 15:38 log_sys_0.txt
+-rw-r--r-- 1 user user      7292 Jul 21 15:38 log_sys_1.txt
+-rw-r--r-- 1 user user      7294 Jul 21 15:38 log_sys_2.txt
+-rw-r--r-- 1 user user      7289 Jul 21 15:38 log_sys_3.txt
+-rw-r--r-- 1 user user      7276 Jul 21 15:38 parton_systematics.log
+-rw-r--r-- 1 user user     23578 Jul 21 15:39 run_01_tag_1_banner.txt
+-rwxr--r-- 1 user user       244 Jul 21 15:38 run_shower.sh
+-rw-r--r-- 1 user user    774497 Jul 21 15:39 tag_1_djrs.dat
+-rw-r--r-- 1 user user    774489 Jul 21 15:39 tag_1_pts.dat
+-rw-r--r-- 1 user user      5783 Jul 21 15:38 tag_1_pythia8.cmd
+-rw-r--r-- 1 user user   1191708 Jul 21 15:39 tag_1_pythia8.log
+-rw-r--r-- 1 user user 812342007 Jul 21 15:39 tag_1_pythia8_events.hepmc.gz
+-rw-r--r-- 1 user user  10035159 Jul 21 15:38 unweighted_events.lhe.gz
 ```
 
  
@@ -204,9 +204,9 @@ Start ROOT and load Delphes shared library:
 
 ```bash
 (delphes)$ ipython
-Python 3.11.3 | packaged by conda-forge | (main, Apr  6 2023, 08:57:19) [GCC 11.3.0]
+Python 3.11.4 | packaged by conda-forge | (main, Jun 10 2023, 18:08:17) [GCC 12.2.0]
 Type 'copyright', 'credits' or 'license' for more information
-IPython 8.12.0 -- An enhanced Interactive Python. Type '?' for help.
+IPython 8.14.0 -- An enhanced Interactive Python. Type '?' for help.
 
 In [1]: import ROOT
 
