@@ -298,3 +298,36 @@ electron_pt.png  jet_pt_0.png  jet_pt_1.png  jet_pt_all.png  missing_et.png
 [DelphesAnalysis](https://cp3.irmp.ucl.ac.be/projects/delphes/wiki/WorkBook/DelphesAnalysis) is an analysis framework written in Python where a clear separation is maintained between the standard code and what the user has to implement. This makes it easy to apprehend and generic, still retaining full flexibility and scalability. It is configured in a single configuration file.
 
 More details and examples on the [dedicated page](https://cp3.irmp.ucl.ac.be/projects/delphes/wiki/WorkBook/DelphesAnalysis).
+
+
+
+## D-2. MadGraph5 (NLO)
+
+https://launchpad.net/mg5amcnlo
+
+### Installation
+
+There are some issues in the NLO setting in the conda environment.
+
+```bash
+$ conda create -n mgnlo -c conda-forge python=3.11 six lhapdf ghostscript cmake "gxx>=13.1" gfortran
+$ conda activate mgnlo
+```
+
+Download https://launchpad.net/mg5amcnlo/3.0/3.5.x/+download/MG5_aMC_v3.5.1.tar.gz.
+
+```bash
+(mgnlo)$ tar xvfz MG5_aMC_v3.5.1.tar.gz
+(mgnlo)$ cd MG5_aMC_v3_5_1
+(mgnlo)$ sed -i -e "70cpythia8_path = $CONDA_PREFIX" -e "173clhapdf_py3 = lhapdf-config" input/mg5_configuration.txt
+(mgnlo)$ sed -i -e '105c\ \ llhapdf+= $(shell $(lhapdf) --cflags --libs) -lLHAPDF $(STDLIB)' Template/LO/Source/.make_opts
+(mgnlo)$ sed -i -e '104cllhapdf+= -lLHAPDF $(STDLIB)' Template/NLO/Source/make_opts.inc
+(mgnlo)$ sed -i -e "12cextern struct stdevent {" vendor/StdHEP/src/inc/stdevent.h
+(mgnlo)$ sed -i -e "49istruct stdevent stdevent_;" vendor/StdHEP/src/stdhep/mcf_StdHep_cxx.c
+(mgnlo)$ sed -i -e "50d" vendor/StdHEP/src/stdhep/mcf_Stdhep_xdr.c
+(mgnlo)$ bin/mg5_aMC
+MG5_aMC>install oneloop
+MG5_aMC>install ninja
+MG5_aMC>install collier
+MG5_aMC>quit
+```
