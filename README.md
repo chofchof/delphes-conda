@@ -87,11 +87,11 @@ https://launchpad.net/mg5amcnlo
 
 ### Installation
 
-Download https://launchpad.net/mg5amcnlo/3.0/3.5.x/+download/MG5_aMC_v3.5.1.tar.gz.
+Download https://launchpad.net/mg5amcnlo/3.0/3.5.x/+download/MG5_aMC_v3.5.2.tar.gz.
 
 ```bash
-(delphes)$ tar xvfz MG5_aMC_v3.5.1.tar.gz
-(delphes)$ cd MG5_aMC_v3_5_1
+(delphes)$ tar xvfz MG5_aMC_v3.5.2.tar.gz
+(delphes)$ cd MG5_aMC_v3_5_2
 (delphes)$ sed -i -e "70cpythia8_path = $CONDA_PREFIX" -e "173clhapdf_py3 = lhapdf-config" input/mg5_configuration.txt
 (delphes)$ sed -i -e '105c\ \ llhapdf+= $(shell $(lhapdf) --cflags --libs) -lLHAPDF $(STDLIB)' Template/LO/Source/.make_opts
 (delphes)$ bin/mg5_aMC
@@ -101,7 +101,7 @@ MG5_aMC>install mg5amc_py8_interface
 MG5_aMC>quit
 ```
 
-- MadGraph5 (3.5.1) has a conflict with `lhapdf` if it is installed from conda-forge. Compile-time error occurs when `pdlabel` is set to `lhapdf` in `run_card.dat`. To solve this problem, `Template/LO/Source/.make_opts` must be modified to add `$(STDLIB)` as above.
+- MadGraph5 (3.5.2) has a conflict with `lhapdf` if it is installed from conda-forge. Compile-time error occurs when `pdlabel` is set to `lhapdf` in `run_card.dat`. To solve this problem, `Template/LO/Source/.make_opts` must be modified to add `$(STDLIB)` as above.
 - If `install mg5amc_py8_interface` does not work, press (CTRL+C) and then try again.
 
 ### Test
@@ -129,22 +129,22 @@ INFO: Done
 ...(skip)...
 MG5_aMC> quit
 (delphes)$ ls -al ../pp_zz/Events/run_01/
-total 805876
-drwxr-xr-x 2 user user      4096 Jul 21 15:41 .
-drwxr-xr-x 3 user user      4096 Jul 21 15:37 ..
--rw-r--r-- 1 user user      7295 Jul 21 15:38 log_sys_0.txt
--rw-r--r-- 1 user user      7292 Jul 21 15:38 log_sys_1.txt
--rw-r--r-- 1 user user      7294 Jul 21 15:38 log_sys_2.txt
--rw-r--r-- 1 user user      7289 Jul 21 15:38 log_sys_3.txt
--rw-r--r-- 1 user user      7276 Jul 21 15:38 parton_systematics.log
--rw-r--r-- 1 user user     23578 Jul 21 15:39 run_01_tag_1_banner.txt
--rwxr--r-- 1 user user       244 Jul 21 15:38 run_shower.sh
--rw-r--r-- 1 user user    774497 Jul 21 15:39 tag_1_djrs.dat
--rw-r--r-- 1 user user    774489 Jul 21 15:39 tag_1_pts.dat
--rw-r--r-- 1 user user      5783 Jul 21 15:38 tag_1_pythia8.cmd
--rw-r--r-- 1 user user   1191708 Jul 21 15:39 tag_1_pythia8.log
--rw-r--r-- 1 user user 812342007 Jul 21 15:39 tag_1_pythia8_events.hepmc.gz
--rw-r--r-- 1 user user  10035159 Jul 21 15:38 unweighted_events.lhe.gz
+total 805880
+drwxr-xr-x 2 user user      4096 Nov  9 17:07 .
+drwxr-xr-x 3 user user      4096 Nov  9 17:04 ..
+-rw-r--r-- 1 user user      7295 Nov  9 17:04 log_sys_0.txt
+-rw-r--r-- 1 user user      7292 Nov  9 17:04 log_sys_1.txt
+-rw-r--r-- 1 user user      7294 Nov  9 17:04 log_sys_2.txt
+-rw-r--r-- 1 user user      7289 Nov  9 17:04 log_sys_3.txt
+-rw-r--r-- 1 user user      7276 Nov  9 17:04 parton_systematics.log
+-rw-r--r-- 1 user user     23578 Nov  9 17:05 run_01_tag_1_banner.txt
+-rwxr--r-- 1 user user       244 Nov  9 17:04 run_shower.sh
+-rw-r--r-- 1 user user    774497 Nov  9 17:05 tag_1_djrs.dat
+-rw-r--r-- 1 user user    774489 Nov  9 17:05 tag_1_pts.dat
+-rw-r--r-- 1 user user      5783 Nov  9 17:04 tag_1_pythia8.cmd
+-rw-r--r-- 1 user user   1191708 Nov  9 17:05 tag_1_pythia8.log
+-rw-r--r-- 1 user user 812342007 Nov  9 17:05 tag_1_pythia8_events.hepmc.gz
+-rw-r--r-- 1 user user  10035160 Nov  9 17:04 unweighted_events.lhe.gz
 ```
 
  
@@ -314,11 +314,11 @@ $ conda create -n mgnlo -c conda-forge python=3.11 six lhapdf ghostscript cmake 
 $ conda activate mgnlo
 ```
 
-Download https://launchpad.net/mg5amcnlo/3.0/3.5.x/+download/MG5_aMC_v3.5.1.tar.gz.
+Download https://launchpad.net/mg5amcnlo/3.0/3.5.x/+download/MG5_aMC_v3.5.2.tar.gz.
 
 ```bash
-(mgnlo)$ tar xvfz MG5_aMC_v3.5.1.tar.gz
-(mgnlo)$ cd MG5_aMC_v3_5_1
+(mgnlo)$ tar xvfz MG5_aMC_v3.5.2.tar.gz
+(mgnlo)$ cd MG5_aMC_v3_5_2
 (mgnlo)$ sed -i -e "70cpythia8_path = $CONDA_PREFIX" -e "173clhapdf_py3 = lhapdf-config" input/mg5_configuration.txt
 (mgnlo)$ sed -i -e '105c\ \ llhapdf+= $(shell $(lhapdf) --cflags --libs) -lLHAPDF $(STDLIB)' Template/LO/Source/.make_opts
 (mgnlo)$ sed -i -e '104cllhapdf+= -lLHAPDF $(STDLIB)' Template/NLO/Source/make_opts.inc
